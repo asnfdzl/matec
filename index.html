@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="wide" lang="en">
   <head>
-    <title>Home</title>
+    <title>Home Test</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -44,6 +44,13 @@
     background-color: #fff; /* White background color */
     padding: 20px; /* Adjust padding as needed */
     border-radius: 10px; /* Rounded corners */
+}
+.static-background {
+  background-image: url('images/homebck.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh; /* Adjust height as needed */
 }
 
 
@@ -165,16 +172,9 @@
             </div>
           </div>
         </div>
-        <!-- Swiper Slider Absolute-->
-        <div class="swiper-container swiper-slider swiper-slider-1" data-loop="true" data-simulate-touch="false" data-autoplay="8500" data-direction="horizontal" data-effect="fade">
-          <div class="swiper-wrapper">
-            <!-- Swiper Slide 01-->
-            <div class="swiper-slide" data-slide-bg="images/homebck.jpg"></div>
-            <!-- Swiper Slide 02-->
-            <div class="swiper-slide" data-slide-bg="images/homebck.jpg"></div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
+<!-- Static Background Image -->
+<div class="static-background"></div>
+
       </section>
    
 <!-- Section Book Your Ticket-->
