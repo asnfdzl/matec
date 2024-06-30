@@ -1162,7 +1162,7 @@ html [class*='section-'].section-bottom-0 {
 }
 
 .bg-gray-900 {
-	background-color: #15162b;
+	background-color: #0e0e0e;
 }
 
 .bg-gray-900:not([style*="background-"]) + .bg-gray-900:not([style*="background-"]) {
@@ -1498,7 +1498,7 @@ h6,
 	letter-spacing: .2em;
 	font-size: 16px;
 	line-height: 1.2;
-	color: #f09922;
+	color: #e10000;
 }
 
 .video-link + h6,
@@ -1621,7 +1621,7 @@ h5 + p,
 }
 
 .event-detail-time {
-	color: #d90e90;
+	color: #cf001f;
 }
 
 .event-detail-link {
@@ -1635,7 +1635,7 @@ h5 + p,
 }
 
 .event-detail-link, .event-detail-link:focus, .event-detail-link:active {
-	color: #f09922;
+	color: #cf001f;
 }
 
 .event-detail-link:hover {
@@ -4374,7 +4374,7 @@ textarea.form-input {
 }
 
 .thumbnail-overlay {
-	border-top-color: rgba(217, 14, 144, 0.8);
+	border-top-color: rgba(217, 14, 34, 0.8);
 	transform: scale(0.3);
 	transform-origin: right top;
 	opacity: 0;
@@ -4591,7 +4591,7 @@ textarea.form-input {
 }
 
 .breadcrumbs-custom-path a, .breadcrumbs-custom-path a:active, .breadcrumbs-custom-path a:focus {
-	color: #f09922;
+	color: #d51619;
 }
 
 .breadcrumbs-custom-path li {
@@ -4613,7 +4613,7 @@ textarea.form-input {
 	display: inline-block;
 	font-size: inherit;
 	font-style: normal;
-	color: #f09922;
+	color: #d51619;
 	transform: translate3d(0, -50%, 0);
 }
 
@@ -5425,8 +5425,8 @@ textarea.form-input {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-image: -webkit-linear-gradient(left, #822ea8 0%, #d90e90 100%);
-	background-image: linear-gradient(to right, #822ea8 0%, #d90e90 100%);
+	background-image: -webkit-linear-gradient(left, #2411cb 0%, #d90e0e 100%);
+	background-image: linear-gradient(to right, #2411cb 0%, #d90e0e 100%);
 	background-repeat: repeat-x;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF822EA8', endColorstr='#FFD90E90', GradientType=1);
 	opacity: 0;
@@ -5823,7 +5823,7 @@ textarea.form-input {
 	font-weight: 400;
 	text-align: center;
 	color: #b2b2c5;
-	background: #15162b;
+	background: #0e0e0e;
 }
 
 .footer-classic a, .footer-classic a:focus, .footer-classic a:active {
@@ -6165,7 +6165,7 @@ textarea.form-input {
 	width: 36px;
 	height: 36px;
 	margin: 0 auto;
-	border: 3px solid #d90e90;
+	border: 3px solid #d90e15;
 	border-radius: 50%;
 	border-left-color: transparent;
 	border-bottom-color: transparent;
@@ -6189,7 +6189,7 @@ textarea.form-input {
 	font-size: 20px;
 	line-height: 46px;
 	color: #ffffff;
-	background: #d90e90;
+	background: #d20d0d;
 	overflow: hidden;
 	text-align: center;
 	text-decoration: none;
@@ -7742,7 +7742,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-classic.rd-navbar-static.rd-navbar--is-stuck, .rd-navbar-classic.rd-navbar-static.rd-navbar--is-clone {
-	background-color: #26264b;
+	background-color: #0e0e0e;
 }
 
 .rd-navbar-classic.rd-navbar-static.rd-navbar--is-stuck .rd-navbar-aside-outer, .rd-navbar-classic.rd-navbar-static.rd-navbar--is-clone .rd-navbar-aside-outer {

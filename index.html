@@ -45,14 +45,19 @@
     padding: 20px; /* Adjust padding as needed */
     border-radius: 10px; /* Rounded corners */
 }
-.static-background {
-  background-image: url('images/homebck.jpg');
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 100vh; /* Adjust height as needed */
+.section-swiper-absoulte {
+            position: relative;
+            background: url('images/homebck.jpg') no-repeat center center;
+            background-size: cover;
+        }
+
+.badge-promo-icon path:first-of-type {
+  fill: #a20b0b;
 }
 
+.badge-promo-icon path[opacity="0.08"] {
+  fill: rgba(162, 11, 11, 0.08); /* Adjust opacity as needed */
+}
 
     </style>
   </head>
@@ -94,7 +99,7 @@
                     <ul class="rd-navbar-nav">
                       <li class="rd-nav-item"><a class="rd-nav-link" href="index.html">Home</a>
                       </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="vendor.html">For Vendor</a>
+                     <!--  <li class="rd-nav-item"><a class="rd-nav-link" href="vendor.html">For Vendor</a>-->
                         </li>
                       <li class="rd-nav-item"><a class="rd-nav-link" href="event.html">About Event</a>
                       </li>
@@ -113,69 +118,75 @@
           </nav>
         </div>
       </header>
-      <!-- Section Swiper Slider-->
-      <section class="section section-swiper-absoulte context-dark text-center wow fadeIn">
-        <!-- Waves-->
-        <canvas class="waves" data-speed="5" data-wave-width="150%" data-animation="SineInOut"></canvas>
-        <!-- Swiper Content-->
-        <div class="section-swiper-content">
-          <div class="container">
-            <div class="row justify-content-lg-center">
+ <!-- Section Swiper Slider-->
+ <section class="section section-swiper-absoulte context-dark text-center wow fadeIn">
+  <!-- Waves-->
+  <canvas class="waves" data-speed="5" data-wave-width="150%" data-animation="SineInOut"></canvas>
+  
+  <!-- Swiper Content-->
+  <div class="section-swiper-content">
+      <div class="container">
+          <div class="row justify-content-lg-center">
               <div class="col-lg-10">
-                <div class="badge-promo wow fadeScale" data-wow-delay=".6s"><span class="badge-promo-text">Upcoming matec 2024 event</span>
-                  <svg class="badge-promo-icon" width="319" height="49" viewBox="0 0 319 49" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H319L299 25L319 49H0L20 25L0 0Z" fill="url( #svg-gradient-primary )"></path>
-                    <path opacity="0.08" fill-rule="evenodd" clip-rule="evenodd" d="M0 0H319L299 25L319 49L0 0Z" fill="white"></path>
-                  </svg>
-                </div>
-                <h4 class="wow fadeInUp text-spacing-200" data-wow-delay=".8s" data-caption-animate="fadeInUp" data-caption-delay="300" data-caption-duration="900">Come and Join Us Now</h4>
-                <h1 class="wow fadeScale" data-caption-animate="fadeInUp" data-caption-delay="100" data-caption-duration="900">ACCELERATE INTO THE FUTURE</h1>
-                <!-- List Inline-->
-                <ul class="list-inline list-inline-md wow" data-splitting data-wow-delay="1.5s">
-                  <li>
-                    <div class="unit unit-spacing-xs align-items-center">
-                      <div class="unit-left line-height-reset">
-                        <svg class="svg-icon-sm svg-icon-primary" role="img">
-                          <use xlink:href="images/svg/sprite.svg#earth-globe"></use>
-                        </svg>
-                      </div>
-                      <div class="unit-body">
-                        <h5 class="text-spacing-100"><span class="big">BUKIT JALIL, SHAH ALAM</span></h5>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="unit unit-spacing-xs align-items-center">
-                      <div class="unit-left line-height-reset">
-                        <svg class="svg-icon-sm svg-icon-primary" role="img">
-                          <use xlink:href="images/svg/sprite.svg#small-calendar"></use>
-                        </svg>
-                      </div>
-                      <div class="unit-body">
-                        <h5 class="text-spacing-100"><span class="big">
-                            <time datetime="2019-01-05">SEPTEMBER 20 to 22, 2024</time></span></h5>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
+                  <div class="badge-promo wow fadeScale" data-wow-delay=".6s">
+                      <span class="badge-promo-text">Upcoming matec 2024 event</span>
+                      <svg class="badge-promo-icon" width="319" height="49" viewBox="0 0 319 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H319L299 25L319 49H0L20 25L0 0Z" fill="#a20b0b"></path>
+                          <path opacity="0.08" fill-rule="evenodd" clip-rule="evenodd" d="M0 0H319L299 25L319 49L0 0Z" fill="rgba(162, 11, 11, 0.08)"></path>
+                      </svg>
+                  </div>
+                  <h4 class="wow fadeInUp text-spacing-200" data-wow-delay=".8s" data-caption-animate="fadeInUp" data-caption-delay="300" data-caption-duration="900">Come and Join Us Now</h4>
+                  <h1 class="wow fadeScale" data-caption-animate="fadeInUp" data-caption-delay="100" data-caption-duration="900">ACCELERATE INTO THE FUTURE</h1>
+                  <!-- List Inline-->
+                  <ul class="list-inline list-inline-md wow" data-splitting data-wow-delay="1.5s">
+                      <li>
+                          <div class="unit unit-spacing-xs align-items-center">
+                              <div class="unit-left line-height-reset">
+                                  <svg class="svg-icon-sm svg-icon-primary" role="img">
+                                      <use xlink:href="images/svg/sprite.svg#earth-globe"></use>
+                                  </svg>
+                              </div>
+                              <div class="unit-body">
+                                  <h5 class="text-spacing-100"><span class="big">BUKIT JALIL, SHAH ALAM</span></h5>
+                              </div>
+                          </div>
+                      </li>
+                      <li>
+                          <div class="unit unit-spacing-xs align-items-center">
+                              <div class="unit-left line-height-reset">
+                                  <svg class="svg-icon-sm svg-icon-primary" role="img">
+                                      <use xlink:href="images/svg/sprite.svg#small-calendar"></use>
+                                  </svg>
+                              </div>
+                              <div class="unit-body">
+                                  <h5 class="text-spacing-100"><span class="big">
+                                      <time datetime="2019-01-05">SEPTEMBER 20 to 22, 2024</time></span></h5>
+                              </div>
+                          </div>
+                      </li>
+                  </ul>
               </div>
-            </div>
           </div>
-          <!-- Thumbnail Video Link-->
-          <div class="video-link-wrapper">
-            <div class="unit align-items-center">
-              <div class="unit-body text-right">
-                <h5><span class="big">Watch Promo<br> Video</span></h5>
-              </div>
-              <div class="unit-right"><a class="video-link" href="https://youtu.be/nbfFDnKkMvw" data-lightgallery="item">
-                  <div class="video-link-bg" data-triangle=".video-link-overlay"><span class="video-link-overlay"></span></div><span class="icon fa-play"></span></a></div>
-            </div>
-          </div>
-        </div>
-<!-- Static Background Image -->
-<div class="static-background"></div>
+      </div>
+  </div>
 
-      </section>
+  <!-- Thumbnail Video Link-->
+  <div class="video-link-wrapper">
+      <div class="unit align-items-center">
+          <div class="unit-body text-right">
+              <h5><span class="big">Watch Promo<br> Video</span></h5>
+          </div>
+          <div class="unit-right">
+              <a class="video-link" href="https://youtu.be/nbfFDnKkMvw" data-lightgallery="item">
+                  <div class="video-link-bg" data-triangle=".video-link-overlay">
+                      <span class="video-link-overlay"></span>
+                  </div>
+                  <span class="icon fa-play"></span>
+              </a>
+          </div>
+      </div>
+  </div>
+</section>
    
 <!-- Section Book Your Ticket-->
 <section class="section" style="background-image: url('images/bckhome.png'); background-size: cover; background-position: center;">
@@ -362,7 +373,7 @@
     background: none !important;
   }
 </style>
-
+<!--Hide Swiper
 <script>
   var swiper = new Swiper('.swiper-container', {
     loop: true,
@@ -375,7 +386,7 @@
       prevEl: '.swiper-button-prev',
     },
   });
-</script>
+</script>-->
 
 
    
@@ -408,7 +419,7 @@
                       <br>
                       <a class="btn-solid-reg custom-btn" href="#">Interactive Panels</a>
                       <br>
-                      <a class="btn-solid-reg custom-btn" href="#">Point 9: Networking Events</a>
+                      <a class="btn-solid-reg custom-btn" href="#">Networking Events</a>
                       <br>
                   </div>
               </div>
@@ -457,7 +468,7 @@
                   <!-- Card 1 -->
                   <div class="col-md-3 col-lg-3 mb-4">
                       <div class="card activity-card">
-                          <img class="card-image" src="images/car.png" alt="Activity 1">
+                          <img class="card-image" src="images/icon1.png" alt="Activity 1">
                           <div class="card-body">
                               <h4 class="card-title">Car Gathering</h4>
                           </div>
@@ -466,7 +477,7 @@
                   <!-- Card 2 -->
                   <div class="col-md-3 col-lg-3 mb-4">
                       <div class="card activity-card">
-                          <img class="card-image" src="images/car.png" alt="Activity 2">
+                          <img class="card-image" src="images/icon2.png" alt="Activity 2">
                           <div class="card-body">
                               <h4 class="card-title">Bike Gathering</h4>
                           </div>
@@ -475,7 +486,7 @@
                   <!-- Card 3 -->
                   <div class="col-md-3 col-lg-3 mb-4">
                       <div class="card activity-card">
-                          <img class="card-image" src="images/atv7.png" alt="Activity 3">
+                          <img class="card-image" src="images/icon3.png" alt="Activity 3">
                           <div class="card-body">
                               <h4 class="card-title">Concert</h4>
                           </div>
@@ -484,7 +495,7 @@
                   <!-- Card 4 -->
                   <div class="col-md-3 col-lg-3 mb-4">
                       <div class="card activity-card">
-                          <img class="card-image" src="images/atv5.png" alt="Activity 4">
+                          <img class="card-image" src="images/icon4.png" alt="Activity 4">
                           <div class="card-body">
                               <h4 class="card-title">Battle of the Band</h4>
                           </div>
@@ -499,7 +510,7 @@
                   <!-- Card 5 -->
                   <div class="col-md-3 col-lg-3 mb-4">
                       <div class="card activity-card">
-                          <img class="card-image" src="images/car.png" alt="Activity 5">
+                          <img class="card-image" src="images/icon5.png" alt="Activity 5">
                           <div class="card-body">
                               <h4 class="card-title">Breakdance Show</h4>
                           </div>
@@ -508,7 +519,7 @@
                   <!-- Card 6 -->
                   <div class="col-md-3 col-lg-3 mb-4">
                       <div class="card activity-card">
-                          <img class="card-image" src="images/atv3.png" alt="Activity 6">
+                          <img class="card-image" src="images/icon6.png" alt="Activity 6">
                           <div class="card-body">
                               <h4 class="card-title">Kids Playground</h4>
                           </div>
@@ -517,7 +528,7 @@
                   <!-- Card 7 -->
                   <div class="col-md-3 col-lg-3 mb-4">
                       <div class="card activity-card">
-                          <img class="card-image" src="images/car.png" alt="Activity 7">
+                          <img class="card-image" src="images/icon7.png" alt="Activity 7">
                           <div class="card-body">
                               <h4 class="card-title">Product Presentation</h4>
                           </div>
@@ -526,7 +537,7 @@
                   <!-- Card 8 -->
                   <div class="col-md-3 col-lg-3 mb-4">
                       <div class="card activity-card">
-                          <img class="card-image" src="images/car.png" alt="Activity 8">
+                          <img class="card-image" src="images/icon8.png" alt="Activity 8">
                           <div class="card-body">
                               <h4 class="card-title">Meet & Greet</h4>
                           </div>
@@ -541,7 +552,7 @@
                   <!-- Card 9 -->
                   <div class="col-md-3 col-lg-3 mb-4">
                       <div class="card activity-card">
-                          <img class="card-image" src="images/atv1.png" alt="Activity 9">
+                          <img class="card-image" src="images/icon9.png" alt="Activity 9">
                           <div class="card-body">
                               <h4 class="card-title">Entrepreneur Session</h4>
                           </div>
@@ -550,7 +561,7 @@
                   <!-- Card 10 -->
                   <div class="col-md-3 col-lg-3 mb-4">
                       <div class="card activity-card">
-                          <img class="card-image" src="images/car.png" alt="Activity 10">
+                          <img class="card-image" src="images/icon10.png" alt="Activity 10">
                           <div class="card-body">
                               <h4 class="card-title">Talk Show</h4>
                           </div>
@@ -559,7 +570,7 @@
                   <!-- Card 11 -->
                   <div class="col-md-3 col-lg-3 mb-4">
                       <div class="card activity-card">
-                          <img class="card-image" src="images/atv2.png" alt="Activity 11">
+                          <img class="card-image" src="images/icon11.png" alt="Activity 11">
                           <div class="card-body">
                               <h4 class="card-title">Custom Activity</h4>
                           </div>
@@ -568,7 +579,7 @@
                   <!-- Card 12 -->
                   <div class="col-md-3 col-lg-3 mb-4">
                       <div class="card activity-card">
-                          <img class="card-image" src="images/car.png" alt="Activity 12">
+                          <img class="card-image" src="images/icon11.png" alt="Activity 12">
                           <div class="card-body">
                               <h4 class="card-title">Custom Activity</h4>
                           </div>
@@ -1443,7 +1454,7 @@
         </div>
       </section>
       -->
-      <!-- Section Newsletter Sign Up-->
+      <!-- Section Newsletter Sign Up
       <section class="section section-lg bg-default text-center">
         <div class="container">
           <div class="row justify-content-center row-30">
@@ -1463,18 +1474,19 @@
           </div>
         </div>
       </section>
+      -->
       <!-- Section Pre Footer-->
       <section class="section section-lg bg-gray-900">
         <div class="container">
           <div class="row row-30">
-            <div class="col-xs-10 col-lg-4 align-self-center"><a class="brand" href="index.html"><img class="brand-logo-light" src="images/logo-inverse-big.png" srcset="images/logo-inverse-big@2x.png 2x" alt="Voelas"></a></div>
+            <div class="col-xs-10 col-lg-4 align-self-center"><a class="brand" href="index.html"><img class="brand-logo-light" src="images/logo.png" srcset="images/logo@2x.png 2x" alt="Matec2024"></a></div>
             <div class="col-xs-10 col-sm-6 col-lg-4">
               <h5><span class="big font-weight-sbold">Event detail</span></h5>
               <div class="event-detail">
                 <p class="event-detail-time big">
-                  <time data-splitting datetime="2019-01-05">January 5 to 9, 2019</time>
+                  <time data-splitting datetime="2024-09-20">September 20 to 22, 2024</time>
                 </p>
-                <p class="event-detail-address big" data-splitting>66 Road Broklyn Street BNG 275 New York. United States of America.</p><a class="event-detail-link" href="contact.html">View map location</a>
+                <p class="event-detail-address big" data-splitting>Stadium National Bukit Jalil, <br>Shah Alam, Selangor</p><a class="event-detail-link" href="contact.html">View map location</a>
               </div>
             </div>
             <div class="col-xs-10 col-sm-6 col-lg-4">
@@ -1497,9 +1509,9 @@
           </div>
         </div>
       </section>
-      <!-- Divider-->
-      <div class="divider divider-gray-900 text-center"></div>
-      <!-- Footer Classic-->
+      <!-- Divider
+      <div class="divider divider-gray-900 text-center"></div>-->
+      <!-- Footer Classic
       <footer class="section footer-classic context-dark">
         <div class="container">
           <p class="rights"><span>Copyright&nbsp;</span><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>by</span> <a href="http://bit.ly/dan-fisher">Dan Fisher</a>
@@ -1517,7 +1529,7 @@
           </lineargradient>
         </defs>
       </svg>
-    </div>
+    </div>-->
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
   </body>
