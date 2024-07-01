@@ -9108,7 +9108,7 @@ button.swiper-pagination-bullet {
 }
 
 .tabs-custom .nav-link-secondary-darker:hover, .tabs-custom .nav-link-secondary-darker.active {
-	color: #0D0A0A;
+	color: #26264b;
 }
 
 .tabs-custom .nav-link-secondary-darker:hover .nav-link-cite, .tabs-custom .nav-link-secondary-darker.active .nav-link-cite {
@@ -9116,7 +9116,7 @@ button.swiper-pagination-bullet {
 }
 
 .tabs-custom .nav-link-secondary-darker:hover .nav-link-title, .tabs-custom .nav-link-secondary-darker.active .nav-link-title {
-	color: #0D0A0A;
+	color: #26264b;
 }
 
 .tabs-custom .nav-link-purple-heart {
@@ -9136,7 +9136,7 @@ button.swiper-pagination-bullet {
 }
 
 .tabs-custom .nav-link-primary {
-	background-color: #d90e90;
+	background-color: #080708;
 }
 
 .tabs-custom .nav-link-primary:hover, .tabs-custom .nav-link-primary.active {
@@ -9144,7 +9144,7 @@ button.swiper-pagination-bullet {
 }
 
 .tabs-custom .nav-link-primary:hover .nav-link-cite, .tabs-custom .nav-link-primary.active .nav-link-cite {
-	color: #d90e90;
+	color: #080708;
 }
 
 .tabs-custom .nav-link-primary:hover .nav-link-title, .tabs-custom .nav-link-primary.active .nav-link-title {
