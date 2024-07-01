@@ -9104,23 +9104,23 @@ button.swiper-pagination-bullet {
 }
 
 .tabs-custom .nav-link-secondary-darker {
-	background-color: #ef7630;
+	background-color: #1c1973;
 }
 
 .tabs-custom .nav-link-secondary-darker:hover, .tabs-custom .nav-link-secondary-darker.active {
-	color: #26264b;
+	color: #0D0A0A;
 }
 
 .tabs-custom .nav-link-secondary-darker:hover .nav-link-cite, .tabs-custom .nav-link-secondary-darker.active .nav-link-cite {
-	color: #ef7630;
+	color: #1c1973;
 }
 
 .tabs-custom .nav-link-secondary-darker:hover .nav-link-title, .tabs-custom .nav-link-secondary-darker.active .nav-link-title {
-	color: #26264b;
+	color: #0D0A0A;
 }
 
 .tabs-custom .nav-link-purple-heart {
-	background-color: #822ea8;
+	background-color: #c70000;
 }
 
 .tabs-custom .nav-link-purple-heart:hover, .tabs-custom .nav-link-purple-heart.active {
@@ -9128,7 +9128,7 @@ button.swiper-pagination-bullet {
 }
 
 .tabs-custom .nav-link-purple-heart:hover .nav-link-cite, .tabs-custom .nav-link-purple-heart.active .nav-link-cite {
-	color: #822ea8;
+	color: #c70000;
 }
 
 .tabs-custom .nav-link-purple-heart:hover .nav-link-title, .tabs-custom .nav-link-purple-heart.active .nav-link-title {
