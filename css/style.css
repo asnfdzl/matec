@@ -2665,8 +2665,8 @@ a.icon[class*='youtube']:hover {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-image: -webkit-linear-gradient(left, #822ea8 0%, #d90e90 100%);
-	background-image: linear-gradient(to right, #822ea8 0%, #d90e90 100%);
+	background-image: -webkit-linear-gradient(left, #970017 0%, #c70000 100%);
+	background-image: linear-gradient(to right, #970017 0%, #c70000 100%);
 	background-repeat: repeat-x;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF822EA8', endColorstr='#FFD90E90', GradientType=1);
 	transition: .3s ease-out all;
