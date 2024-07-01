@@ -3069,15 +3069,15 @@ hr {
 }
 
 .button-primary:before {
-	background-image: -webkit-linear-gradient(left, #a20b0b 0%, #a20b0b 100%);
-	background-image: linear-gradient(to right, #a20b0b 0%, #a20b0b 100%);
+	background-image: -webkit-linear-gradient(left, #c70000 0%, #c70000 100%);
+	background-image: linear-gradient(to right, #c70000 0%, #c70000 100%);
 	background-repeat: repeat-x;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF822EA8', endColorstr='#FFD90E90', GradientType=1);
 }
 
 .button-primary:after {
-	background-image: -webkit-linear-gradient(left, #a20b0b 0%, #a20b0b 100%);
-	background-image: linear-gradient(to right, #a20b0b 0%, #a20b0b 100%);
+	background-image: -webkit-linear-gradient(left, #c70000 0%, #c70000 100%);
+	background-image: linear-gradient(to right, #c70000 0%, #c70000 100%);
 	background-repeat: repeat-x;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFD90E90', endColorstr='#FF822EA8', GradientType=1);
 }
@@ -6923,14 +6923,14 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-fixed .rd-navbar-nav-wrap::-webkit-scrollbar-thumb {
-	background: #f459bc;
+	background: #c70000;
 	border: none;
 	border-radius: 0;
 	opacity: .2;
 }
 
 .rd-navbar-fixed .rd-navbar-nav-wrap::-webkit-scrollbar-track {
-	background: #d90e90;
+	background: #c70000;
 	border: none;
 	border-radius: 0;
 }
