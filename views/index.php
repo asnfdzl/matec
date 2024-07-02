@@ -10,9 +10,9 @@
 
     <?php require 'layouts/__css.php' ?>
 
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <style>
 
-    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}
+    .ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}
 
 
     .full-width-slider {
@@ -304,6 +304,7 @@
             </div>
         </div>
     </section>
+
     <!-- Section Book Your Ticket-->
     <section class="section" style="background-image: url(<?= asset('images/bckhome.png') ?>); background-size: cover; background-position: center;">
         <div class="parallax-content section-lg context-dark text-center" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));">
@@ -745,12 +746,6 @@
         }
     </style>
 
-
-
-
-
-
-
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             var swiper = new Swiper('.full-width-slider', {
@@ -1099,8 +1094,7 @@
                 </div>
             </div>
         </div>
-</div>
-</section>
+    </section>
 
 
     <?php require "layouts/footer.php"; ?>

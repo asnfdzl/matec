@@ -147,17 +147,16 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-pjaaA8dDh9/eS+aQjTsnGpTjfnPf6CjI6F1pBbC7m1uJTKxsmTsl3I5OeuI7F44d" crossorigin="anonymous"></script>
 
 
-
     <!-- Section Spaces and Booth -->
     <section class="section section-lg bg-default text-center">
         <div class="container">
             <h6 class="text-secondary text-center"></h6>
             <h3 class="text-center">MATEC 2024 SPACES AND BOOTH</h3>
-            <div class="row">
-                <div class="col-lg-6 text-left">
+            <div class="row align-items-center">
+                <div class="col-lg-7 text-left">
                     <img src="<?= asset('images/matec1.png') ?>" alt="spaces and booth" style="width: 100%; height: auto;">
                 </div>
-                <div class="col-lg-6 d-flex justify-content-center flex-column">
+                <div class="col-lg-5 d-flex justify-content-center flex-column">
                     <div class="text-container">
                         <a class="btn-solid-reg custom-btn" href="#" data-bs-toggle="modal" data-bs-target="#shellschemeboothModal">SHELLSCHEMEBOOTH</a>
                         <br>
@@ -171,8 +170,7 @@
                 </div>
             </div>
         </div>
-</div>
-</section>
+    </section>
 
 <!-- Modals -->
 <div class="modal fade" id="shellschemeboothModal" tabindex="-1" aria-labelledby="shellschemeboothModalLabel" aria-hidden="true">
@@ -227,7 +225,7 @@
 </div>
 
 <div class="modal fade" id="arabianCanopyModal" tabindex="-1" aria-labelledby="arabianCanopyModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="arabianCanopyModalLabel">Arabian Canopy Details</h5>
@@ -313,10 +311,6 @@
         margin: auto;
     }
 </style>
-
-<!-- Bootstrap JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-
 
 <!-- Section All other speakers
 <section class="section section-lg bg-default text-center">
