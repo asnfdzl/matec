@@ -2747,7 +2747,7 @@ a.icon[class*='youtube']:hover {
 }
 
 .svg-icon-primary {
-	fill: url("#svg-gradient-primary") #c40303;
+	fill: url("#svg-gradient-primary") #c70000;
 }
 
 .block-with-svg-gradients {
