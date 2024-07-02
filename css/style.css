@@ -1877,8 +1877,8 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .block-address .icon-rect.icon-white:after {
-	background-image: -webkit-linear-gradient(left, #c70000 0%, #c70000 100%);
-	background-image: linear-gradient(to right, #c70000 0%, #c70000 100%);
+	background-image: -webkit-linear-gradient(left, #1c1973 0%, #1c1973 100%);
+	background-image: linear-gradient(to right, #1c1973 0%, #1c1973 100%);
 	background-repeat: repeat-x;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEF7630', endColorstr='#FFF09922', GradientType=1);
 }
