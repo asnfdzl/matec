@@ -3,7 +3,9 @@
     <div class="container">
         <div class="row row-30">
             <div class="col-xs-10 col-lg-4 align-self-center">
-                <a class="brand" href="index.html"><img class="brand-logo-light" src="images/logo.png" srcset="images/logo@2x.png 2x" alt="Matec2024"></a>
+                <a class="brand" href="/">
+                    <img class="brand-logo-light" src="<?= asset('images/logo.png') ?>" srcset="<?= asset('images/logo@2x.png 2x') ?>" alt="Matec 2024"
+                ></a>
             </div>
             <div class="col-xs-10 col-sm-6 col-lg-4">
                 <h5><span class="big font-weight-sbold" style="color: #c70000;">Event detail</span></h5>
@@ -22,8 +24,12 @@
                             En Fizzi: +6010 - 5631270
                         </p>
                         <p class="event-detail-time big" style="color: white;">Email:<br>
-                            <a href="mailto:fakharadzi@mara.gov.my" class="event-detail-address big" style="color: white;">fakharadzi@mara.gov.my</a><br>
-                            <a href="mailto:msyafizzi@mara.gov.my" class="event-detail-address big" style="color: white;">msyafizzi@mara.gov.my</a>
+                            <a href="mailto:fakharadzi@mara.gov.my" class="event-detail-address big" style="color: white;">
+                                fakharadzi@mara.gov.my
+                            </a><br>
+                            <a href="mailto:msyafizzi@mara.gov.my" class="event-detail-address big" style="color: white;">
+                                msyafizzi@mara.gov.my
+                            </a>
                         </p>
                     </div>
                 </div>

@@ -6,11 +6,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" href="images/logo.png" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Barlow%7CBarlow+Condensed:300,400,500,600,700,900">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="<?= asset('images/logo.png') ?>" type="image/x-icon">
+
+    <?php require 'layouts/__css.php' ?>
+
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}
         .bg-parallax-03 {
             background-size: cover;
@@ -34,10 +33,10 @@
     <?php include "layouts/navbar.php"; ?>
 
     <!-- Breadcrumbs-->
-    <section class="section" style="background-image: url('images/bckhome.png'); background-size: cover; background-position: center;">
+    <section class="section" style="background-image: url(<?= asset('images/bckhome.png') ?>); background-size: cover; background-position: center;">
         <div class="parallax-content section-lg context-dark text-center" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));">
             <ul class="breadcrumbs-custom-path">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li class="active">About Event</li>
             </ul>
             <h3 class="breadcrumbs-custom-title">About Event</h3>
@@ -62,7 +61,7 @@
                     </p>
                 </div>
                 <div class="col-md-10 col-lg-6">
-                    <div class="img-separated"><img src="images/stdim.png" alt="" width="562" height="588"/>
+                    <div class="img-separated"><img src="<?= asset('images/stdim.png') ?>" alt="" width="562" height="588"/>
                     </div>
                 </div>
             </div>
@@ -110,25 +109,25 @@
 </section>-->
 
     <!-- Section Slideshow-->
-    <section class="section" style="background-image: url('images/bckhome.png'); background-size: cover; background-position: center;">
+    <section class="section" style="background-image: url(<?= asset('images/bckhome.png') ?>); background-size: cover; background-position: center;">
         <div class="parallax-content section-lg context-dark text-center" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));">
             <div class="container">
                 <h4 class="font-weight-bold">matec 2024 plan layout</h4><br><br>
                 <div id="slideshow" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#slideshow" data-slide-to="0" class="active">
-                            <img src="images/15.jpg" alt="" width="40" height="40"/>
+                            <img src="<?= asset('images/15.jpg') ?>" alt="" width="40" height="40"/>
                         </li>
                         <li data-target="#slideshow" data-slide-to="1">
-                            <img src="images/16.jpg" alt="" width="40" height="40"/>
+                            <img src="<?= asset('images/16.jpg') ?>" alt="" width="40" height="40"/>
                         </li>
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="images/15.jpg" class="d-block w-100" style="max-width: 800px; max-height: 600px; margin: 0 auto;" alt="Slide 1">
+                            <img src="<?= asset('images/15.jpg') ?>" class="d-block w-100" style="max-width: 800px; max-height: 600px; margin: 0 auto;" alt="Slide 1">
                         </div>
                         <div class="carousel-item">
-                            <img src="images/16.jpg" class="d-block w-100" style="max-width: 800px; max-height: 600px; margin: 0 auto;" alt="Slide 2">
+                            <img src="<?= asset('images/16.jpg') ?>" class="d-block w-100" style="max-width: 800px; max-height: 600px; margin: 0 auto;" alt="Slide 2">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#slideshow" role="button" data-slide="prev">
@@ -156,7 +155,7 @@
             <h3 class="text-center">MATEC 2024 SPACES AND BOOTH</h3>
             <div class="row">
                 <div class="col-lg-6 text-left">
-                    <img src="images/matec1.png" alt="spaces and booth" style="width: 100%; height: auto;">
+                    <img src="<?= asset('images/matec1.png') ?>" alt="spaces and booth" style="width: 100%; height: auto;">
                 </div>
                 <div class="col-lg-6 d-flex justify-content-center flex-column">
                     <div class="text-container">
@@ -184,7 +183,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body d-flex">
-                <img src="images/Booth-01.png" alt="Shellscheme" style="width: 50%; height: auto; margin-right: 20px;">
+                <img src="<?= asset('images/Booth-01.png') ?>" alt="Shellscheme" style="width: 50%; height: auto; margin-right: 20px;">
                 <div>
                     <h5>Shellscheme Booth</h5>
                     <p><strong>Lot Code:</strong> FT01 - FT08</p>
@@ -211,7 +210,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body d-flex">
-                <img src="images/Booth-04.png" alt="barespace" style="width: 50%; height: auto; margin-right: 20px;">
+                <img src="<?= asset('images/Booth-04.png') ?>" alt="barespace" style="width: 50%; height: auto; margin-right: 20px;">
                 <div>
                     <h5>Bare Space</h5>
                     <p><strong>Lot Code:</strong> SC01 - SC12</p>
@@ -235,7 +234,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body d-flex">
-                <img src="images/Booth-02.png" alt="arabian" style="width: 50%; height: auto; margin-right: 20px;">
+                <img src="<?= asset('images/Booth-02.png') ?>" alt="arabian" style="width: 50%; height: auto; margin-right: 20px;">
                 <div>
                     <h5>Arabian Canopy</h5>
                     <p><strong>Lot Code:</strong> FT01 - FB10</p>
@@ -263,7 +262,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body d-flex">
-                <img src="images/Booth-03.png" alt="foodtruck" style="width: 50%; height: auto; margin-right: 20px;">
+                <img src="<?= asset('images/Booth-03.png') ?>" alt="foodtruck" style="width: 50%; height: auto; margin-right: 20px;">
                 <div>
                     <h5>Food Truck</h5>
                     <p><strong>Lot Code:</strong> FT01 - FT08</p>
@@ -391,7 +390,7 @@
 
     <?php include "layouts/footer.php"; ?>
 
-    <script src="js/core.min.js"></script>
-    <script src="js/script.js"></script>
+    <?php require "layouts/__js.php" ?>
+
 </body>
 </html>

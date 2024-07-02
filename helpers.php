@@ -1,5 +1,5 @@
 <?php
 
 function asset($path) {
-    return trim($path, '/');
+    return '/assets/' . trim($path, '/');
 }

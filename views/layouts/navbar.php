@@ -13,9 +13,9 @@
                             <!--RD Navbar Brand-->
                             <div class="rd-navbar-brand">
                                 <!--Brand-->
-                                <a class="brand" href="index.php">
-                                    <img class="brand-logo-dark" src="images/logo.png" srcset="images/logo@2x.png 2x" alt="MATEC" style="width: 600px; height: auto;"/>
-                                    <img class="brand-logo-light" src="images/logo.png" srcset="images/logo@2x.png 2x" alt="matec" style="width: 600px; height: auto;"/>
+                                <a class="brand" href="/">
+                                    <img class="brand-logo-dark" src="<?= asset('images/logo.png') ?>" srcset="<?= asset('images/logo@2x.png 2x') ?>" alt="MATEC 2024"/>
+                                    <img class="brand-logo-light" src="<?= asset('images/logo.png') ?>" srcset="<?= asset('images/logo@2x.png 2x') ?>" alt="MATEC 2024"/>
                                 </a>
                             </div>
 
@@ -24,15 +24,15 @@
                         <div class="rd-navbar-main-element">
                             <div class="rd-navbar-nav-wrap">
                                 <ul class="rd-navbar-nav">
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="index.php">Home</a>
+                                    <li class="rd-nav-item"><a class="rd-nav-link" href="/">Home</a>
                                     </li>
                                     <!--  <li class="rd-nav-item"><a class="rd-nav-link" href="vendor.html">For Vendor</a>-->
                                     </li>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="event.php">About Event</a>
+                                    <li class="rd-nav-item"><a class="rd-nav-link" href="event">About Event</a>
                                     </li>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="sponsorship.php">Sponsorship</a>
+                                    <li class="rd-nav-item"><a class="rd-nav-link" href="sponsorship">Sponsorship</a>
                                     </li>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="contact.php">Contact</a>
+                                    <li class="rd-nav-item"><a class="rd-nav-link" href="contact">Contact</a>
                                     </li>
                                 </ul>
                             </div>
