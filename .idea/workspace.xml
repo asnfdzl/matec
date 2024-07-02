@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="52cb3882-3f65-4235-879f-55f60f6e7771" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/layouts/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/navbar.php" afterDir="false" />
     </list>
+=======
+    <list default="true" id="52cb3882-3f65-4235-879f-55f60f6e7771" name="Changes" comment="" />
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +35,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+<<<<<<< Updated upstream
     "git-widget-placeholder": "ashraf-adjust",
+=======
+    "git-widget-placeholder": "main",
+>>>>>>> Stashed changes
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -60,7 +68,11 @@
       <workItem from="1719918071269" duration="113000" />
       <workItem from="1719929990948" duration="1658000" />
       <workItem from="1719932671262" duration="384000" />
+<<<<<<< Updated upstream
       <workItem from="1719933271376" duration="5869000" />
+=======
+      <workItem from="1719933271376" duration="6551000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
