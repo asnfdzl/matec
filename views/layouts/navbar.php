@@ -36,7 +36,7 @@
                                         <a class="rd-nav-link" href="sponsorship">Sponsorship</a>
                                     </li>
                                     <li class="rd-nav-item">
-                                        <!--<a class="rd-nav-link" href="contact">Contact</a>-->
+                                        <a class="rd-nav-link" href="contact">Contact</a>
                                     </li>
                                 </ul>
                             </div>
