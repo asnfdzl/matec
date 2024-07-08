@@ -1,6 +1,7 @@
 <?php
 
 require 'helpers.php';
+require 'Social.php';
 
 // Simple router class
 class Router {

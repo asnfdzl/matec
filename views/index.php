@@ -9,35 +9,92 @@
     <link rel="icon" href="<?= asset('images/logo.png') ?>" type="image/x-icon">
 
     <?php require 'layouts/__css.php' ?>
-
-
+    
 </head>
 <body>
 
-    <?php /*require 'layouts/loader.php' */?>
+    <?php require 'layouts/loader.php' ?>
 
     <div class="page">
 
         <?php include "layouts/navbar.php"; ?>
 
-        <div class="f-carousel fullscreen-height" id="myCarousel">
-
-            <!--<canvas class="waves" data-speed="5" data-wave-width="150%" data-animation="SineInOut"></canvas>-->
-
-            <div class="f-carousel__viewport">
-                <div class="f-carousel__track">
-                    <div data-lazy-src="<?= asset('images/matec-slide.png') ?>" class="f-carousel__slide">
-                        <div class="container fullscreen-height d-flex align-items-center">
-                            <img src="<?= asset('images/slide-text.png') ?>" alt="">
+        <!-- Section Swiper Slider-->
+        <section class="section section-swiper-absoulte context-dark text-center wow fadeIn">
+            <!-- Waves-->
+            <canvas class="waves" data-speed="5" data-wave-width="150%" data-animation="SineInOut"></canvas>
+            <!-- Swiper Content-->
+            <div class="section-swiper-content">
+                <div class="container">
+                    <div class="row justify-content-lg-center">
+                        <div class="col-lg-10">
+                            <!--<div class="badge-promo wow fadeScale" data-wow-delay=".6s"><span class="badge-promo-text">Upcoming New 2019 event</span>
+                                <svg class="badge-promo-icon" width="319" height="49" viewBox="0 0 319 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H319L299 25L319 49H0L20 25L0 0Z" fill="url( #svg-gradient-primary )"></path>
+                                    <path opacity="0.08" fill-rule="evenodd" clip-rule="evenodd" d="M0 0H319L299 25L319 49L0 0Z" fill="white"></path>
+                                </svg>
+                            </div>-->
+                            <h4 class="wow fadeInUp text-spacing-200" data-wow-delay=".8s" data-caption-animate="fadeInUp" data-caption-delay="300" data-caption-duration="900">Hurryup! Don’t waste time</h4>
+                            <h1 class="wow fadeScale" data-caption-animate="fadeInUp" data-caption-delay="100" data-caption-duration="900">biggest digital conference</h1>
+                            <!-- List Inline-->
+                            <ul class="list-inline list-inline-md wow" data-splitting data-wow-delay="1.5s">
+                                <li>
+                                    <div class="unit unit-spacing-xs align-items-center">
+                                        <div class="unit-left line-height-reset">
+                                            <svg class="svg-icon-sm svg-icon-primary" role="img">
+                                                <use xlink:href="images/svg/sprite.svg#earth-globe"></use>
+                                            </svg>
+                                        </div>
+                                        <div class="unit-body">
+                                            <h5 class="text-spacing-100"><span class="big">New York, USA</span></h5>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="unit unit-spacing-xs align-items-center">
+                                        <div class="unit-left line-height-reset">
+                                            <svg class="svg-icon-sm svg-icon-primary" role="img">
+                                                <use xlink:href="images/svg/sprite.svg#small-calendar"></use>
+                                            </svg>
+                                        </div>
+                                        <div class="unit-body">
+                                            <h5 class="text-spacing-100"><span class="big">
+                                            <time datetime="2019-01-05">January 5 to 9, 2019</time></span></h5>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                    <div data-lazy-src="<?= asset('images/matec-slide.png') ?>" class="f-carousel__slide">
-
-                    </div>
                 </div>
-            </div>
 
-        </div>
+                <!-- Thumbnail Video Link-->
+                <!--<div class="video-link-wrapper">
+                    <div class="unit align-items-center">
+                        <div class="unit-body text-right">
+                            <h5><span class="big">Watch Promo<br> Video</span></h5>
+                        </div>
+                        <div class="unit-right">
+                            <a class="video-link" href="https://youtu.be/nbfFDnKkMvw" data-lightgallery="item">
+                                <div class="video-link-bg" data-triangle=".video-link-overlay"><span class="video-link-overlay"></span></div><span class="icon fa-play"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>-->
+            </div>
+            <!-- Swiper Slider Absolute-->
+            <div class="swiper-container swiper-slider swiper-slider-1" data-loop="true" data-simulate-touch="false" data-autoplay="8500" data-direction="horizontal" data-effect="fade">
+                <div class="swiper-wrapper">
+                    <!-- Swiper Slide 01-->
+                    <div class="swiper-slide" data-slide-bg="<?= asset('images/matec-slide.png') ?>"></div>
+                    <!-- Swiper Slide 02-->
+                    <div class="swiper-slide" data-slide-bg="<?= asset('images/slide-02-1894x1042.jpg') ?>"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+
 
         <!-- Section Biggest 2019 Digital Conference-->
         <section class="section section-lg bg-default wow fadeIn bg-image-section bg-cover-section" style="background-image: url(<?= asset('images/matec-images/matec-bg-images-01.png') ?>)">
@@ -49,11 +106,12 @@
                         <img src="<?= asset('images/matec-images/matec-11.png') ?>" alt="" class="d-flex w-auto h-md-30px h-xs-15px">
                     </div>
                     <div class="col-md-12 col-lg-12 col-xl-12 text-sm-left text-center text-image-container">
-                        <img src="<?= asset('images/matec-images/matec-07.png') ?>" alt="Engine Image" class="embedded-image">
+                        <img src="<?= asset('images/matec-images/matec-07.png') ?>" alt="Engine Image" class="embedded-image d-sm-block d-none">
                         <p>The Entrepreneurial Engine is a concept that focuses on fostering innovation and growth within the automotive industry through entrepreneurial initiatives. This approach emphasizes the importance of startups, small businesses, and independent innovators in driving advancements and competitiveness in the sector. By leveraging the agility and creativity of these entities, the automotive industry can accelerate the development of cutting-edge technologies, such as electric vehicles, autonomous driving systems, and advanced manufacturing processes.</p>
                         <p>Central to the Entrepreneurial Engine is the collaboration between established automotive companies and emerging startups. Large corporations provide resources, industry expertise, and market access, while startups contribute fresh ideas, innovative solutions, and a willingness to take risks. This symbiotic relationship enables the rapid prototyping, testing, and scaling of new products and services.</p>
                         <p>Furthermore, the Entrepreneurial Engine is supported by a robust ecosystem that includes venture capital firms, incubators, accelerators, and government initiatives. These elements work together to provide the necessary funding, mentorship, and regulatory support for startups to thrive. By creating an environment conducive to entrepreneurial activity, the automotive industry can not only keep pace with technological advancements but also anticipate and shape future trends.</p>
                         <p>In conclusion, the Entrepreneurial Engine plays a crucial role in accelerating automotive growth by harnessing the potential of entrepreneurial ventures. This dynamic framework promotes innovation, fosters collaboration, and ensures that the automotive sector remains at the forefront of technological progress.</p>
+                        <img src="<?= asset('images/matec-images/matec-07.png') ?>" alt="Engine Image" class="d-sm-none d-block mt-sm-0 mt-5">
                     </div>
                 </div>
             </div>
@@ -121,7 +179,7 @@
         </section>
 
         <!-- Section Biggest 2019 Digital Conference-->
-        <section class="section section-lg bg-default wow fadeIn bg-image-section bg-cover-section fullscreen-height" style="background-image: url(<?= asset('images/matec-images/matec-bg-images-02.png') ?>)">
+        <section class="section section-lg bg-default wow fadeIn bg-image-section bg-cover-section" style="background-image: url(<?= asset('images/matec-images/matec-bg-images-02.png') ?>)">
             <div class="container">
                 <div class="row row-30 justify-content-center">
                     <div class="col-md-12 col-lg-6 col-xl-7 text-sm-left text-center">
@@ -169,7 +227,7 @@
             </div>
         </section>
 
-        <section class="section section-lg bg-default wow fadeIn bg-image-section bg-cover-section fullscreen-height" style="background-image: url(<?= asset('images/matec-images/matec-bg-images-03.png') ?>)">
+        <section class="section section-lg bg-default wow fadeIn bg-image-section bg-cover-section" style="background-image: url(<?= asset('images/matec-images/matec-bg-images-03.png') ?>)">
             <div class="container">
                 <div class="row row-30 justify-content-center">
                     <div class="col-md-12 col-lg-12">
@@ -193,17 +251,6 @@
     </div>
 
     <?php require "layouts/__js.php" ?>
-
-    <script>
-        new Carousel(document.getElementById("myCarousel"), {
-            Autoplay : {
-                timeout: 10000,
-                pauseOnHover: false,
-            },
-        }, {
-            Autoplay
-        });
-    </script>
 
 </body>
 </html>

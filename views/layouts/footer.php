@@ -1,65 +1,34 @@
+<?php
+
+    $socialLinks = Social::getAll();
+
+?>
+
 <!-- Section Pre Footer-->
 <section class="section section-lg bg-gray-900">
     <div class="container">
         <div class="row row-30">
-            <div class="col-xs-10 col-lg-4 align-self-center">
+            <div class="col-xs-10 col-lg-4">
                 <a class="brand" href="/">
-                    <img class="brand-logo-light" src="<?= asset('images/logo.png') ?>" srcset="<?= asset('images/logo@2x.png 2x') ?>" alt="Matec 2024">
+                    <img class="img-fluid" src="<?= asset('images/matec-logo.png') ?>" srcset="<?= asset('images/matec-logo@2x.png 2x') ?>" alt="Matec 2024">
                 </a>
             </div>
-            <div class="col-xs-10 col-sm-6 col-lg-4">
-                <h5><span class="big font-weight-sbold" style="color: #c70000;">Event detail</span></h5>
-                <div class="event-detail">
-                    <p class="event-detail-time big" style="color: white;">
-                        <time data-splitting datetime="2024-09-20">September 20 to 22, 2024</time>
-                    </p>
-                    <p class="event-detail-address big" data-splitting style="color: white;">Stadium National Bukit Jalil, <br> Bukit Jalil, Kuala Lumpur</p>
-                    <a class="event-detail-link" href="#"></a>
-                </div>
-                <div class="contact-us">
-                    <h5><span class="big font-weight-sbold" style="color: #c70000;">Contact Us</span></h5>
-                    <div class="event-detail">
-                        <p class="event-detail-time big" style="color: white;">Phone:<br>
-                            En Razi: +6011 - 6648387<br>
-                            En Fizzi: +6010 - 5631270
-                        </p>
-                        <p class="event-detail-time big" style="color: white;">Email:<br>
-                            <a href="mailto:fakharadzi@mara.gov.my" class="event-detail-address big" style="color: white;">
-                                fakharadzi@mara.gov.my
-                            </a><br>
-                            <a href="mailto:msyafizzi@mara.gov.my" class="event-detail-address big" style="color: white;">
-                                msyafizzi@mara.gov.my
-                            </a>
-                        </p>
-                    </div>
-                </div>
+            <div class="col-xs-12 col-lg-4">
+                <h5><span class="big font-weight-sbold">Event detail</span></h5>
             </div>
-            <div class="col-xs-10 col-sm-6 col-lg-4">
-                <h5><span class="big font-weight-sbold" style="color: #c70000;" >Social Updates</span></h5>
+            <div class="col-xs-12 col-lg-4">
+                <h5><span class="big font-weight-sbold">Social Updates</span></h5>
                 <div class="event-detail">
-                    <p class="big" style="color: white;">You may wonder why this event is so popular? If you do,<br class="d-none d-xl-block"> find more info about it here.
+                    <p class="big text-white">You may wonder why this event is so popular? If you do, find more info about it here.
                     </p>
                     <ul class="list-inline list-inline-xs">
-                        <li data-wow-delay=".2s">
-                            <a class="icon icon-rect icon-xs icon-white fa-facebook" href="#" data-triangle=".icon-rect-overlay">
-                                <div class="icon-rect-overlay"></div>
+                        <?php foreach ($socialLinks as $social): ?>
+                        <li data-wow-delay="<?= $social['wow-delay']; ?>">
+                            <a class="icon icon-rect icon-xs icon-white <?= $social['icon']; ?>" href="<?= $social['url']; ?>" data-triangle=".icon-rect-overlay" target="<?= $social['target']; ?>">
+                                <div class="icon-rect-overlay" style="border-top-width: 52px; border-left-width: 52px;"></div>
                             </a>
                         </li>
-                        <li data-wow-delay=".35s">
-                            <a class="icon icon-rect icon-xs icon-white fa-twitter" href="#" data-triangle=".icon-rect-overlay">
-                                <div class="icon-rect-overlay"></div>
-                            </a>
-                        </li>
-                        <li data-wow-delay=".5s">
-                            <a class="icon icon-rect icon-xs icon-white fa-linkedin" href="#" data-triangle=".icon-rect-overlay">
-                                <div class="icon-rect-overlay"></div>
-                            </a>
-                        </li>
-                        <li data-wow-delay=".65s">
-                            <a class="icon icon-rect icon-xs icon-white fa-youtube-play" href="#" data-triangle=".icon-rect-overlay">
-                                <div class="icon-rect-overlay"></div>
-                            </a>
-                        </li>
+                        <?php endforeach; ?>
                     </ul>
                 </div>
             </div>

@@ -70,6 +70,44 @@
     margin: 20px 0 20px 40px;
 }
 
+.icon-rect.icon-white {
+	color: #15162b;
+}
+
+.block-address .icon-rect.icon-white[class*='facebook'],
+.block-address .icon-rect.icon-white[class*='twitter'],
+.block-address .icon-rect.icon-white[class*='linkedin'],
+.block-address .icon-rect.icon-white[class*='youtube'],
+.block-address .icon-rect.icon-white[class*='instagram'] {
+	color: #ffffff;
+}
+
+.block-address .icon-rect.icon-white[class*='facebook']:hover,
+.block-address .icon-rect.icon-white[class*='twitter']:hover,
+.block-address .icon-rect.icon-white[class*='linkedin']:hover,
+.block-address .icon-rect.icon-white[class*='youtube']:hover,
+.block-address .icon-rect.icon-white[class*='instagram']:hover {
+	color: #ffffff;
+}
+
+.block-address .icon-rect.icon-white:after {
+	background-image: -webkit-linear-gradient(left, #1c1973 0%, #1c1973 100%);
+	background-image: linear-gradient(to right, #1c1973 0%, #1c1973 100%);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEF7630', endColorstr='#FFF09922', GradientType=1);
+}
+
+.block-address .icon-rect.icon-white,
+.block-address .icon-rect.icon-white:focus,
+.block-address .icon-rect.icon-white:active {
+	color: #ffffff;
+	background-color: #15162b;
+}
+
+.block-address .icon-rect.icon-white:hover {
+	color: #ffffff;
+}
+
 @media only screen and (max-width : 991px) {
     .rd-navbar-fixed .rd-navbar-panel {
         background: #000000;
