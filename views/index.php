@@ -129,7 +129,7 @@
                         <h3>REGISTER WITH US NOW</h3>
                         <p>Bringing together automotive industry players at all levels from vehicle manufacturers, vendors, suppliers of spare parts, accessories, merchandise, agencies/institutions involved. Including educational institutions related automotive. Various interesting activities throughout the program</p>
                         <!-- Countdown rectangle-->
-                        <div class="countdown countdown-rect" data-countdown="data-countdown" data-to="2020-12-31">
+                        <div class="countdown countdown-rect" data-countdown="data-countdown" data-to="2024-09-20">
                             <div class="countdown-block box-with-triangle-right wow fadeScale countdown-block-days" data-wow-delay="0s" data-triangle=".countdown-block-overlay">
                                 <div class="countdown-block-overlay"></div>
                                 <svg class="countdown-circle" x="0" y="0" width="200" height="237" viewbox="0 0 200 237" data-progress-days="">
@@ -238,18 +238,16 @@
                         <img src="<?= asset('images/matec-images/matec-16.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px">
                     </div>
                     <div class="col-md-12 col-lg-6 col-xl-6 text-md-right">
-                        <img src="<?= asset('images/matec-images/matec-bg-images-04.png') ?>" alt="" class="img-fluid">
+                        <div class="box-location">
+                            <img src="<?= asset('images/matec-images/matec-bg-images-04.png') ?>" alt="" class="img-fluid">
+                        </div>
                     </div>
                     <div class="col-md-12 col-lg-6 col-xl-6 text-sm-left text-center">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <p>National Stadium is the central and most prominent sports center and building at the National Sports Complex in Bukit Jalil. The elliptical outdoor stadium has a total area of 76,000 square meters and its classical bowl shape is enhanced by the dramatic overlapping of three spectator tiers.</p>
-                                <p>Our outdoor car park spaces are a perfect canvas for your open-air events. You have a choice of 5 varied sizes in a gated venue, with a combined capacity of 160,000 pax standing. With access to both power and water supply, a 3 minute walk to the Bukit Jalil LRT station and a 20 minute drive from the city centre, we are also flexible to be part of your customised event.</p>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="box-img bg-white mt-sm-0 mt-4">
-                                    <img src="<?= asset('images/matec-images/matec-bg-images-06.png') ?>" alt="" class="img-fluid">
-                                </div>
+                        <div class="box-location flex">
+                            <p>National Stadium is the central and most prominent sports center and building at the National Sports Complex in Bukit Jalil. The elliptical outdoor stadium has a total area of 76,000 square meters and its classical bowl shape is enhanced by the dramatic overlapping of three spectator tiers.</p>
+                            <p>Our outdoor car park spaces are a perfect canvas for your open-air events. You have a choice of 5 varied sizes in a gated venue, with a combined capacity of 160,000 pax standing. With access to both power and water supply, a 3 minute walk to the Bukit Jalil LRT station and a 20 minute drive from the city centre, we are also flexible to be part of your customised event.</p>
+                            <div class="box-img bg-white mt-sm-auto mt-4">
+                                <img src="<?= asset('images/matec-images/matec-bg-images-06.png') ?>" alt="" class="img-fluid">
                             </div>
                         </div>
                     </div>
