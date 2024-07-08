@@ -14,8 +14,8 @@
                             <div class="rd-navbar-brand">
                                 <!--Brand-->
                                 <a class="brand" href="/">
-                                    <img class="brand-logo-dark" src="<?= asset('images/logo.png') ?>" srcset="<?= asset('images/logo@2x.png 2x') ?>" alt="MATEC 2024"/>
-                                    <img class="brand-logo-light" src="<?= asset('images/logo.png') ?>" srcset="<?= asset('images/logo@2x.png 2x') ?>" alt="MATEC 2024"/>
+                                    <img class="brand-logo-dark" src="<?= asset('images/matec-logo.png') ?>" srcset="<?= asset('images/matec-logo@2x.png 2x') ?>" alt="MATEC 2024"/>
+                                    <img class="brand-logo-light" src="<?= asset('images/matec-logo.png') ?>" srcset="<?= asset('images/matec-logo@2x.png 2x') ?>" alt="MATEC 2024"/>
                                 </a>
                             </div>
 
