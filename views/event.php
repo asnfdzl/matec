@@ -262,6 +262,13 @@
                     <img src="<?= asset('images/matec-images/matec-36.png') ?>" alt="" class="w-75px d-sm-block d-none">
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-4 mx-auto text-center">
+                    <a href="" class="h4 text-white">
+                        READ MORE PROGRAM ITINERARY
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
 
