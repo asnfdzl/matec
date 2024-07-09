@@ -1,60 +1,19 @@
 <!DOCTYPE html>
 <html class="wide" lang="en">
 <head>
-    <title>Welcome to MATEC 2024 :: Event</title>
+    <title>Welcome to MATEC 2024 :: About MATEC</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" href="<?= asset('images/logo.png') ?>" type="image/x-icon">
 
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
     <?php require 'layouts/__css.php' ?>
 
-    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}
-        .bg-parallax-03 {
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            padding: 100px 0; /* Adjust padding as needed */
-        }
-
-        .text-white {
-            color: #fff; /* White text color */
-        }
-
-        .btn-solid-reg.custom-btn {
-            background-color: red;
-            color: white;
-            padding: 5px 10px;
-            margin-top: 10px;
-            display: inline-block;
-            text-decoration: none;
-            border-radius: 20px;
-            border: 2px solid red;
-            transition: background-color 0.3s, color 0.3s;
-        }
-
-        .btn-solid-reg.custom-btn:hover {
-            background-color: white;
-            color: red;
-        }
-
-        .text-container {
-            text-align: left;
-        }
-
-        .modal-body img {
-            margin-right: 20px;
-        }
-
-        .modal-xl {
-            max-width: 80%;
-        }
-
-        .modal-content {
-            margin: auto;
-        }
-    </style>
 </head>
 <body>
 
@@ -69,314 +28,302 @@
         <div class="parallax-content section-lg context-dark text-center" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));">
             <ul class="breadcrumbs-custom-path">
                 <li><a href="/">Home</a></li>
-                <li class="active">About Event</li>
+                <li class="active">About MATEC</li>
             </ul>
-            <h3 class="breadcrumbs-custom-title">About Event</h3>
+            <h3 class="breadcrumbs-custom-title">About MATEC</h3>
         </div>
     </section>
 
-    <!-- Section About Event-->
-    <section class="section section-lg bg-default">
+    <!-- Section Biggest 2019 Digital Conference-->
+    <section class="section section-lg bg-default wow fadeIn bg-image-section bg-image-section-efx-white bg-cover-section">
         <div class="container">
             <div class="row row-30 justify-content-center">
-                <div class="col-md-10 col-lg-6">
-                    <h6>MATEC 2024 OFFICIAL VENUE</h6>
-                    <h3>NATIONAL STADIUM BUKIT JALIL</h3>
-                    <p class="paragraph-inset-right-25">
-                        National Stadium is the cental and most prominent sports center and building at the National Sports Complex in Bukit Jalil. The elliptical
-                        outdoor stadium has a total area of 76,000 square meters and its classical bowl shape, is enhanced, by the dramatic overlapping, of three spectatir
-                        tiers.
-                    </p>
-                    <p> Our outdoor car part spaces are a perfect canvas for your open-air events. You have a choice of five varied sizes in a gated venue
-                        , with a combined capacite of 160,000 pax standing. With across to both power and water supply, a 3 minute walk to the Bukit Jalil LRT Station and 20 minutes drive
-                        fro the city centre, we are also flexible to be part of your customised event.
-                    </p>
+                <div class="col-md-12 col-lg-12">
+                    <img src="<?= asset('images/matec-images/matec-20.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px">
                 </div>
-                <div class="col-md-10 col-lg-6">
-                    <div class="img-separated"><img src="<?= asset('images/stdim.png') ?>" alt="" width="562" height="588"/>
+                <div class="col-md-12 col-lg-12 col-xl-12 text-sm-left text-image-container">
+                    <div class="row">
+                        <div class="col-md-6 text-sm-left text-center">
+                            <p>This 3-days event is filled with showcases and activities that will appeal to those involved in automotive, business owners and investors as well as the general public, including:</p>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="listing cog-listing mt-sm-0 mt-4">
+                                <li><h4>main event areas</h4></li>
+                                <li><h4>business seminar & workshop</h4></li>
+                                <li><h4>network opportunities</h4></li>
+                                <li><h4>product presentations & launches</h4></li>
+                                <li><h4>automotive technological & innovation</h4></li>
+                                <li><h4>demonstrations & competition</h4></li>
+                                <li><h4>auto bazaar</h4></li>
+                                <li><h4>field demonstrations</h4></li>
+                                <li><h4>activities & promotions</h4></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Section Program Details-->
-    <!--<section class="section" style="background-image: url(<?php /*= asset('images/bckhome.png') */?>); background-size: cover; background-position: center;">
-        <div class="parallax-content section-lg context-dark text-center" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));">
+    <!-- Section We Have Top Executive And Start Up Here-->
+    <section class="parallax-container section" data-parallax-img="<?= asset('images/bg-parallax-05-1894x758.jpg') ?>">
+        <div class="parallax-content section-lg context-dark text-center">
             <div class="container">
-                <h4 class="font-weight-bold">program Details from Day-1 until Day-3</h4>
-                <div class="row row-30">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="speaker">
-                            <div class="speaker-img" data-triangle=".speaker-overlay">
-                                <a class="thumbnail" href="<?php /*= asset('images/11.jpg') */?>)" data-lightgallery="item" data-triangle=".thumbnail-overlay">
-                                    <span class="thumbnail-overlay"></span>
-                                    <span class="thumbnail-icon"></span>
-                                    <img src="<?php /*= asset('images/11.jpg') */?>" alt="" width="298" height="343"/>
-                                </a>
-                            </div>
-                            <h5 class="speaker-title"><a href="#">DAY - 1</a></h5>
-                            <p class="speaker-position">20TH SEPTEMBER 2024</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="speaker">
-                            <div class="speaker-img" data-triangle=".speaker-overlay">
-                                <a class="thumbnail" href="<?php /*= asset('images/12.jpg') */?>" data-lightgallery="item" data-triangle=".thumbnail-overlay">
-                                    <span class="thumbnail-overlay"></span>
-                                    <span class="thumbnail-icon"></span>
-                                    <img src="<?php /*= asset('images/12.jpg') */?>" alt="" width="298" height="343"/>
-                                </a>
-                            </div>
-                            <h5 class="speaker-title"><a href="#">DAY - 2</a></h5>
-                            <p class="speaker-position">21TH SEPTEMBER 2024</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="speaker">
-                            <div class="speaker-img" data-triangle=".speaker-overlay">
-                                <a class="thumbnail" href="<?php /*= asset('images/13.jpg') */?>" data-lightgallery="item" data-triangle=".thumbnail-overlay">
-                                    <span class="thumbnail-overlay"></span>
-                                    <span class="thumbnail-icon"></span>
-                                    <img src="<?php /*= asset('images/13.jpg') */?>" alt="" width="298" height="343"/>
-                                </a>
-                            </div>
-                            <h5 class="speaker-title"><a href="#">DAY - 3</a></h5>
-                            <p class="speaker-position">22TH SEPTEMBER 2024</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>-->
-
-    <!-- Section Slideshow-->
-    <section class="section" style="background-image: url(<?= asset('images/bckhome.png') ?>); background-size: cover; background-position: center;">
-        <div class="parallax-content section-lg context-dark text-center" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));">
-            <div class="container">
-                <h4 class="font-weight-bold">matec 2024 plan layout</h4><br><br>
-                <div id="slideshow" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#slideshow" data-slide-to="0" class="active">
-                            <img src="<?= asset('images/15.jpg') ?>" alt="" width="40" height="40"/>
-                        </li>
-                        <li data-target="#slideshow" data-slide-to="1">
-                            <img src="<?= asset('images/16.jpg') ?>" alt="" width="40" height="40"/>
-                        </li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="<?= asset('images/15.jpg') ?>" class="d-block w-100" style="max-width: 800px; max-height: 600px; margin: 0 auto;" alt="Slide 1">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="<?= asset('images/16.jpg') ?>" class="d-block w-100" style="max-width: 800px; max-height: 600px; margin: 0 auto;" alt="Slide 2">
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#slideshow" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#slideshow" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
-            </div>
-    </section>
-
-    <!-- Section Spaces and Booth -->
-    <section class="section section-lg bg-default text-center">
-        <div class="container">
-            <h6 class="text-secondary text-center"></h6>
-            <h3 class="text-center">MATEC 2024 SPACES AND BOOTH</h3>
-            <div class="row align-items-center">
-                <div class="col-lg-7 text-left">
-                    <img src="<?= asset('images/matec1.png') ?>" alt="spaces and booth" style="width: 100%; height: auto;">
-                </div>
-                <div class="col-lg-5 d-flex justify-content-center flex-column">
-                    <div class="text-container">
-                        <a class="btn-solid-reg custom-btn" href="#" data-bs-toggle="modal" data-bs-target="#shellschemeboothModal">SHELLSCHEMEBOOTH</a>
-                        <br>
-                        <a class="btn-solid-reg custom-btn" href="#" data-bs-toggle="modal" data-bs-target="#barespaceModal">BARESPACE</a>
-                        <br>
-                        <a class="btn-solid-reg custom-btn" href="#" data-bs-toggle="modal" data-bs-target="#arabianCanopyModal">ARABIAN CANOPY</a>
-                        <br>
-                        <a class="btn-solid-reg custom-btn" href="#" data-bs-toggle="modal" data-bs-target="#foodtruckModal">FOODTRUCK</a>
-                        <br>
+                <div class="row row-30 justify-content-center">
+                    <div class="col-md-10 col-lg-9">
+                        <h6 class="text-secondary">get involved in our business community</h6>
+                        <h2>980+ have registered to join our business conference.</h2>
+                        <a class="button button-secondary box-with-triangle-right button-offset-xl" href="#" data-triangle=".button-overlay">
+                            <span>Reserve your seat</span><span class="button-overlay"></span>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Modals -->
-    <div class="modal fade" id="shellschemeboothModal" tabindex="-1" aria-labelledby="shellschemeboothModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="shellschemeboothModalLabel">Shellscheme Booth Details</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body d-flex">
-                    <img src="<?= asset('images/Booth-01.png') ?>" alt="Shellscheme" style="width: 50%; height: auto; margin-right: 20px;">
-                    <div>
-                        <h5>Shellscheme Booth</h5>
-                        <p><strong>Lot Code:</strong> FT01 - FT08</p>
-                        <p><strong>Lot Size:</strong> 3m x 3m</p>
-                        <p><strong>Rate Per Lot:</strong> RM2,500.00</p><br>
-                        <p><strong>Lot Code:</strong> MP01 - MP14</p>
-                        <p><strong>Lot Size:</strong> 6m x 3m</p>
-                        <p><strong>Rate Per Lot:</strong> RM4,800.00</p><br>
-                        <p><strong>Category:</strong> Automotive Related</p>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="barespaceModal" tabindex="-1" aria-labelledby="barespaceModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="barespaceModalLabel">Bare Space Details</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body d-flex">
-                    <img src="<?= asset('images/Booth-04.png') ?>" alt="barespace" style="width: 50%; height: auto; margin-right: 20px;">
-                    <div>
-                        <h5>Bare Space</h5>
-                        <p><strong>Lot Code:</strong> SC01 - SC12</p>
-                        <p><strong>Lot Size:</strong> 11m x 10m</p>
-                        <p><strong>Rate Per Lot:</strong> RM7,500.00</p><br>
-                        <p><strong>Category:</strong> Automotive Related</p>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="arabianCanopyModal" tabindex="-1" aria-labelledby="arabianCanopyModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="arabianCanopyModalLabel">Arabian Canopy Details</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body d-flex">
-                    <img src="<?= asset('images/Booth-02.png') ?>" alt="arabian" style="width: 50%; height: auto; margin-right: 20px;">
-                    <div>
-                        <h5>Arabian Canopy</h5>
-                        <p><strong>Lot Code:</strong> FT01 - FB10</p>
-                        <p><strong>Lot Size:</strong> 6m x 3m</p>
-                        <p><strong>Rate Per Lot:</strong> RM2,200.00</p>
-                        <p><strong>Category:</strong> Food & Beverages</p><br>
-                        <p><strong>Lot Code:</strong> EX01 - EX26</p>
-                        <p><strong>Lot Size:</strong> 6m x 6m</p>
-                        <p><strong>Rate Per Lot:</strong> RM4,800.00</p>
-                        <p><strong>Category:</strong> Automotive Related</p>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="foodtruckModal" tabindex="-1" aria-labelledby="foodtruckModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="foodtruckModalLabel">Food Truck Details</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body d-flex">
-                    <img src="<?= asset('images/Booth-03.png') ?>" alt="foodtruck" style="width: 50%; height: auto; margin-right: 20px;">
-                    <div>
-                        <h5>Food Truck</h5>
-                        <p><strong>Lot Code:</strong> FT01 - FT08</p>
-                        <p><strong>Lot Size:</strong> Food Truck Spaces</p>
-                        <p><strong>Rate Per Lot:</strong> RM1800.00</p>
-                        <p><strong>Category:</strong> Food & Beverages</p>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--Section All other speakers-->
-    <!--<section class="section section-lg bg-default text-center">
+    <!-- Section Biggest 2019 Digital Conference-->
+    <section class="section section-lg bg-default wow fadeIn bg-image-section bg-image-section-efx-white bg-cover-section">
         <div class="container">
-            <h4 class="font-weight-bold">All other speakers.</h4>
-            <div class="row row-30">
-                <div class="col-sm-6 col-lg-3">
-                    <div class="speaker-classic">
-                        <div class="speaker-classic-img"><a href="#"><img src="<?php /*= asset('images/speaker-01-270x303.jpg') */?>" alt="" width="270" height="303"/></a>
-                            <ul class="speaker-classic-social-list">
-                                <li><a class="icon icon-xs fa-facebook-f" href="#"></a></li>
-                                <li><a class="icon icon-xs fa-twitter" href="#"></a></li>
-                                <li><a class="icon icon-xs fa-youtube-play" href="#"></a></li>
-                            </ul>
+            <div class="row row-30 justify-content-center">
+                <div class="col-md-12 col-lg-12">
+                    <img src="<?= asset('images/matec-images/matec-21.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px mb-2">
+                    <img src="<?= asset('images/matec-images/matec-22.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px mb-2">
+                </div>
+                <div class="col-md-12 col-lg-12 col-xl-12 text-sm-left text-center excitement-image-container">
+                    <div class="row row-15">
+                        <div class="col-md-2 col-6 box-img">
+                            <img src="<?= asset('images/matec-images/matec-23.png') ?>" alt="" class="img-fluid">
+                            <p class="mt-3 text-center">Car Gathering</p>
                         </div>
-                        <h5 class="speaker-classic-title"><a href="#">Jesscia brown</a></h5>
-                        <p class="speaker-classic-position">Co Founder</p>
+                        <div class="col-md-2 col-6 box-img">
+                            <img src="<?= asset('images/matec-images/matec-24.png') ?>" alt="" class="img-fluid">
+                            <p class="mt-3 text-center">Bike Gathering</p>
+                        </div>
+                        <div class="col-md-2 col-6 box-img">
+                            <img src="<?= asset('images/matec-images/matec-25.png') ?>" alt="" class="img-fluid">
+                            <p class="mt-3 text-center">Concert</p>
+                        </div>
+                        <div class="col-md-2 col-6 box-img">
+                            <img src="<?= asset('images/matec-images/matec-26.png') ?>" alt="" class="img-fluid">
+                            <p class="mt-3 text-center">Battle of the Band</p>
+                        </div>
+                        <div class="col-md-2 col-6 box-img">
+                            <img src="<?= asset('images/matec-images/matec-27.png') ?>" alt="" class="img-fluid">
+                            <p class="mt-3 text-center">Breakdance Show</p>
+                        </div>
+                        <div class="col-md-2 col-6 box-img">
+                            <img src="<?= asset('images/matec-images/matec-28.png') ?>" alt="" class="img-fluid">
+                            <p class="mt-3 text-center">Kids Playground</p>
+                        </div>
+                    </div>
+                    <div class="row row-15">
+                        <div class="col-md-2 col-6 box-img">
+                            <img src="<?= asset('images/matec-images/matec-29.png') ?>" alt="" class="img-fluid">
+                            <p class="mt-3 text-center">Product Presentation</p>
+                        </div>
+                        <div class="col-md-2 col-6 box-img">
+                            <img src="<?= asset('images/matec-images/matec-30.png') ?>" alt="" class="img-fluid">
+                            <p class="mt-3 text-center">Meet & Greet</p>
+                        </div>
+                        <div class="col-md-2 col-6 box-img">
+                            <img src="<?= asset('images/matec-images/matec-31.png') ?>" alt="" class="img-fluid">
+                            <p class="mt-3 text-center">Entrepreneur Session</p>
+                        </div>
+                        <div class="col-md-2 col-6 box-img">
+                            <img src="<?= asset('images/matec-images/matec-32.png') ?>" alt="" class="img-fluid">
+                            <p class="mt-3 text-center">Talk Show</p>
+                        </div>
+                        <div class="col-md-2 col-6 box-img">
+                            <img src="<?= asset('images/matec-images/matec-33.png') ?>" alt="" class="img-fluid">
+                            <p class="mt-3 text-center">Tournament & Contest</p>
+                        </div>
+                        <div class="col-md-2 col-6 box-img">
+                            <img src="<?= asset('images/matec-images/matec-34.png') ?>" alt="" class="img-fluid">
+                            <p class="mt-3 text-center">Lucky Draw</p>
+                        </div>
+                    </div>
+                    <h4 class="text-center">AND MANY MORE AWAITS YOU!</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-lg bg-default wow fadeIn bg-image-section bg-cover-section" style="background-image: url(<?= asset('images/matec-images/matec-bg-images-05.png') ?>); background-position: center left;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10">
+                    <h2 class="text-white text-sm-left text-center">OFFICIAL ITINERARY</h2>
+                    <div class="row row-30 align-items-start">
+                        <div class="col-md-6">
+                            <h4 class="text-white text-center">Day 2 | 21 September 2024 Saturday</h4>
+                            <hr class="my-4">
+                            <table class="text-white">
+                                <tbody>
+                                <tr class="align-top">
+                                    <td class="py-2" width="20%">10:00am</td>
+                                    <td class="py-2" width="80%">
+                                        Arrival of MARA Chairman <br>
+                                        <b>YBHG. Datuk Wira Dr. Asyraf Wajdi bin Dato' Dusuki</b>
+                                    </td>
+                                </tr>
+                                <tr class="align-top">
+                                    <td class="py-2" width="20%">10:15am</td>
+                                    <td class="py-2" width="80%">
+                                        Walkabout Session with <br>
+                                        <b>MARA Chairman</b>
+                                    </td>
+                                </tr>
+                                <tr class="align-top">
+                                    <td class="py-2" width="20%">12:15pm</td>
+                                    <td class="py-2" width="80%">
+                                        MATEC Launching Ceremony <br>
+                                        <b>YBHG. Datuk Wira Dr. Asyraf Wajdi bin Dato' Dusuki</b>
+                                    </td>
+                                </tr>
+                                <tr class="align-top">
+                                    <td class="py-2" width="20%">12:30pm</td>
+                                    <td class="py-2" width="80%">
+                                        Prize Giving Ceremony <br>
+                                        Appreciation Ceremony <br>
+                                        Lucky Draw Session Day 2
+                                    </td>
+                                </tr>
+                                <tr class="align-top">
+                                    <td class="py-2" width="20%">13:00pm</td>
+                                    <td class="py-2" width="80%">
+                                        Launching Ceremony <br>
+                                        <b>PETRONAS MotoExpert</b>
+                                    </td>
+                                </tr>
+                                <tr class="align-top">
+                                    <td class="py-2" width="20%">13:30pm</td>
+                                    <td class="py-2" width="80%">
+                                        <b>Workshop Enhancement Program <br> (WEP) Mannol</b>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-6">
+                            <h4 class="text-white text-center">Day 3 | 22 September 2024 Sunday</h4>
+                            <hr class="my-4">
+                            <table class="text-white">
+                                <tbody>
+                                <tr class="align-top">
+                                    <td class="py-2" width="20%">8:00pm</td>
+                                    <td class="py-2" width="80%">
+                                        Arrival of Deputy Prime Minister <br>
+                                        <b>Dato' Seri Dr. Ahmad Zahid bin Hamidi</b>
+                                    </td>
+                                </tr>
+                                <tr class="align-top">
+                                    <td class="py-2" width="20%">8:30pm</td>
+                                    <td class="py-2" width="80%">
+                                        Walkabout Session with DPM
+                                    </td>
+                                </tr>
+                                <tr class="align-top">
+                                    <td class="py-2" width="20%">9:00pm</td>
+                                    <td class="py-2" width="80%">
+                                        Prize Giving Ceremony <br>
+                                        Appreciation Ceremony <br>
+                                        Lucky Draw Session Day 2
+                                    </td>
+                                </tr>
+                                <tr class="align-top">
+                                    <td class="py-2" width="20%">9:30pm</td>
+                                    <td class="py-2" width="80%">
+                                        MATEC Closing Ceremony <br>
+                                        <b>Dato' Seri Dr. Ahmad Zahid bin Hamidi</b> <br>
+                                        Exclusive MATEC Fireworks Show
+                                    </td>
+                                </tr>
+                                <tr class="align-top">
+                                    <td class="py-2" width="20%">10.00pm</td>
+                                    <td class="py-2" width="80%">
+                                        New Car Launching Ceremony
+                                    </td>
+                                </tr>
+                                <tr class="align-top">
+                                    <td class="py-2" width="20%">10.30pm</td>
+                                    <td class="py-2" width="80%">
+                                        <b>MATEC Grand Concert & <br>
+                                        MATEC Grand Lucky Draw</b>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="speaker-classic">
-                        <div class="speaker-classic-img"><a href="#"><img src="<?php /*= asset('images/speaker-02-270x303.jpg') */?>" alt="" width="270" height="303"/></a>
-                            <ul class="speaker-classic-social-list">
-                                <li><a class="icon icon-xs fa-facebook-f" href="#"></a></li>
-                                <li><a class="icon icon-xs fa-twitter" href="#"></a></li>
-                                <li><a class="icon icon-xs fa-youtube-play" href="#"></a></li>
-                            </ul>
+                <div class="col-md-2 row align-items-end justify-content-end">
+                    <img src="<?= asset('images/matec-images/matec-35.png') ?>" alt="" class="w-75px mr-2 d-sm-block d-none">
+                    <img src="<?= asset('images/matec-images/matec-36.png') ?>" alt="" class="w-75px d-sm-block d-none">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- Section With Counters-->
+    <section class="section section-md bg-default text-center">
+        <div class="container">
+            <div class="row row-30 row-bordered">
+                <div class="col-6 col-md-3 row-bordered-item">
+                    <div class="wow fadeInUp" data-wow-delay=".3">
+                        <!--Counter-->
+                        <div class="box-counter">
+                            <div class="box-counter-main">
+                                <div class="counter">250</div>
+                            </div>
+                            <p class="box-counter-title">Speakers</p>
                         </div>
-                        <h5 class="speaker-classic-title"><a href="#">Mike hardons</a></h5>
-                        <p class="speaker-classic-position">Lead Developer</p>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="speaker-classic">
-                        <div class="speaker-classic-img"><a href="#"><img src="<?php /*= asset('images/speaker-05-270x303.jpg') */?>" alt="" width="270" height="303"/></a>
-                            <ul class="speaker-classic-social-list">
-                                <li><a class="icon icon-xs fa-facebook-f" href="#"></a></li>
-                                <li><a class="icon icon-xs fa-twitter" href="#"></a></li>
-                                <li><a class="icon icon-xs fa-youtube-play" href="#"></a></li>
-                            </ul>
+                <div class="col-6 col-md-3 row-bordered-item">
+                    <div class="wow fadeInUp" data-wow-delay=".4">
+                        <!--Counter-->
+                        <div class="box-counter">
+                            <div class="box-counter-main">
+                                <div class="counter">1473</div>
+                            </div>
+                            <p class="box-counter-title">Tickets</p>
                         </div>
-                        <h5 class="speaker-classic-title"><a href="#">John Smith</a></h5>
-                        <p class="speaker-classic-position">Assistant</p>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="speaker-classic">
-                        <div class="speaker-classic-img"><a href="#"><img src="<?php /*= asset('images/speaker-06-270x303.jpg') */?>" alt="" width="270" height="303"/></a>
-                            <ul class="speaker-classic-social-list">
-                                <li><a class="icon icon-xs fa-facebook-f" href="#"></a></li>
-                                <li><a class="icon icon-xs fa-twitter" href="#"></a></li>
-                                <li><a class="icon icon-xs fa-youtube-play" href="#"></a></li>
-                            </ul>
+                <div class="col-6 col-md-3 row-bordered-item">
+                    <div class="wow fadeInUp" data-wow-delay=".5">
+                        <!--Counter-->
+                        <div class="box-counter">
+                            <div class="box-counter-main">
+                                <div class="counter">2347</div>
+                            </div>
+                            <p class="box-counter-title">Sponsors</p>
                         </div>
-                        <h5 class="speaker-classic-title"><a href="#">Sarah Rose</a></h5>
-                        <p class="speaker-classic-position">Designer</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 row-bordered-item">
+                    <div class="wow fadeInUp" data-wow-delay=".6">
+                        <!--Counter-->
+                        <div class="box-counter">
+                            <div class="box-counter-main">
+                                <div class="counter">60</div>
+                            </div>
+                            <p class="box-counter-title">Sessions</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>-->
+    </section>
 
     <?php include "layouts/footer.php"; ?>
 
-    <?php require "layouts/__js.php" ?>
+</div>
+
+<?php require "layouts/__js.php" ?>
 
 </body>
 </html>

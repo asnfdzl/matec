@@ -22,6 +22,10 @@ class Router {
             echo "404 Not Found";
         }
     }
+
+    public function getRoutes() {
+        return array_keys($this->routes);
+    }
 }
 
 // Initialize router
@@ -42,6 +46,21 @@ $router->add('sponsorship', function() {
 
 $router->add('contact', function() {
     require 'views/contact.php';
+});
+
+// Generate sitemap route
+$router->add('generate-sitemap', function() use ($router) {
+    require 'Sitemap.php';
+    $sitemap = new Sitemap();
+
+    // Get all routes and add them to the sitemap
+    foreach ($router->getRoutes() as $route) {
+        $url = 'https://www.matec.my/' . ($route ? $route : '');
+        $sitemap->addPage($url, date('Y-m-d'), 'monthly', '0.8');
+    }
+
+    $sitemap->generateXML();
+    echo "Sitemap generated successfully.";
 });
 
 // Dispatch the request

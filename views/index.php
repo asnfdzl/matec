@@ -8,6 +8,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" href="<?= asset('images/logo.png') ?>" type="image/x-icon">
 
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
     <?php require 'layouts/__css.php' ?>
     
 </head>
@@ -95,8 +99,6 @@
                 <div class="swiper-pagination"></div>
             </div>
         </section>
-
-
 
         <!-- Section Biggest 2019 Digital Conference-->
         <section class="section section-lg bg-default wow fadeIn bg-image-section bg-image-section-efx-white bg-cover-section" style="background-image: url(<?= asset('images/matec-images/matec-bg-images-01.png') ?>)">
