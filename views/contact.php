@@ -1,3 +1,9 @@
+<?php
+
+    $socialLinks = Social::getAll();
+
+?>
+
 <!DOCTYPE html>
 <html class="wide" lang="en">
 <head>
@@ -8,9 +14,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" href="<?= asset('images/logo.png') ?>" type="image/x-icon">
 
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
     <?php require 'layouts/__css.php' ?>
 
-    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
 </head>
 <body>
 
@@ -50,7 +59,6 @@
         <div class="container">
             <div class="row row-30 justify-content-center">
                 <div class="col-xs-10 col-sm-9 col-md-6 col-lg-7 col-xl-8">
-                    <h6>contact with us</h6>
                     <h3>Have question? Write a<br class="d-none d-xs-block"> message.
                     </h3>
                     <!--RD Mailform-->
@@ -100,14 +108,13 @@
                         <div class="block-address-item">
                             <h5 class="block-address-title">Follow</h5>
                             <ul class="list-inline list-inline-xs">
-                                <li><a class="icon icon-rect icon-xs icon-white fa-facebook" href="#" data-triangle=".icon-rect-overlay">
-                                        <div class="icon-rect-overlay"></div></a></li>
-                                <li><a class="icon icon-rect icon-xs icon-white fa-twitter" href="#" data-triangle=".icon-rect-overlay">
-                                        <div class="icon-rect-overlay"></div></a></li>
-                                <li><a class="icon icon-rect icon-xs icon-white fa-linkedin" href="#" data-triangle=".icon-rect-overlay">
-                                        <div class="icon-rect-overlay"></div></a></li>
-                                <li><a class="icon icon-rect icon-xs icon-white fa-youtube-play" href="#" data-triangle=".icon-rect-overlay">
-                                        <div class="icon-rect-overlay"></div></a></li>
+                                <?php foreach ($socialLinks as $social): ?>
+                                    <li data-wow-delay="<?= $social['wow-delay']; ?>">
+                                        <a class="icon icon-rect icon-xs icon-white <?= $social['icon']; ?>" href="<?= $social['url']; ?>" data-triangle=".icon-rect-overlay" target="<?= $social['target']; ?>">
+                                            <div class="icon-rect-overlay"></div>
+                                        </a>
+                                    </li>
+                                <?php endforeach; ?>
                             </ul>
                         </div>
                     </div>
