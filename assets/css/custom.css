@@ -163,6 +163,11 @@ body {
     flex:1;
 }
 
+.section-collapse-body {
+    transition: max-height 0.5s ease;
+    overflow: hidden;
+}
+
 @media only screen and (max-width : 991px) {
     .rd-navbar-fixed .rd-navbar-panel {
         background: #000000;

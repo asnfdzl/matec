@@ -36,12 +36,14 @@
 
         <section class="section section-lg bg-default wow fadeIn bg-image-section bg-image-section-efx-white bg-cover-section" style="">
             <div class="container">
-                <div class="row row-30 justify-content-center">
+                <div class="row section-title">
                     <div class="col-md-12 col-lg-12">
                         <img src="<?= asset('images/matec-images/matec-37.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px mb-2">
                         <img src="<?= asset('images/matec-images/matec-38.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px mb-2">
                         <img src="<?= asset('images/matec-images/matec-39.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px">
                     </div>
+                </div>
+                <div class="row row-30 justify-content-center section-collapse-body">
                     <div class="col-md-4">
                         <img src="<?= asset('images/matec-images/matec-49.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                         <ul class="list list-marked">
@@ -80,14 +82,18 @@
             </div>
         </section>
 
+        <hr class="my-0">
+
         <section class="section section-lg bg-default wow fadeIn bg-image-section bg-image-section-efx-white bg-cover-section" style="">
             <div class="container">
-                <div class="row row-30 justify-content-center">
+                <div class="row  section-title">
                     <div class="col-md-12 col-lg-12">
                         <img src="<?= asset('images/matec-images/matec-40.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px mb-2">
                         <img src="<?= asset('images/matec-images/matec-41.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px mb-2">
                         <img src="<?= asset('images/matec-images/matec-42.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px">
                     </div>
+                </div>
+                <div class="row row-30 justify-content-center  section-collapse-body">
                     <div class="col-md-4">
                         <img src="<?= asset('images/matec-images/matec-49.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                         <ul class="list list-marked">
@@ -124,14 +130,18 @@
             </div>
         </section>
 
+        <hr class="my-0">
+
         <section class="section section-lg bg-default wow fadeIn bg-image-section bg-image-section-efx-white bg-cover-section" style="">
             <div class="container">
-                <div class="row row-30 justify-content-center">
+                <div class="row section-title">
                     <div class="col-md-12 col-lg-12">
                         <img src="<?= asset('images/matec-images/matec-43.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px mb-2">
                         <img src="<?= asset('images/matec-images/matec-44.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px mb-2">
                         <img src="<?= asset('images/matec-images/matec-39.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px">
                     </div>
+                </div>
+                <div class="row row-30 justify-content-center section-collapse-body">
                     <div class="col-md-4">
                         <img src="<?= asset('images/matec-images/matec-49.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                         <ul class="list list-marked">
@@ -163,14 +173,18 @@
             </div>
         </section>
 
+        <hr class="my-0">
+
         <section class="section section-lg bg-default wow fadeIn bg-image-section bg-image-section-efx-white bg-cover-section" style="">
             <div class="container">
-                <div class="row row-30 justify-content-center">
+                <div class="row section-title">
                     <div class="col-md-12 col-lg-12">
                         <img src="<?= asset('images/matec-images/matec-45.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px mb-2">
                         <img src="<?= asset('images/matec-images/matec-46.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px mb-2">
                         <img src="<?= asset('images/matec-images/matec-39.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px">
                     </div>
+                </div>
+                <div class="row row-30 justify-content-center section-collapse-body">
                     <div class="col-md-4">
                         <img src="<?= asset('images/matec-images/matec-49.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                         <ul class="list list-marked">
@@ -198,14 +212,18 @@
             </div>
         </section>
 
+        <hr class="my-0">
+
         <section class="section section-lg bg-default wow fadeIn bg-image-section bg-image-section-efx-white bg-cover-section" style="">
             <div class="container">
-                <div class="row row-30 justify-content-center">
+                <div class="row section-title">
                     <div class="col-md-12 col-lg-12">
                         <img src="<?= asset('images/matec-images/matec-47.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px mb-2">
                         <img src="<?= asset('images/matec-images/matec-48.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px mb-2">
                         <img src="<?= asset('images/matec-images/matec-39.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px">
                     </div>
+                </div>
+                <div class="row row-30 justify-content-center section-collapse-body">
                     <div class="col-md-4">
                         <img src="<?= asset('images/matec-images/matec-49.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                         <ul class="list list-marked">
@@ -238,6 +256,46 @@
     </div>
 
     <?php require "layouts/__js.php" ?>
+
+    <script>
+        function setupCollapsibleSections() {
+            const sections = document.querySelectorAll('.section-collapse-body');
+            sections.forEach(section => {
+                section.style.maxHeight = '0';
+            });
+
+            document.querySelectorAll('.section-title').forEach((title, index) => {
+                title.addEventListener('click', () => {
+                    const body = document.querySelectorAll('.section-collapse-body')[index];
+                    const isExpanded = body.style.maxHeight && body.style.maxHeight !== '0px';
+
+                    if (isExpanded) {
+                        body.style.maxHeight = '0';
+                    } else {
+                        body.style.maxHeight = body.scrollHeight + 'px';
+                    }
+                });
+            });
+        }
+
+        // Check screen width and apply collapsible behavior if below 766px
+        if (window.innerWidth < 766) {
+            setupCollapsibleSections();
+        }
+
+        // Re-check on window resize
+        window.addEventListener('resize', () => {
+            if (window.innerWidth < 766) {
+                setupCollapsibleSections();
+            } else {
+                // Reset styles if above 766px
+                document.querySelectorAll('.section-collapse-body').forEach(body => {
+                    body.style.maxHeight = 'none';
+                });
+            }
+        });
+
+    </script>
 
 </body>
 </html>
