@@ -197,7 +197,8 @@
                         </ul>
                     </div>
                     <div class="col-md-12 col-lg-6 col-xl-5 text-md-right">
-                        <img src="<?= asset('images/matec-images/matec-06.png') ?>" alt="" class="d-flex img-fluid mt-sm-0 mt-5">
+                        <img src="<?= asset('images/matec-images/matec-06.png') ?>" alt="" class="d-xs-block d-none img-fluid mx-auto mt-sm-0 mt-4">
+                        <img src="<?= asset('images/matec-images/matec-06.png') ?>" alt="" class="d-xs-none d-block w-xs-300px mx-auto mt-sm-0 mt-4">
                     </div>
                 </div>
             </div>
@@ -225,7 +226,8 @@
                         </ul>
                     </div>
                     <div class="col-md-12 col-lg-6 col-xl-5 text-md-right">
-                        <img src="<?= asset('images/matec-images/matec-12.png') ?>" alt="" class="d-flex img-fluid mt-sm-0 mt-5">
+                        <img src="<?= asset('images/matec-images/matec-12.png') ?>" alt="" class="d-xs-block d-none img-fluid mx-auto mt-sm-0 mt-4">
+                        <img src="<?= asset('images/matec-images/matec-12.png') ?>" alt="" class="d-xs-none d-block w-xs-300px mx-auto mt-sm-0 mt-4">
                     </div>
                 </div>
             </div>

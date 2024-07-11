@@ -19,7 +19,7 @@ class Router {
         } else {
             // 404 Not Found
             header("HTTP/1.0 404 Not Found");
-            echo "404 Not Found";
+            require 'views/404.php';
         }
     }
 
@@ -61,6 +61,18 @@ $router->add('generate-sitemap', function() use ($router) {
 
     $sitemap->generateXML();
     echo "Sitemap generated successfully.";
+});
+
+// Add route for sitemap.xml
+$router->add('sitemap.xml', function() {
+    if (file_exists('sitemap.xml')) {
+        header('Content-Type: application/xml');
+        readfile('sitemap.xml');
+    } else {
+        // 404 Not Found
+        header("HTTP/1.0 404 Not Found");
+        echo "404 Not Found";
+    }
 });
 
 // Dispatch the request
