@@ -30,7 +30,7 @@
                                     <!--  <li class="rd-nav-item"><a class="rd-nav-link" href="vendor.html">For Vendor</a>-->
                                     </li>
                                     <li class="rd-nav-item">
-                                        <a class="rd-nav-link" href="event">About Event</a>
+                                        <a class="rd-nav-link" href="event">About MATEC</a>
                                     </li>
                                     <li class="rd-nav-item">
                                         <a class="rd-nav-link" href="sponsorship">Sponsorship</a>
