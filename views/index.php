@@ -122,8 +122,8 @@
         </section>
 
         <!-- Section Book Your Ticket-->
-        <section class="parallax-container section" data-parallax-img="<?= asset('images/bckhome.png') ?>">
-            <div class="parallax-content section-lg context-dark text-center parallax-overlay-gradient-primary">
+        <section class="section" style="background-image: url(<?= asset('images/bckhome.png') ?>); background-size: cover; background-position: center;">
+            <div class="parallax-content section-lg context-dark text-center" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));">
                 <div class="container wow fadeIn">
                     <!-- Block with content-->
                     <div class="block-lg block-center">
