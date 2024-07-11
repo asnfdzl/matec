@@ -122,8 +122,8 @@
         </section>
 
         <!-- Section Book Your Ticket-->
-        <section class="parallax-container section" data-parallax-img="<?= asset('images/bckhome.png') ?>">
-            <div class="parallax-content section-lg context-dark text-center parallax-overlay-gradient-primary">
+        <section class="section" style="background-image: url(<?= asset('images/bckhome.png') ?>); background-size: cover; background-position: center;">
+            <div class="parallax-content section-lg context-dark text-center" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));">
                 <div class="container wow fadeIn">
                     <!-- Block with content-->
                     <div class="block-lg block-center">
@@ -197,7 +197,8 @@
                         </ul>
                     </div>
                     <div class="col-md-12 col-lg-6 col-xl-5 text-md-right">
-                        <img src="<?= asset('images/matec-images/matec-06.png') ?>" alt="" class="d-flex img-fluid mt-sm-0 mt-5">
+                        <img src="<?= asset('images/matec-images/matec-06.png') ?>" alt="" class="d-xs-block d-none img-fluid mx-auto mt-sm-0 mt-4">
+                        <img src="<?= asset('images/matec-images/matec-06.png') ?>" alt="" class="d-xs-none d-block w-xs-300px mx-auto mt-sm-0 mt-4">
                     </div>
                 </div>
             </div>
@@ -225,7 +226,8 @@
                         </ul>
                     </div>
                     <div class="col-md-12 col-lg-6 col-xl-5 text-md-right">
-                        <img src="<?= asset('images/matec-images/matec-12.png') ?>" alt="" class="d-flex img-fluid mt-sm-0 mt-5">
+                        <img src="<?= asset('images/matec-images/matec-12.png') ?>" alt="" class="d-xs-block d-none img-fluid mx-auto mt-sm-0 mt-4">
+                        <img src="<?= asset('images/matec-images/matec-12.png') ?>" alt="" class="d-xs-none d-block w-xs-300px mx-auto mt-sm-0 mt-4">
                     </div>
                 </div>
             </div>

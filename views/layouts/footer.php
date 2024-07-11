@@ -33,7 +33,7 @@
                             <?php foreach ($socialLinks as $social): ?>
                             <li data-wow-delay="<?= $social['wow-delay']; ?>">
                                 <a class="icon icon-rect icon-xs icon-white <?= $social['icon']; ?>" href="<?= $social['url']; ?>" data-triangle=".icon-rect-overlay" target="<?= $social['target']; ?>">
-                                    <div class="icon-rect-overlay" style="border-top-width: 52px; border-left-width: 52px;"></div>
+                                    <div class="icon-rect-overlay"></div>
                                 </a>
                             </li>
                             <?php endforeach; ?>

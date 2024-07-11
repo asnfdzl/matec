@@ -19,7 +19,7 @@ class Router {
         } else {
             // 404 Not Found
             header("HTTP/1.0 404 Not Found");
-            echo "404 Not Found";
+            require 'views/404.php';
         }
     }
 
