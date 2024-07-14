@@ -8,9 +8,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" href="<?= asset('images/logo.png') ?>" type="image/x-icon">
 
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
     <?php require 'layouts/__css.php' ?>
 
-    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
 </head>
 <body>
 
@@ -24,7 +27,7 @@
     <section class="breadcrumbs-custom bg-image context-dark" style="background-image: url(images/bg-breadcrumbs-01-1894x424.jpg);">
         <div class="container">
             <ul class="breadcrumbs-custom-path">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li class="active">Vendor</li>
             </ul>
             <h3 class="breadcrumbs-custom-title">Vendor</h3>
