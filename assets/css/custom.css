@@ -172,6 +172,10 @@ body {
     overflow: hidden;
 }
 
+.popup-width {
+    max-width: 1200px;
+}
+
 @media only screen and (max-width : 991px) {
     .rd-navbar-fixed .rd-navbar-panel {
         background: #000000;
@@ -195,6 +199,10 @@ body {
         float: none;
         max-width: 100%;
         margin: 0;
+    }
+
+    .popup-width {
+        max-width: 95%;
     }
 }
 
