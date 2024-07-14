@@ -31,7 +31,7 @@
 
     <!-- Breadcrumbs-->
     <section class="section" style="background-image: url(<?= asset('images/bckhome.png') ?>); background-size: cover; background-position: center;">
-        <div class="parallax-content section-lg context-dark text-center" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));">
+        <div class="parallax-content section-lg context-dark text-center section-background">
             <ul class="breadcrumbs-custom-path">
                 <li><a href="/">Home</a></li>
                 <li class="active">Contact</li>

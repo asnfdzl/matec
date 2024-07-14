@@ -2,6 +2,10 @@ body {
     color: #010101 !important;
 }
 
+.section-background {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+}
+
 #myCarousel {
     --f-carousel-slide-height: 100%;
     --f-carousel-spacing: 0px;
@@ -168,6 +172,10 @@ body {
     overflow: hidden;
 }
 
+.popup-width {
+    max-width: 1200px;
+}
+
 @media only screen and (max-width : 991px) {
     .rd-navbar-fixed .rd-navbar-panel {
         background: #000000;
@@ -191,6 +199,10 @@ body {
         float: none;
         max-width: 100%;
         margin: 0;
+    }
+
+    .popup-width {
+        max-width: 95%;
     }
 }
 
