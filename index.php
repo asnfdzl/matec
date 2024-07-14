@@ -14,13 +14,19 @@ class Router {
     public function dispatch() {
         $uri = trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
 
-        if (array_key_exists($uri, $this->routes)) {
+        if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($this->routes['POST'][$uri])) {
+            call_user_func($this->routes['POST'][$uri]);
+        } elseif (array_key_exists($uri, $this->routes)) {
             call_user_func($this->routes[$uri]);
         } else {
             // 404 Not Found
             header("HTTP/1.0 404 Not Found");
-            require 'views/404.php';
+            echo "404 Not Found";
         }
+    }
+
+    public function addPost($route, $callback) {
+        $this->routes['POST'][$route] = $callback;
     }
 
     public function getRoutes() {
@@ -46,6 +52,50 @@ $router->add('sponsorship', function() {
 
 $router->add('contact', function() {
     require 'views/contact.php';
+});
+
+// Add POST route for form submission
+$router->addPost('send-message', function() {
+    // Handle form submission and send email
+    $name = $_POST['name'] ?? '';
+    $email = $_POST['email'] ?? '';
+    $message = $_POST['message'] ?? '';
+
+    // Validate input
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        echo json_encode(['status' => 'error', 'message' => 'Invalid email address.']);
+        return;
+    }
+
+    // Send email using Postmark API
+    $postmarkApiKey = 'c2ca6cc5-46b0-47a4-8b1b-1efd1a039b4d';
+    $postmarkSender = 'apps@matec.my';
+    $postmarkRecipient = 'admin@example.com';
+
+    $data = [
+        'From' => $postmarkSender,
+        'To' => $postmarkRecipient,
+        'Subject' => 'New Contact Form Submission',
+        'TextBody' => "Name: $name\nEmail: $email\nMessage: $message"
+    ];
+
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, 'https://api.postmarkapp.com/email');
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch, CURLOPT_POST, 1);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'Content-Type: application/json',
+        'X-Postmark-Server-Token: ' . $postmarkApiKey
+    ]);
+
+    $response = curl_exec($ch);
+    if (curl_errno($ch)) {
+        echo json_encode(['status' => 'error', 'message' => 'Error:' . curl_error($ch)]);
+    } else {
+        echo json_encode(['status' => 'success', 'message' => 'Message sent successfully.']);
+    }
+    curl_close($ch);
 });
 
 // Generate sitemap route
