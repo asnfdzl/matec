@@ -347,150 +347,180 @@
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <h4 class="text-white text-center">Day 2 | 21 September 2024 Saturday</h4>
+                                <h4 class="text-white text-center">MATEC Grand Stage Zone (Outdoor)</h4>
                                 <hr class="my-4">
                                 <table class="w-100 text-white">
                                     <tbody>
                                     <tr class="align-top">
                                         <td class="py-2" width="20%">10:00am</td>
                                         <td class="py-2" width="80%">
-                                            Arrival of MARA Chairman <br>
-                                            <b>YBHG. Datuk Wira Dr. Asyraf Wajdi bin Dato' Dusuki</b>
+                                            MATEC Opening Day 1 <br>
+                                            Doa & Negaraku
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">10:15am</td>
+                                        <td class="py-2" width="20%">10:30am</td>
                                         <td class="py-2" width="80%">
-                                            Walkabout Session with <br>
-                                            <b>MARA Chairman</b>
+                                            Emcee Shout-Out <br>
+                                           
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">12:15pm</td>
+                                        <td class="py-2" width="20%">11:00am</td>
                                         <td class="py-2" width="80%">
-                                            MATEC Launching Ceremony <br>
-                                            <b>YBHG. Datuk Wira Dr. Asyraf Wajdi bin Dato' Dusuki</b>
+                                            Title Sponsor Shout Out <br>   
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">12:30pm</td>
+                                        <td class="py-2" width="20%">11:30am</td>
                                         <td class="py-2" width="80%">
-                                            Prize Giving Ceremony <br>
-                                            Appreciation Ceremony <br>
-                                            Lucky Draw Session Day 2
+                                            Exhibitor Shout-Out <br>
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">13:00pm</td>
+                                        <td class="py-2" width="20%">15:00pm</td>
                                         <td class="py-2" width="80%">
-                                            Launching Ceremony <br>
-                                            <b>PETRONAS MotoExpert</b>
+                                            Preparation for Pit Stop Contest <br>
+                                            
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">13:30pm</td>
+                                        <td class="py-2" width="20%">15:30pm</td>
                                         <td class="py-2" width="80%">
-                                            <b>Workshop Enhancement Program <br> (WEP) Mannol</b>
-                                        </td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="col-md-4">
-                                <h4 class="text-white text-center">Day 3 | 22 September 2024 Sunday</h4>
-                                <hr class="my-4">
-                                <table class="w-100 text-white">
-                                    <tbody>
-                                    <tr class="align-top">
-                                        <td class="py-2" width="20%">8:00pm</td>
-                                        <td class="py-2" width="80%">
-                                            Arrival of Deputy Prime Minister <br>
-                                            <b>Dato' Seri Dr. Ahmad Zahid bin Hamidi</b>
+                                            Pit Stop Contest <br>
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">8:30pm</td>
+                                        <td class="py-2" width="20%">17:00pm</td>
                                         <td class="py-2" width="80%">
-                                            Walkabout Session with DPM
+                                            Preparation for <br>
+                                            MATEC Battle of The Band
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">9:00pm</td>
+                                        <td class="py-2" width="20%">17:30pm</td>
                                         <td class="py-2" width="80%">
-                                            Prize Giving Ceremony <br>
-                                            Appreciation Ceremony <br>
-                                            Lucky Draw Session Day 2
+                                            MATEC Battle of the Band <br>
+                                            Round 1
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">9:30pm</td>
+                                        <td class="py-2" width="20%">20:00pm</td>
                                         <td class="py-2" width="80%">
-                                            MATEC Closing Ceremony <br>
-                                            <b>Dato' Seri Dr. Ahmad Zahid bin Hamidi</b> <br>
-                                            Exclusive MATEC Fireworks Show
+                                            Arrival of MARA Deputy Director General (Entrepreneurship)<br>
+                                            <b>YBHG. Dato' Zulfikri bin Osman</b>
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">10.00pm</td>
+                                        <td class="py-2" width="20%">21:00pm</td>
                                         <td class="py-2" width="80%">
-                                            New Car Launching Ceremony
+                                            SUZUKI Launching Ceremony <br>
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">10.30pm</td>
+                                        <td class="py-2" width="20%">21:30pm</td>
                                         <td class="py-2" width="80%">
-                                            <b>MATEC Grand Concert & <br>
-                                                MATEC Grand Lucky Draw</b>
+                                            MATEC Battle of the Band <br>
+                                            Round 2
+                                        </td>
+                                    </tr>
+                                    <tr class="align-top">
+                                        <td class="py-2" width="20%">23:00pm</td>
+                                        <td class="py-2" width="80%">
+                                            End of Day 1 <br>
+                                    
                                         </td>
                                     </tr>
                                     </tbody>
                                 </table>
                             </div>
                             <div class="col-md-4">
-                                <h4 class="text-white text-center">Day 3 | 22 September 2024 Sunday</h4>
+                                <h4 class="text-white text-center">MATEC Conference Stage Zone (Indoor)</h4>
                                 <hr class="my-4">
                                 <table class="w-100 text-white">
                                     <tbody>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">8:00pm</td>
+                                        <td class="py-2" width="20%">10:00am</td>
                                         <td class="py-2" width="80%">
-                                            Arrival of Deputy Prime Minister <br>
-                                            <b>Dato' Seri Dr. Ahmad Zahid bin Hamidi</b>
+                                            Doa & Negaraku <br>
+
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">8:30pm</td>
+                                        <td class="py-2" width="20%">10:30am</td>
                                         <td class="py-2" width="80%">
-                                            Walkabout Session with DPM
+                                            Exhabitor Product Presentation<br>
+                                            Products Knowledge
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">9:00pm</td>
+                                        <td class="py-2" width="20%">15:00pm</td>
                                         <td class="py-2" width="80%">
-                                            Prize Giving Ceremony <br>
-                                            Appreciation Ceremony <br>
-                                            Lucky Draw Session Day 2
+                                            Road Safety Clinic & Contest
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">9:30pm</td>
+                                        <td class="py-2" width="20%">16:30pm</td>
                                         <td class="py-2" width="80%">
-                                            MATEC Closing Ceremony <br>
-                                            <b>Dato' Seri Dr. Ahmad Zahid bin Hamidi</b> <br>
-                                            Exclusive MATEC Fireworks Show
+                                            MOU Ceremony with <br>
+                                            Emerald Autoparts
+                                           
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">10.00pm</td>
+                                        <td class="py-2" width="20%">17.15pm</td>
                                         <td class="py-2" width="80%">
-                                            New Car Launching Ceremony
+                                            Petronas Dagangan Berhad</br>
+                                            Revisit Activity
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">10.30pm</td>
+                                        <td class="py-2" width="20%">18.00pm</td>
                                         <td class="py-2" width="80%">
-                                            <b>MATEC Grand Concert & <br>
-                                                MATEC Grand Lucky Draw</b>
+                                            MATEC Conference <br>
+                                            Session 1
+                                        </td>
+                                    </tr>
+                                    <tr class="align-top">
+                                        <td class="py-2" width="20%">20:00pm</td>
+                                        <td class="py-2" width="80%">
+                                            Title Sponsor Shout-Out <br>
+                                        </td>
+                                    </tr>
+                                    <tr class="align-top">
+                                        <td class="py-2" width="20%">21:30pm</td>
+                                        <td class="py-2" width="80%">
+                                            Industry-IMPA Collaboration<br>WESTAR
+                                        </td>
+                                    </tr>
+                                    <tr class="align-top">
+                                        <td class="py-2" width="20%">22:00pm</td>
+                                        <td class="py-2" width="80%">
+                                            End of Day 1<br>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="col-md-4">
+                                <h4 class="text-white text-center">MATEC Motorsport Zone (Outdoor)</h4>
+                                <hr class="my-4">
+                                <table class="w-100 text-white">
+                                    <tbody>
+                                    <tr class="align-top">
+                                        <td class="py-2" width="20%">10:00am <br>to<br>22:00pm</td>
+                                        <td class="py-2" width="80%">
+                                           <b> CUSTOM Nation <br>
+                                            Car Customization Show</b>
+                                        </td>
+                                    </tr>
+                                    <tr class="align-top">
+                                        <td class="py-2" width="20%"></td>
+                                        <td class="py-2" width="80%">
+                                            Walkabout Session with VVIP<br>
+                                            Car Show<br>
+                                            Car Customization Contest</br>
+                                            Car Activities
                                         </td>
                                     </tr>
                                     </tbody>
@@ -511,22 +541,21 @@
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <h4 class="text-white text-center">Day 2 | 21 September 2024 Saturday</h4>
+                                <h4 class="text-white text-center">MATEC Grand Stage Zone (Outdoor)</h4>
                                 <hr class="my-4">
                                 <table class="w-100 text-white">
                                     <tbody>
                                     <tr class="align-top">
                                         <td class="py-2" width="20%">10:00am</td>
                                         <td class="py-2" width="80%">
-                                            Arrival of MARA Chairman <br>
-                                            <b>YBHG. Datuk Wira Dr. Asyraf Wajdi bin Dato' Dusuki</b>
+                                            MATEC Opening Day 2 <br>
+                                            Doa & Negaraku
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">10:15am</td>
+                                        <td class="py-2" width="20%">10:30am</td>
                                         <td class="py-2" width="80%">
-                                            Walkabout Session with <br>
-                                            <b>MARA Chairman</b>
+                                            Emcee Shout-Out
                                         </td>
                                     </tr>
                                     <tr class="align-top">
@@ -537,124 +566,165 @@
                                         </td>
                                     </tr>
                                     <tr class="align-top">
+                                        <td class="py-2" width="20%">14:00pm</td>
+                                        <td class="py-2" width="80%">
+                                            Cheque Handover Ceremony <br>
+                                            for PUMP Entrepreneur
+                                        </td>
+                                    </tr>
+                                    <tr class="align-top">
+                                        <td class="py-2" width="20%">15:30pm</td>
+                                        <td class="py-2" width="80%">
+                                            Bike Contest <br>
+                                           
+                                        </td>
+                                    </tr>
+                                    <tr class="align-top">
+                                        <td class="py-2" width="20%">17:30pm</td>
+                                        <td class="py-2" width="80%">
+                                            Meet & Greet Session with <br>
+                                            <b>Hafizh Syahrin</b>
+                                        </td>
+                                    </tr>
+                                    <tr class="align-top">
+                                        <td class="py-2" width="20%">20:00pm</td>
+                                        <td class="py-2" width="80%">
+                                            Lucky Draw Session 2
+                                           
+                                        </td>
+                                    </tr>
+                                    <tr class="align-top">
+                                        <td class="py-2" width="20%">20:30pm</td>
+                                        <td class="py-2" width="80%">
+                                            B-Boys Competition <br>
+                                           Round 1
+                                        </td>
+                                    </tr>
+                                    <tr class="align-top">
+                                        <td class="py-2" width="20%">22:00pm</td>
+                                        <td class="py-2" width="80%">
+                                            Matec Beat Blitz <br>
+                                            Mini Concert           
+                                        </td>
+                                    </tr>
+                                    <tr class="align-top">
+                                        <td class="py-2" width="20%">23:00pm</td>
+                                        <td class="py-2" width="80%">
+                                            MATEC Battle of the Band <br>
+                                           Finale Round
+                                        </td>
+                                    </tr>
+                                    <tr class="align-top">
+                                        <td class="py-2" width="20%">00:00am</td>
+                                        <td class="py-2" width="80%">
+                                            End of Day 2
+                                           
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="col-md-4">
+                                <h4 class="text-white text-center">MATEC Conference Stage Zone (Indoor)</h4>
+                                <hr class="my-4">
+                                <table class="w-100 text-white">
+                                    <tbody>
+                                    <tr class="align-top">
+                                        <td class="py-2" width="20%">10:00am</td>
+                                        <td class="py-2" width="80%">
+                                            Arrival of MARA Chairman <br>
+                                            <b>YBHG. Datuk Wira Dr.Asyraf Wajdi bin Dato' Dasuki</b>
+                                        </td>
+                                    </tr>
+                                    <tr class="align-top">
+                                        <td class="py-2" width="20%">10:30am</td>
+                                        <td class="py-2" width="80%">
+                                            Car Launching Ceremony<br>
+                                            by GO-AUTO
+                                        </td>
+                                    </tr>
+                                    <tr class="align-top">
+                                        <td class="py-2" width="20%">11:00am</td>
+                                        <td class="py-2" width="80%">
+                                            Cermin Pro Presentation Session
+                                        </td>
+                                    </tr>
+                                    <tr class="align-top">
+                                        <td class="py-2" width="20%">11:30am</td>
+                                        <td class="py-2" width="80%">
+                                            Title Sponsorship Shout-Out
+                                        </td>
+                                    </tr>
+                                    <tr class="align-top">
                                         <td class="py-2" width="20%">12:30pm</td>
                                         <td class="py-2" width="80%">
-                                            Prize Giving Ceremony <br>
-                                            Appreciation Ceremony <br>
-                                            Lucky Draw Session Day 2
+                                            MARA Entrepreneur Sharing Session
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">13:00pm</td>
+                                        <td class="py-2" width="20%">14:00pm</td>
                                         <td class="py-2" width="80%">
-                                            Launching Ceremony <br>
-                                            <b>PETRONAS MotoExpert</b>
+                                            EV Industry Pocket Talk
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">13:30pm</td>
+                                        <td class="py-2" width="20%">15:00pm</td>
                                         <td class="py-2" width="80%">
-                                            <b>Workshop Enhancement Program <br> (WEP) Mannol</b>
-                                        </td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="col-md-4">
-                                <h4 class="text-white text-center">Day 3 | 22 September 2024 Sunday</h4>
-                                <hr class="my-4">
-                                <table class="w-100 text-white">
-                                    <tbody>
-                                    <tr class="align-top">
-                                        <td class="py-2" width="20%">8:00pm</td>
-                                        <td class="py-2" width="80%">
-                                            Arrival of Deputy Prime Minister <br>
-                                            <b>Dato' Seri Dr. Ahmad Zahid bin Hamidi</b>
+                                            PLMM-PETRONAS AutoExpert<br>
+                                            Sharing Session
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">8:30pm</td>
+                                        <td class="py-2" width="20%">17:00pm</td>
                                         <td class="py-2" width="80%">
-                                            Walkabout Session with DPM
+                                           Talk Show with Abang Gan
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">9:00pm</td>
+                                        <td class="py-2" width="20%">20:00pm</td>
                                         <td class="py-2" width="80%">
-                                            Prize Giving Ceremony <br>
-                                            Appreciation Ceremony <br>
-                                            Lucky Draw Session Day 2
+                                            Exhibitor Shout-Out
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">9:30pm</td>
+                                        <td class="py-2" width="20%">21:00pm</td>
                                         <td class="py-2" width="80%">
-                                            MATEC Closing Ceremony <br>
-                                            <b>Dato' Seri Dr. Ahmad Zahid bin Hamidi</b> <br>
-                                            Exclusive MATEC Fireworks Show
+                                            MATEC Conference<br>
+                                            Session 2
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">10.00pm</td>
+                                        <td class="py-2" width="20%">22:00pm</td>
                                         <td class="py-2" width="80%">
-                                            New Car Launching Ceremony
-                                        </td>
-                                    </tr>
-                                    <tr class="align-top">
-                                        <td class="py-2" width="20%">10.30pm</td>
-                                        <td class="py-2" width="80%">
-                                            <b>MATEC Grand Concert & <br>
-                                                MATEC Grand Lucky Draw</b>
+                                            End of Day 2
                                         </td>
                                     </tr>
                                     </tbody>
                                 </table>
                             </div>
                             <div class="col-md-4">
-                                <h4 class="text-white text-center">Day 3 | 22 September 2024 Sunday</h4>
+                                <h4 class="text-white text-center">MATEC Motorsport Zone (Outdoor)</h4>
                                 <hr class="my-4">
                                 <table class="w-100 text-white">
                                     <tbody>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">8:00pm</td>
+                                        <td class="py-2" width="20%">10:00am <br>to<br>16:30pm</td>
                                         <td class="py-2" width="80%">
-                                            Arrival of Deputy Prime Minister <br>
-                                            <b>Dato' Seri Dr. Ahmad Zahid bin Hamidi</b>
+                                          <b>  X-MAX Mega Gathering <br>
+                                            X-MAX Group Motor Showcase</b>
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">8:30pm</td>
+                                        <td class="py-2" width="20%"></td>
                                         <td class="py-2" width="80%">
-                                            Walkabout Session with DPM
+                                            Road Safety Ride<br>
+                                            Demo EV Scooter
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">9:00pm</td>
+                                        <td class="py-2" width="20%">17:00pm <br>to<br>23:30pm</td>
                                         <td class="py-2" width="80%">
-                                            Prize Giving Ceremony <br>
-                                            Appreciation Ceremony <br>
-                                            Lucky Draw Session Day 2
-                                        </td>
-                                    </tr>
-                                    <tr class="align-top">
-                                        <td class="py-2" width="20%">9:30pm</td>
-                                        <td class="py-2" width="80%">
-                                            MATEC Closing Ceremony <br>
-                                            <b>Dato' Seri Dr. Ahmad Zahid bin Hamidi</b> <br>
-                                            Exclusive MATEC Fireworks Show
-                                        </td>
-                                    </tr>
-                                    <tr class="align-top">
-                                        <td class="py-2" width="20%">10.00pm</td>
-                                        <td class="py-2" width="80%">
-                                            New Car Launching Ceremony
-                                        </td>
-                                    </tr>
-                                    <tr class="align-top">
-                                        <td class="py-2" width="20%">10.30pm</td>
-                                        <td class="py-2" width="80%">
-                                            <b>MATEC Grand Concert & <br>
-                                                MATEC Grand Lucky Draw</b>
+                                        <b>Dinda kanda MATEC Gathering</b>
                                         </td>
                                     </tr>
                                     </tbody>
@@ -675,150 +745,141 @@
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <h4 class="text-white text-center">Day 2 | 21 September 2024 Saturday</h4>
+                                <h4 class="text-white text-center">MATEC Grand Stage Zone (Outdoor)</h4>
                                 <hr class="my-4">
                                 <table class="w-100 text-white">
                                     <tbody>
                                     <tr class="align-top">
                                         <td class="py-2" width="20%">10:00am</td>
                                         <td class="py-2" width="80%">
-                                            Arrival of MARA Chairman <br>
-                                            <b>YBHG. Datuk Wira Dr. Asyraf Wajdi bin Dato' Dusuki</b>
+                                            MATEC Opening Day 3 <br>
+                                           Doa & Negaraku
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">10:15am</td>
+                                        <td class="py-2" width="20%">10:30am</td>
                                         <td class="py-2" width="80%">
-                                            Walkabout Session with <br>
-                                            <b>MARA Chairman</b>
+                                            Emcee Shout-Out
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">12:15pm</td>
+                                        <td class="py-2" width="20%">11:00am</td>
                                         <td class="py-2" width="80%">
-                                            MATEC Launching Ceremony <br>
-                                            <b>YBHG. Datuk Wira Dr. Asyraf Wajdi bin Dato' Dusuki</b>
+                                            Lady Bikers Shout-Out
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">12:30pm</td>
+                                        <td class="py-2" width="20%">12:00pm</td>
                                         <td class="py-2" width="80%">
-                                            Prize Giving Ceremony <br>
-                                            Appreciation Ceremony <br>
-                                            Lucky Draw Session Day 2
+                                            Lucky Draw Session 3
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">13:00pm</td>
+                                        <td class="py-2" width="20%">15:00pm</td>
                                         <td class="py-2" width="80%">
-                                            Launching Ceremony <br>
-                                            <b>PETRONAS MotoExpert</b>
+                                            Champion of MATEC Battle of the Band Showcase
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">13:30pm</td>
+                                        <td class="py-2" width="20%">17:00pm</td>
                                         <td class="py-2" width="80%">
-                                            <b>Workshop Enhancement Program <br> (WEP) Mannol</b>
+                                           B-Boys Competition<br>
+                                           Finale Round
+                                        </td>
+                                    </tr>
+                                    <tr class="align-top">
+                                        <td class="py-2" width="20%">21:30pm</td>
+                                        <td class="py-2" width="80%">
+                                           MATEC Closing Ceremony<br>
+                                           <b>Dato' Seri Ahmad Zahid bin Hamidi</b>
+                                           <br>Exclusive MATEC Fireworks Show
+                                        </td>
+                                    </tr>
+                                    <tr class="align-top">
+                                        <td class="py-2" width="20%">22:00pm</td>
+                                        <td class="py-2" width="80%">
+                                            New Car Launching Ceremony
+                                        </td>
+                                    </tr>
+                                    <tr class="align-top">
+                                        <td class="py-2" width="20%">22:30pm</td>
+                                        <td class="py-2" width="80%">
+                                           MATEC Grand Concert &<br>
+                                           MATEC Grand Lucky Draw
+                                        </td>
+                                    </tr>
+                                    <tr class="align-top">
+                                        <td class="py-2" width="20%">00:00am</td>
+                                        <td class="py-2" width="80%">
+                                           End of Day 3
                                         </td>
                                     </tr>
                                     </tbody>
                                 </table>
                             </div>
                             <div class="col-md-4">
-                                <h4 class="text-white text-center">Day 3 | 22 September 2024 Sunday</h4>
+                                <h4 class="text-white text-center">MATEC Conference Stage Zone (Indoor)</h4>
                                 <hr class="my-4">
                                 <table class="w-100 text-white">
                                     <tbody>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">8:00pm</td>
+                                        <td class="py-2" width="20%">10:00am</td>
                                         <td class="py-2" width="80%">
-                                            Arrival of Deputy Prime Minister <br>
-                                            <b>Dato' Seri Dr. Ahmad Zahid bin Hamidi</b>
+                                            Doa & Negaraku
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">8:30pm</td>
+                                        <td class="py-2" width="20%">10:30am</td>
                                         <td class="py-2" width="80%">
-                                            Walkabout Session with DPM
+                                            TVET Sharing Session<br>
+                                            Mechanic Performance
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">9:00pm</td>
+                                        <td class="py-2" width="20%">14:30pm</td>
                                         <td class="py-2" width="80%">
-                                            Prize Giving Ceremony <br>
-                                            Appreciation Ceremony <br>
-                                            Lucky Draw Session Day 2
+                                            E-Games: MOBILE Legend<br>
+                                            Grand Final
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">9:30pm</td>
+                                        <td class="py-2" width="20%">17:00pm</td>
                                         <td class="py-2" width="80%">
-                                            MATEC Closing Ceremony <br>
-                                            <b>Dato' Seri Dr. Ahmad Zahid bin Hamidi</b> <br>
-                                            Exclusive MATEC Fireworks Show
+                                            Trivia Contest (Public Contest)
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">10.00pm</td>
+                                        <td class="py-2" width="20%">20:00pm</td>
                                         <td class="py-2" width="80%">
-                                            New Car Launching Ceremony
+                                            Exhibitor Shout-Out
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">10.30pm</td>
+                                        <td class="py-2" width="20%">22:00pm</td>
                                         <td class="py-2" width="80%">
-                                            <b>MATEC Grand Concert & <br>
-                                                MATEC Grand Lucky Draw</b>
+                                            End of Day 3
                                         </td>
                                     </tr>
                                     </tbody>
                                 </table>
                             </div>
                             <div class="col-md-4">
-                                <h4 class="text-white text-center">Day 3 | 22 September 2024 Sunday</h4>
+                                <h4 class="text-white text-center">MATEC Motorspot Zone (Outdoor)</h4>
                                 <hr class="my-4">
                                 <table class="w-100 text-white">
                                     <tbody>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">8:00pm</td>
+                                        <td class="py-2" width="20%">10:00am<br>to<br>22:00pm</td>
                                         <td class="py-2" width="80%">
-                                            Arrival of Deputy Prime Minister <br>
-                                            <b>Dato' Seri Dr. Ahmad Zahid bin Hamidi</b>
+                                           <b> MEGA Lady Bikers Gathering <br>
+                                            High End Mega Gathering</b>
                                         </td>
                                     </tr>
                                     <tr class="align-top">
-                                        <td class="py-2" width="20%">8:30pm</td>
+                                        <td class="py-2" width="20%"></td>
                                         <td class="py-2" width="80%">
-                                            Walkabout Session with DPM
-                                        </td>
-                                    </tr>
-                                    <tr class="align-top">
-                                        <td class="py-2" width="20%">9:00pm</td>
-                                        <td class="py-2" width="80%">
-                                            Prize Giving Ceremony <br>
-                                            Appreciation Ceremony <br>
-                                            Lucky Draw Session Day 2
-                                        </td>
-                                    </tr>
-                                    <tr class="align-top">
-                                        <td class="py-2" width="20%">9:30pm</td>
-                                        <td class="py-2" width="80%">
-                                            MATEC Closing Ceremony <br>
-                                            <b>Dato' Seri Dr. Ahmad Zahid bin Hamidi</b> <br>
-                                            Exclusive MATEC Fireworks Show
-                                        </td>
-                                    </tr>
-                                    <tr class="align-top">
-                                        <td class="py-2" width="20%">10.00pm</td>
-                                        <td class="py-2" width="80%">
-                                            New Car Launching Ceremony
-                                        </td>
-                                    </tr>
-                                    <tr class="align-top">
-                                        <td class="py-2" width="20%">10.30pm</td>
-                                        <td class="py-2" width="80%">
-                                            <b>MATEC Grand Concert & <br>
-                                                MATEC Grand Lucky Draw</b>
+                                            Harley Davidson <br>
+                                            Superbike
                                         </td>
                                     </tr>
                                     </tbody>
