@@ -57,9 +57,9 @@ $router->add('contact', function() {
 // Add POST route for form submission
 $router->addPost('send-message', function() {
     // Handle form submission and send email
-    $name = $_POST['name'] ?? '';
-    $email = $_POST['email'] ?? '';
-    $message = $_POST['message'] ?? '';
+    $name = isset($_POST['name']) ? $_POST['name'] : '';
+    $email = isset($_POST['email']) ? $_POST['email'] : '';
+    $message = isset($_POST['message']) ? $_POST['message'] : '';
 
     // Validate input
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
