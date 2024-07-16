@@ -42,7 +42,8 @@
                             </div>
                         </div>
                         <!-- RD Navbar Collapse-->
-                        <div class="rd-navbar-collapse"><a class="button button-primary" href="#" data-triangle=".button-overlay"><span>Coming Soon</span><span class="button-overlay"></span></a>
+                        <div class="rd-navbar-collapse d-sm-block d-none">
+                            <a class="button button-primary" href="#" data-triangle=".button-overlay"><span>Coming Soon</span><span class="button-overlay"></span></a>
                         </div>
                     </div>
                 </div>
