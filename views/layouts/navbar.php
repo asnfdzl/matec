@@ -36,6 +36,9 @@
                                         <a class="rd-nav-link" href="sponsorship">Sponsorship</a>
                                     </li>
                                     <li class="rd-nav-item">
+                                        <a class="rd-nav-link" href="faq">F.A.Q</a>
+                                    </li>
+                                    <li class="rd-nav-item">
                                         <a class="rd-nav-link" href="contact">Contact</a>
                                     </li>
                                 </ul>

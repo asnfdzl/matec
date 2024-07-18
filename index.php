@@ -50,6 +50,10 @@ $router->add('sponsorship', function() {
     require 'views/sponsorship.php';
 });
 
+$router->add('faq', function() {
+    require 'views/faq.php';
+});
+
 $router->add('contact', function() {
     require 'views/contact.php';
 });
