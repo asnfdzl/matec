@@ -176,6 +176,36 @@ body {
     max-width: 1200px;
 }
 
+.button-primary-blue:before {
+	z-index: -2;
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	transition: .3s ease-out all;
+}
+
+.button-primary-blue:before {
+    background-image: -webkit-linear-gradient(left, #2D5CA8 0%, #2D5CA8 100%);
+    background-image: linear-gradient(to right, #2D5CA8 0%, #2D5CA8 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF822EA8', endColorstr='#FFD90E90', GradientType=1);
+}
+
+.navbar-fixed-mobile {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    richness: 0;
+    z-index: 9;
+    background-color: #000000;
+    box-shadow: 0px 0px 70px -2px rgba(33,33,33,0.65);
+    -webkit-box-shadow: 0px 0px 70px -2px rgba(33,33,33,0.65);
+    -moz-box-shadow: 0px 0px 70px -2px rgba(33,33,33,0.65);
+}
+
 @media only screen and (max-width : 991px) {
     .rd-navbar-fixed .rd-navbar-panel {
         background: #000000;
