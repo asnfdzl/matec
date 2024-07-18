@@ -34,6 +34,11 @@
             </div>
         </section>
 
+        <section class="section section-lg bg-default wow fadeIn bg-image-section bg-image-section-efx-white bg-cover-section">
+            <div class="container">
+
+            </div>
+        </section>
 
     </div>
 
