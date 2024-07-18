@@ -36,13 +36,17 @@
                                         <a class="rd-nav-link" href="sponsorship">Sponsorship</a>
                                     </li>
                                     <li class="rd-nav-item">
+                                        <a class="rd-nav-link" href="faq">F.A.Q</a>
+                                    </li>
+                                    <li class="rd-nav-item">
                                         <a class="rd-nav-link" href="contact">Contact</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         <!-- RD Navbar Collapse-->
-                        <div class="rd-navbar-collapse"><a class="button button-primary" href="#" data-triangle=".button-overlay"><span>Coming Soon</span><span class="button-overlay"></span></a>
+                        <div class="rd-navbar-collapse d-sm-block d-none">
+                            <a class="button button-primary" href="#" data-triangle=".button-overlay"><span>Coming Soon</span><span class="button-overlay"></span></a>
                         </div>
                     </div>
                 </div>

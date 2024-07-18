@@ -50,6 +50,10 @@ $router->add('sponsorship', function() {
     require 'views/sponsorship.php';
 });
 
+$router->add('faq', function() {
+    require 'views/faq.php';
+});
+
 $router->add('contact', function() {
     require 'views/contact.php';
 });
@@ -67,10 +71,11 @@ $router->addPost('send-message', function() {
         return;
     }
 
-    // Send email using Postmark API
-    $postmarkApiKey = 'c2ca6cc5-46b0-47a4-8b1b-1efd1a039b4d';
-    $postmarkSender = 'apps@matec.my';
-    $postmarkRecipient = 'admin@example.com';
+    // Get environment variables
+    $postmarkApiKey = getenv('POSTMARK_API_KEY');
+    $postmarkUrl = getenv('POSTMARK_URL');
+    $postmarkSender = getenv('POSTMARK_SENDER');
+    $postmarkRecipient = getenv('POSTMARK_RECIPIENT');
 
     $data = [
         'From' => $postmarkSender,
@@ -80,7 +85,7 @@ $router->addPost('send-message', function() {
     ];
 
     $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, 'https://api.postmarkapp.com/email');
+    curl_setopt($ch, CURLOPT_URL, $postmarkUrl);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
     curl_setopt($ch, CURLOPT_POST, 1);
     curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
