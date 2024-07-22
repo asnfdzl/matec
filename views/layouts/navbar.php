@@ -46,10 +46,36 @@
                         </div>
                         <!-- RD Navbar Collapse-->
                         <div class="rd-navbar-collapse d-sm-block d-none">
-                            <a class="button button-primary" href="#" data-triangle=".button-overlay"><span>Coming Soon</span><span class="button-overlay"></span></a>
+                            <a class="button button-primary" href="#" data-triangle=".button-overlay">
+                                <span>Visitor</span><span class="button-overlay"></span>
+                            </a>
+                            <a class="button button-primary-blue mt-0" href="#" data-triangle=".button-overlay">
+                                <span>Exhibitor</span><span class="button-overlay"></span>
+                            </a>
                         </div>
                     </div>
                 </div>
             </nav>
         </div>
     </header>
+
+    <div class="d-block d-sm-none navbar-fixed-mobile">
+        <div class="row row-0 d-flex align-items-center">
+            <div class="col-4">
+                <a class="button px-0 w-100 text-center button-primary py-4" href="#" data-triangle=".button-overlay">
+                    <span>Visitor</span><span class="button-overlay"></span>
+                </a>
+            </div>
+            <div class="col-4 px-0">
+                <a class="brand w-100" href="/">
+                    <img class="brand-logo-dark" src="<?= asset('images/matec-logo.png') ?>" srcset="<?= asset('images/matec-logo@2x.png 2x') ?>" alt="MATEC 2024"/>
+                    <img class="brand-logo-light" src="<?= asset('images/matec-logo.png') ?>" srcset="<?= asset('images/matec-logo@2x.png 2x') ?>" alt="MATEC 2024"/>
+                </a>
+            </div>
+            <div class="col-4">
+                <a class="button px-0 w-100 text-center button-primary-blue py-4" href="#" data-triangle=".button-overlay">
+                    <span>Exhibitor</span><span class="button-overlay"></span>
+                </a>
+            </div>
+        </div>
+    </div>
