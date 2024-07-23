@@ -30,10 +30,10 @@
                                     <!--  <li class="rd-nav-item"><a class="rd-nav-link" href="vendor.html">For Vendor</a>-->
                                     </li>
                                     <li class="rd-nav-item">
-                                        <a class="rd-nav-link" href="event">About MATEC</a>
+                                        <a class="rd-nav-link" href="the-ideas">The Ideas</a>
                                     </li>
                                     <li class="rd-nav-item">
-                                        <a class="rd-nav-link" href="sponsorship">Sponsorship</a>
+                                        <a class="rd-nav-link" href="partnership">Partnership</a>
                                     </li>
                                     <li class="rd-nav-item">
                                         <a class="rd-nav-link" href="faq">F.A.Q</a>

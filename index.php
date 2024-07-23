@@ -42,11 +42,11 @@ $router->add('', function() {
     require 'views/index.php';
 });
 
-$router->add('event', function() {
+$router->add('the-ideas', function() {
     require 'views/event.php';
 });
 
-$router->add('sponsorship', function() {
+$router->add('partnership', function() {
     require 'views/sponsorship.php';
 });
 
