@@ -19,7 +19,7 @@
                         <p class="event-detail-time big text-white">
                             <time data-splitting datetime="2019-01-05">20 TO 22 SEPTEMBER 2024</time>
                         </p>
-                        <p class="event-detail-address big text-white" data-splitting>Stadium National Bukit Jalil, Bukit Jalil, Kuala Lumpur</p>
+                        <p class="event-detail-address big text-white" data-splitting>Parking B, National Stadium Bukit Jalil, Bukit Jalil, Kuala Lumpur</p>
 
                         <a class="event-detail-link" href="">View map location</a>
                     </div>

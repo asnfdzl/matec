@@ -161,7 +161,7 @@
 
                 <div id="collapseVisitorOne" class="collapse show" aria-labelledby="headingVisitorOne" data-parent="#accordionVisitor">
                     <div class="card-body">
-                        The MHX2024 started on Saturday and Sunday (30th Nov. to 1st Dec. 2024) from 10.00am - 10.00pm.
+                        The MATEC2024 started on Saturday and Sunday (30th Nov. to 1st Dec. 2024) from 10.00am - 10.00pm.
                     </div>
                 </div>
             </div>

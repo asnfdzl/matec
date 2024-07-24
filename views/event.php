@@ -91,58 +91,59 @@
                         <img src="<?= asset('images/matec-images/matec-22.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px mb-2">
                     </div>
                     <div class="col-md-12 col-lg-12 col-xl-12 text-sm-left text-center excitement-image-container">
-                        <div class="row row-15">
-                            <div class="col-md-2 col-6 box-img">
-                                <img src="<?= asset('images/matec-images/matec-23.png') ?>" alt="" class="img-fluid">
+                        <div class="row row-15 justify-content-center mb-sm-0 mb-1">
+                            <div class="col-md-2 col-5 box-img fl">
+                                <img src="<?= asset('images/matec-images/matec-23.png') ?>" alt="" class="image img-fluid">
                                 <p class="mt-3 text-center">Car Gathering</p>
                             </div>
-                            <div class="col-md-2 col-6 box-img">
-                                <img src="<?= asset('images/matec-images/matec-24.png') ?>" alt="" class="img-fluid">
+                            <div class="col-md-2 col-5 box-img fl">
+                                <img src="<?= asset('images/matec-images/matec-24.png') ?>" alt="" class="image img-fluid">
                                 <p class="mt-3 text-center">Bike Gathering</p>
                             </div>
-                            <div class="col-md-2 col-6 box-img">
-                                <img src="<?= asset('images/matec-images/matec-25.png') ?>" alt="" class="img-fluid">
+                            <div class="col-md-2 col-5 box-img fl">
+                                <img src="<?= asset('images/matec-images/matec-25.png') ?>" alt="" class="image img-fluid">
                                 <p class="mt-3 text-center">Concert</p>
                             </div>
-                            <div class="col-md-2 col-6 box-img">
-                                <img src="<?= asset('images/matec-images/matec-26.png') ?>" alt="" class="img-fluid">
+                            <div class="col-md-2 col-5 box-img fl">
+                                <img src="<?= asset('images/matec-images/matec-26.png') ?>" alt="" class="image img-fluid">
                                 <p class="mt-3 text-center">Battle of the Band</p>
                             </div>
-                            <div class="col-md-2 col-6 box-img">
-                                <img src="<?= asset('images/matec-images/matec-27.png') ?>" alt="" class="img-fluid">
+                            <div class="col-md-2 col-5 box-img fl">
+                                <img src="<?= asset('images/matec-images/matec-27.png') ?>" alt="" class="image img-fluid">
                                 <p class="mt-3 text-center">Breakdance Show</p>
                             </div>
-                            <div class="col-md-2 col-6 box-img">
-                                <img src="<?= asset('images/matec-images/matec-28.png') ?>" alt="" class="img-fluid">
+                            <div class="col-md-2 col-5 box-img fl">
+                                <img src="<?= asset('images/matec-images/matec-28.png') ?>" alt="" class="image img-fluid">
                                 <p class="mt-3 text-center">Kids Playground</p>
                             </div>
                         </div>
-                        <div class="row row-15">
-                            <div class="col-md-2 col-6 box-img">
-                                <img src="<?= asset('images/matec-images/matec-29.png') ?>" alt="" class="img-fluid">
+                        <div class="row row-15 justify-content-center mb-sm-0 mb-1">
+                            <div class="col-md-2 col-5 box-img fl">
+                                <img src="<?= asset('images/matec-images/matec-29.png') ?>" alt="" class="image img-fluid">
                                 <p class="mt-3 text-center">Product Presentation</p>
                             </div>
-                            <div class="col-md-2 col-6 box-img">
-                                <img src="<?= asset('images/matec-images/matec-30.png') ?>" alt="" class="img-fluid">
+                            <div class="col-md-2 col-5 box-img fl">
+                                <img src="<?= asset('images/matec-images/matec-30.png') ?>" alt="" class="image img-fluid">
                                 <p class="mt-3 text-center">Meet & Greet</p>
                             </div>
-                            <div class="col-md-2 col-6 box-img">
-                                <img src="<?= asset('images/matec-images/matec-31.png') ?>" alt="" class="img-fluid">
+                            <div class="col-md-2 col-5 box-img fl">
+                                <img src="<?= asset('images/matec-images/matec-31.png') ?>" alt="" class="image img-fluid">
                                 <p class="mt-3 text-center">Entrepreneur Session</p>
                             </div>
-                            <div class="col-md-2 col-6 box-img">
-                                <img src="<?= asset('images/matec-images/matec-32.png') ?>" alt="" class="img-fluid">
+                            <div class="col-md-2 col-5 box-img fl">
+                                <img src="<?= asset('images/matec-images/matec-32.png') ?>" alt="" class="image img-fluid">
                                 <p class="mt-3 text-center">Talk Show</p>
                             </div>
-                            <div class="col-md-2 col-6 box-img">
-                                <img src="<?= asset('images/matec-images/matec-33.png') ?>" alt="" class="img-fluid">
+                            <div class="col-md-2 col-5 box-img fl">
+                                <img src="<?= asset('images/matec-images/matec-33.png') ?>" alt="" class="image img-fluid">
                                 <p class="mt-3 text-center">Tournament & Contest</p>
                             </div>
-                            <div class="col-md-2 col-6 box-img">
-                                <img src="<?= asset('images/matec-images/matec-34.png') ?>" alt="" class="img-fluid">
+                            <div class="col-md-2 col-5 box-img fl">
+                                <img src="<?= asset('images/matec-images/matec-34.png') ?>" alt="" class="image img-fluid">
                                 <p class="mt-3 text-center">Lucky Draw</p>
                             </div>
                         </div>
+
                         <h4 class="text-center">AND MANY MORE AWAITS YOU!</h4>
                     </div>
                 </div>
@@ -285,7 +286,7 @@
                                 <div class="box-counter-main">
                                     <div class="counter">250</div>
                                 </div>
-                                <p class="box-counter-title">Speakers</p>
+                                <p class="box-counter-title text-red">Speakers</p>
                             </div>
                         </div>
                     </div>
@@ -296,7 +297,7 @@
                                 <div class="box-counter-main">
                                     <div class="counter">1473</div>
                                 </div>
-                                <p class="box-counter-title">Tickets</p>
+                                <p class="box-counter-title text-red">Tickets</p>
                             </div>
                         </div>
                     </div>
@@ -307,7 +308,7 @@
                                 <div class="box-counter-main">
                                     <div class="counter">2347</div>
                                 </div>
-                                <p class="box-counter-title">Sponsors</p>
+                                <p class="box-counter-title text-red">Sponsors</p>
                             </div>
                         </div>
                     </div>
@@ -318,7 +319,7 @@
                                 <div class="box-counter-main">
                                     <div class="counter">60</div>
                                 </div>
-                                <p class="box-counter-title">Sessions</p>
+                                <p class="box-counter-title text-red">Sessions</p>
                             </div>
                         </div>
                     </div>
