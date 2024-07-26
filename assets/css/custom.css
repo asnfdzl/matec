@@ -214,6 +214,10 @@ body {
     color: #ff3520 !important;
 }
 
+.svg-icon-primary {
+	fill: url("#svg-gradient-primary") #c70000 !important;
+}
+
 @media only screen and (max-width : 991px) {
     .rd-navbar-fixed .rd-navbar-panel {
         background: #000000;
