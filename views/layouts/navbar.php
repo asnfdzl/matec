@@ -45,7 +45,7 @@
                         </div>
                         <!-- RD Navbar Collapse-->
                         <div class="rd-navbar-collapse d-sm-block d-none">
-                            <a class="button button-primary" href="http://apps.matec.my/login" data-triangle=".button-overlay">
+                            <a class="button button-primary" href="http://apps.matec.my/visitor/register" data-triangle=".button-overlay">
                                 <span>Visitor</span><span class="button-overlay"></span>
                             </a>
                             <a class="button button-primary-blue mt-0" href="http://apps.matec.my/vendor/login" data-triangle=".button-overlay">
@@ -61,7 +61,7 @@
     <div class="d-block d-sm-none navbar-fixed-mobile">
         <div class="row row-0 d-flex align-items-center">
             <div class="col-4">
-                <a class="button px-0 w-100 text-center button-primary py-4" href="http://apps.matec.my/login" data-triangle=".button-overlay">
+                <a class="button px-0 w-100 text-center button-primary py-4" href="http://apps.matec.my/visitor/register" data-triangle=".button-overlay">
                     <span>Visitor</span><span class="button-overlay"></span>
                 </a>
             </div>
