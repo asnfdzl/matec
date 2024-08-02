@@ -48,7 +48,7 @@
                             <a class="button button-primary" href="http://apps.matec.my/visitor/register" data-triangle=".button-overlay">
                                 <span>Visitor</span><span class="button-overlay"></span>
                             </a>
-                            <a class="button button-primary-blue mt-0" href="http://apps.matec.my/vendor/login" data-triangle=".button-overlay">
+                            <a class="button button-primary-blue mt-0" href="http://apps.matec.my/exhibitor/login" data-triangle=".button-overlay">
                                 <span>Exhibitor</span><span class="button-overlay"></span>
                             </a>
                         </div>
@@ -72,7 +72,7 @@
                 </a>
             </div>
             <div class="col-4">
-                <a class="button px-0 w-100 text-center button-primary-blue py-4" href="http://apps.matec.my/vendor/login" data-triangle=".button-overlay">
+                <a class="button px-0 w-100 text-center button-primary-blue py-4" href="http://apps.matec.my/exhibitor/login" data-triangle=".button-overlay">
                     <span>Exhibitor</span><span class="button-overlay"></span>
                 </a>
             </div>
