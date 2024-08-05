@@ -250,6 +250,14 @@ body {
     /*border-radius: 10px;*/
 }
 
+.rd-navbar-static {
+    z-index: 1050;
+}
+
+.btn-link:hover {
+    color: #c70000;
+}
+
 @media only screen and (max-width : 991px) {
     .rd-navbar-fixed .rd-navbar-panel {
         background: #000000;
