@@ -26,6 +26,12 @@ class Social {
             'icon' => 'fa-youtube-play',
             'target' => '_blank'
         ]*/
+        [
+            'wow-delay' => '.35s',
+            'url' => 'https://x.com/matecofficial',
+            'icon' => 'fa-x-twitter',
+            'target' => '_blank'
+        ],
     ];
 
     public static function getAll() {
