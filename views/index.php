@@ -82,7 +82,7 @@
                             <h5><span class="big">Watch Event<br> Video</span></h5>
                         </div>
                         <div class="unit-right">
-                            <a class="video-link" href="https://youtu.be/u_qFlTu7HTw?si=19hdRf4Dz5h5B8Gx" data-lightgallery="item">
+                            <a class="video-link" href="https://youtu.be/-uEke_WTxwo?si=UEGS7W6lmooMY9vw" data-lightgallery="item">
                                 <div class="video-link-bg" data-triangle=".video-link-overlay"><span class="video-link-overlay"></span></div><span class="icon fa-play"></span>
                             </a>
                         </div>
