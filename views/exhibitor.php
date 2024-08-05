@@ -96,11 +96,11 @@
                             <a href="">
                             <div class="card">
                                 <div class="card-body p-1">
-                                    <div class="row">
+                                    <div class="row align-items-center">
                                         <div class="col-md-12 col-5">
                                             <img src="<?= asset('images/matec-images/ex_001.png') ?>" alt="" class="img-fluid">
                                         </div>
-                                        <div class="col-md-12 col-7">
+                                        <div class="col-md-12 col-7 pl-sm-2 pl-0">
                                             <h5 class="mt-3 mb-3" style="color:#000;">MATEC2024 Event Brief</h5>
                                         </div>
                                     </div>
@@ -112,11 +112,11 @@
                             <a href="">
                             <div class="card">
                                 <div class="card-body p-1">
-                                    <div class="row">
+                                    <div class="row align-items-center">
                                         <div class="col-md-12 col-5">
                                             <img src="<?= asset('images/matec-images/ex_002.png') ?>" alt="" class="img-fluid">
                                         </div>
-                                        <div class="col-md-12 col-7">
+                                        <div class="col-md-12 col-7 pl-sm-2 pl-0">
                                             <h5 class="mt-3 mb-3" style="color:#000;">MATEC2024 Partnership Packages</h5>
                                         </div>
                                     </div>
@@ -128,11 +128,11 @@
                             <a href="">
                             <div class="card">
                                 <div class="card-body p-1">
-                                    <div class="row">
+                                    <div class="row align-items-center">
                                         <div class="col-md-12 col-5">
                                             <img src="<?= asset('images/matec-images/ex_003.png') ?>" alt="" class="img-fluid">
                                         </div>
-                                        <div class="col-md-12 col-7">
+                                        <div class="col-md-12 col-7 pl-sm-2 pl-0">
                                             <h5 class="mt-3 mb-3" style="color:#000;">MATEC2024 Full Layout</h5>
                                         </div>
                                     </div>
@@ -144,11 +144,11 @@
                             <a href="">
                             <div class="card">
                                 <div class="card-body p-1">
-                                    <div class="row">
+                                    <div class="row align-items-center">
                                         <div class="col-md-12 col-5">
                                             <img src="<?= asset('images/matec-images/ex_004.png') ?>" alt="" class="img-fluid">
                                         </div>
-                                        <div class="col-md-12 col-7">
+                                        <div class="col-md-12 col-7 pl-sm-2 pl-0">
                                             <h5 class="mt-3 mb-3" style="color:#000;">EXHIBitor F.A.Q</h5>
                                         </div>
                                     </div>
