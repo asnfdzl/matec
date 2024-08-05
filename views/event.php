@@ -66,15 +66,15 @@
         </section>
 
         <!-- Section We Have Top Executive And Start Up Here-->
-        <section class="parallax-container section" data-parallax-img="<?= asset('images/bg-parallax-05-1894x758.jpg') ?>">
+        <section class="parallax-container section" data-parallax-img="<?= asset('images/matec-images/bg_div_001.png') ?>">
             <div class="parallax-content section-lg context-dark text-center">
                 <div class="container">
                     <div class="row row-30 justify-content-center">
                         <div class="col-md-10 col-lg-9">
-                            <h6 class="text-secondary">get involved in our business community</h6>
-                            <h2>980+ have registered to join our business conference.</h2>
-                            <a class="button button-secondary box-with-triangle-right button-offset-xl" href="#" data-triangle=".button-overlay">
-                                <span>Reserve your seat</span><span class="button-overlay"></span>
+                            <h6 class="text-third">GET TOGETHER NOW WITH US, AND FEEL THE EXPERIENCE</h6>
+                            <h2>JOIN US WITH AN EXCITEMENT <br> ACTIVITIES, INDOOR & OUTDOOR</h2>
+                            <a class="button button-primary box-with-triangle-right button-offset-xl" href="#" data-triangle=".button-overlay">
+                                <span>Reserve Youse Seatr</span><span class="button-overlay"></span>
                             </a>
                         </div>
                     </div>
@@ -91,56 +91,128 @@
                         <img src="<?= asset('images/matec-images/matec-22.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px mb-2">
                     </div>
                     <div class="col-md-12 col-lg-12 col-xl-12 text-sm-left text-center excitement-image-container">
-                        <div class="row row-15 justify-content-center mb-sm-0 mb-1">
-                            <div class="col-md-2 col-5 box-img fl">
-                                <img src="<?= asset('images/matec-images/matec-23.png') ?>" alt="" class="image img-fluid">
-                                <p class="mt-3 text-center">Car Gathering</p>
+                        <div class="row row-15 justify-content-center mb-sm-0 mb-1 ">
+                            <div class="col-md-2 col-6 px-2">
+                                <a href="">
+                                <div class="card">
+                                    <div class="card-body box-img fl">
+                                        <img src="<?= asset('images/matec-images/matec-23.png') ?>" alt="" class="image img-fluid">
+                                        <p class="mt-3 text-center">Car Gathering</p>
+                                    </div>
+                                </div>
+                                </a>
                             </div>
-                            <div class="col-md-2 col-5 box-img fl">
-                                <img src="<?= asset('images/matec-images/matec-24.png') ?>" alt="" class="image img-fluid">
-                                <p class="mt-3 text-center">Bike Gathering</p>
+                            <div class="col-md-2 col-6 px-2">
+                                <a href="">
+                                <div class="card">
+                                    <div class="card-body box-img fl">
+                                        <img src="<?= asset('images/matec-images/matec-24.png') ?>" alt="" class="image img-fluid">
+                                        <p class="mt-3 text-center">Bike Gathering</p>
+                                    </div>
+                                </div>
+                                </a>
                             </div>
-                            <div class="col-md-2 col-5 box-img fl">
-                                <img src="<?= asset('images/matec-images/matec-25.png') ?>" alt="" class="image img-fluid">
-                                <p class="mt-3 text-center">Concert</p>
+                            <div class="col-md-2 col-6 px-2">
+                                <a href="">
+                                <div class="card">
+                                    <div class="card-body box-img fl">
+                                        <img src="<?= asset('images/matec-images/matec-25.png') ?>" alt="" class="image img-fluid">
+                                        <p class="mt-3 text-center">Concert</p>
+                                    </div>
+                                </div>
+                                </a>
                             </div>
-                            <div class="col-md-2 col-5 box-img fl">
-                                <img src="<?= asset('images/matec-images/matec-26.png') ?>" alt="" class="image img-fluid">
-                                <p class="mt-3 text-center">Battle of the Band</p>
+                            <div class="col-md-2 col-6 px-2">
+                                <a href="">
+                                <div class="card">
+                                    <div class="card-body box-img fl">
+                                        <img src="<?= asset('images/matec-images/matec-26.png') ?>" alt="" class="image img-fluid">
+                                        <p class="mt-3 text-center">Battle of the Band</p>
+                                    </div>
+                                </div>
+                                </a>
                             </div>
-                            <div class="col-md-2 col-5 box-img fl">
-                                <img src="<?= asset('images/matec-images/matec-27.png') ?>" alt="" class="image img-fluid">
-                                <p class="mt-3 text-center">Breakdance Show</p>
+                            <div class="col-md-2 col-6 px-2">
+                                <a href="">
+                                <div class="card">
+                                    <div class="card-body box-img fl">
+                                        <img src="<?= asset('images/matec-images/matec-27.png') ?>" alt="" class="image img-fluid">
+                                        <p class="mt-3 text-center">Breakdance Show</p>
+                                    </div>
+                                </div>
+                                </a>
                             </div>
-                            <div class="col-md-2 col-5 box-img fl">
-                                <img src="<?= asset('images/matec-images/matec-28.png') ?>" alt="" class="image img-fluid">
-                                <p class="mt-3 text-center">Kids Playground</p>
+                            <div class="col-md-2 col-6 px-2">
+                                <a href="">
+                                <div class="card">
+                                    <div class="card-body box-img fl">
+                                        <img src="<?= asset('images/matec-images/matec-28.png') ?>" alt="" class="image img-fluid">
+                                        <p class="mt-3 text-center">Kids Playground</p>
+                                    </div>
+                                </div>
+                                </a>
                             </div>
                         </div>
-                        <div class="row row-15 justify-content-center mb-sm-0 mb-1">
-                            <div class="col-md-2 col-5 box-img fl">
-                                <img src="<?= asset('images/matec-images/matec-29.png') ?>" alt="" class="image img-fluid">
-                                <p class="mt-3 text-center">Product Presentation</p>
+                        <div class="row row-15 justify-content-center mb-sm-0 mb-1 mt-sm-0 mt-0">
+                            <div class="col-md-2 col-6 px-2">
+                                <a href="">
+                                <div class="card">
+                                    <div class="card-body box-img fl">
+                                        <img src="<?= asset('images/matec-images/matec-29.png') ?>" alt="" class="image img-fluid">
+                                        <p class="mt-3 text-center">Product Presentation</p>
+                                    </div>
+                                </div>
+                                </a>
                             </div>
-                            <div class="col-md-2 col-5 box-img fl">
-                                <img src="<?= asset('images/matec-images/matec-30.png') ?>" alt="" class="image img-fluid">
-                                <p class="mt-3 text-center">Meet & Greet</p>
+                            <div class="col-md-2 col-6 px-2">
+                                <a href="">
+                                <div class="card">
+                                    <div class="card-body box-img fl">
+                                        <img src="<?= asset('images/matec-images/matec-30.png') ?>" alt="" class="image img-fluid">
+                                        <p class="mt-3 text-center">Meet & Greet</p>
+                                    </div>
+                                </div>
+                                </a>
                             </div>
-                            <div class="col-md-2 col-5 box-img fl">
-                                <img src="<?= asset('images/matec-images/matec-31.png') ?>" alt="" class="image img-fluid">
-                                <p class="mt-3 text-center">Entrepreneur Session</p>
+                            <div class="col-md-2 col-6 px-2">
+                                <a href="">
+                                <div class="card">
+                                    <div class="card-body box-img fl">
+                                        <img src="<?= asset('images/matec-images/matec-31.png') ?>" alt="" class="image img-fluid">
+                                        <p class="mt-3 text-center">Entrepreneur Session</p>
+                                    </div>
+                                </div>
+                                </a>
                             </div>
-                            <div class="col-md-2 col-5 box-img fl">
-                                <img src="<?= asset('images/matec-images/matec-32.png') ?>" alt="" class="image img-fluid">
-                                <p class="mt-3 text-center">Talk Show</p>
+                            <div class="col-md-2 col-6 px-2">
+                                <a href="">
+                                <div class="card">
+                                    <div class="card-body box-img fl">
+                                        <img src="<?= asset('images/matec-images/matec-32.png') ?>" alt="" class="image img-fluid">
+                                        <p class="mt-3 text-center">Talk Show</p>
+                                    </div>
+                                </div>
+                                </a>
                             </div>
-                            <div class="col-md-2 col-5 box-img fl">
-                                <img src="<?= asset('images/matec-images/matec-33.png') ?>" alt="" class="image img-fluid">
-                                <p class="mt-3 text-center">Tournament & Contest</p>
+                            <div class="col-md-2 col-6 px-2">
+                                <a href="">
+                                <div class="card">
+                                    <div class="card-body box-img fl">
+                                        <img src="<?= asset('images/matec-images/matec-33.png') ?>" alt="" class="image img-fluid">
+                                        <p class="mt-3 text-center">Tournament & Contest</p>
+                                    </div>
+                                </div>
+                                </a>
                             </div>
-                            <div class="col-md-2 col-5 box-img fl">
-                                <img src="<?= asset('images/matec-images/matec-34.png') ?>" alt="" class="image img-fluid">
-                                <p class="mt-3 text-center">Lucky Draw</p>
+                            <div class="col-md-2 col-6 px-2">
+                                <a href="">
+                                <div class="card">
+                                    <div class="card-body box-img fl">
+                                        <img src="<?= asset('images/matec-images/matec-34.png') ?>" alt="" class="image img-fluid">
+                                        <p class="mt-3 text-center">Lucky Draw</p>
+                                    </div>
+                                </div>
+                                </a>
                             </div>
                         </div>
 

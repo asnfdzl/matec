@@ -28,10 +28,10 @@
             <!-- Waves-->
             <canvas class="waves" data-speed="5" data-wave-width="150%" data-animation="SineInOut"></canvas>
             <!-- Swiper Content-->
-            <div class="section-swiper-content">
+            <div class="section-swiper-content fullscreen-height d-sm-flex d-block align-items-center">
                 <div class="container">
                     <div class="row justify-content-lg-center">
-                        <div class="col-lg-10">
+                        <div class="col-lg-10 col-12">
                             <!--<div class="badge-promo wow fadeScale" data-wow-delay=".6s"><span class="badge-promo-text">Upcoming New 2019 event</span>
                                 <svg class="badge-promo-icon" width="319" height="49" viewBox="0 0 319 49" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H319L299 25L319 49H0L20 25L0 0Z" fill="url( #svg-gradient-primary )"></path>
@@ -39,7 +39,8 @@
                                 </svg>
                             </div>-->
                             <h3 class="wow fadeInUp text-spacing-200" data-wow-delay=".8s" data-caption-animate="fadeInUp" data-caption-delay="300" data-caption-duration="900">
-                                MARA AUTOMOTIVE ECOSYSTEM
+                                <!--MARA AUTOMOTIVE ECOSYSTEM-->
+                                <img src="<?= asset('images/matec-logo.png') ?>" alt="" class="w-75 mb-5">
                             </h3>
                             <h2 class="wow fadeScale" data-caption-animate="fadeInUp" data-caption-delay="100" data-caption-duration="900">ENTREPRENEURIAL ENGINE: <br> ACCELERATING AUTOMOTIVE GROWTH</h2>
                             <!-- List Inline-->
@@ -81,7 +82,7 @@
                             <h5><span class="big">Watch Event<br> Video</span></h5>
                         </div>
                         <div class="unit-right">
-                            <a class="video-link" href="https://youtu.be/u_qFlTu7HTw?si=19hdRf4Dz5h5B8Gx" data-lightgallery="item">
+                            <a class="video-link" href="https://youtu.be/-uEke_WTxwo?si=UEGS7W6lmooMY9vw" data-lightgallery="item">
                                 <div class="video-link-bg" data-triangle=".video-link-overlay"><span class="video-link-overlay"></span></div><span class="icon fa-play"></span>
                             </a>
                         </div>

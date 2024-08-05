@@ -1,0 +1,300 @@
+<html class="wide" lang="en">
+<head>
+    <title>Welcome to MATEC 2024 :: About MATEC</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="<?= asset('images/logo.png') ?>" type="image/x-icon">
+
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <?php require 'layouts/__css.php' ?>
+
+</head>
+<body>
+
+    <?php require 'layouts/loader.php' ?>
+
+    <div class="page">
+
+        <!-- Section Header Default-->
+        <header class="section page-header">
+            <!--RD Navbar-->
+            <div class="rd-navbar-wrap">
+                <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="76px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+                    <div class="rd-navbar-main-outer">
+                        <div class="rd-navbar-main">
+                            <!--RD Navbar Panel-->
+                            <div class="rd-navbar-panel">
+                                <!--RD Navbar Toggle-->
+                                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                                <!--RD Navbar Brand-->
+                                <div class="rd-navbar-brand">
+                                    <!--Brand-->
+                                    <a class="brand" href="/">
+                                        <img class="brand-logo-dark" src="<?= asset('images/matec-logo.png') ?>" srcset="<?= asset('images/matec-logo@2x.png 2x') ?>" alt="MATEC 2024"/>
+                                        <img class="brand-logo-light" src="<?= asset('images/matec-logo.png') ?>" srcset="<?= asset('images/matec-logo@2x.png 2x') ?>" alt="MATEC 2024"/>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <!-- Rd Navbar Navigation-->
+                            <div class="rd-navbar-main-element">
+                                <div class="rd-navbar-nav-wrap">
+                                    <ul class="rd-navbar-nav">
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- RD Navbar Collapse-->
+                            <div class="rd-navbar-collapse d-sm-block d-none">
+                                <!--<a class="button button-primary" href="http://apps.matec.my/visitor/register" data-triangle=".button-overlay">
+                                    <span>Visitor</span><span class="button-overlay"></span>
+                                </a>-->
+                                <a class="button button-primary-blue mt-0" href="http://apps.matec.my/exhibitor/login" data-triangle=".button-overlay">
+                                    <span>Register Here</span><span class="button-overlay"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <div class="d-block d-sm-none navbar-fixed-mobile w-100">
+            <div class="row row-0 d-flex align-items-center">
+                <!--<div class="col-6 px-0">
+                    <a class="button px-0 w-100 text-center button-primary py-4" href="http://apps.matec.my/visitor/register" data-triangle=".button-overlay">
+                        <span>Visitor</span><span class="button-overlay"></span>
+                    </a>
+                </div>-->
+
+                <div class="col-12 px-0">
+                    <a class="w-150px button px-0 w-100 text-center button-primary-blue py-4" href="http://apps.matec.my/exhibitor/login" data-triangle=".button-overlay">
+                        <span>Register Here</span><span class="button-overlay"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Section Swiper Slider-->
+        <section class="section section-swiper-absoulte context-dark text-center wow fadeIn">
+            <!-- Waves-->
+            <canvas class="waves" data-speed="5" data-wave-width="150%" data-animation="SineInOut"></canvas>
+            <!-- Swiper Content-->
+            <div class="section-swiper-content d-sm-flex d-block align-items-center">
+                <div class="container">
+                    <h4 class="wow fadeScale" data-caption-animate="fadeInUp" data-caption-delay="100" data-caption-duration="900">
+                        Become part of Malaysia’a largest automotive ecosystem fair and enjoy all benefits and programs to help you grow your business. Let’s join and be apart of MATEC2024.
+                    </h4>
+                    <div class="row row-30 justify-content-lg-center">
+                        <div class="col-md-3">
+                            <a href="" data-fancybox data-type="pdf" data-src="<?= asset('pdf/MATEC2024_Event_Brief_v6_05082024.pdf') ?>">
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-12 col-5">
+                                            <img src="<?= asset('images/matec-images/ex_001.png') ?>" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-md-12 col-7 pl-sm-2 pl-0">
+                                            <h5 class="mt-3 mb-3" style="color:#000;">MATEC2024 Event Brief</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="" data-fancybox data-type="pdf" data-src="<?= asset('pdf/MATEC2024_Partnership_Deck_v1_05082024.pdf') ?>">
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-12 col-5">
+                                            <img src="<?= asset('images/matec-images/ex_002.png') ?>" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-md-12 col-7 pl-sm-2 pl-0">
+                                            <h5 class="mt-3 mb-3" style="color:#000;">MATEC2024 Partnership Packages</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="" data-fancybox data-src="#event-itinerary-popup">
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-12 col-5">
+                                            <img src="<?= asset('images/matec-images/ex_003.png') ?>" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-md-12 col-7 pl-sm-2 pl-0">
+                                            <h5 class="mt-3 mb-3" style="color:#000;">MATEC2024 Full Layout</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="" data-fancybox data-src="#exhibitor_faq">
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-12 col-5">
+                                            <img src="<?= asset('images/matec-images/ex_004.png') ?>" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-md-12 col-7 pl-sm-2 pl-0">
+                                            <h5 class="mt-3 mb-3" style="color:#000;">EXHIBITOR F.A.Q</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                    <!--<h5 class="mt-5 font-weight-normal text-capitalize">
+                        Please click to view
+                    </h5>-->
+                </div>
+
+            </div>
+            <!-- Swiper Slider Absolute-->
+            <div class="swiper-container swiper-slider swiper-slider-1" data-loop="true" data-simulate-touch="false" data-autoplay="8500" data-direction="horizontal" data-effect="fade">
+                <div class="swiper-wrapper">
+                    <!-- Swiper Slide 01-->
+                    <div class="swiper-slide" data-slide-bg="<?= asset('images/matec-slide.png') ?>"></div>
+                    <!-- Swiper Slide 02-->
+                    <!--<div class="swiper-slide" data-slide-bg="<?php /*= asset('images/slide-02-1894x1042.jpg') */?>"></div>-->
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <?php include "layouts/footer.php"; ?>
+
+    </div>
+
+    <div id="exhibitor_faq" class="p-0 mt-xs-0 mt-5" style="display: none; max-width:820px;">
+        <div class="card">
+            <div class="card-body">
+                <h3 class="mb-4">EXHIBITOR - FREQUENTLY ASK QUESTION</h3>
+                <div class="accordion" id="accordionExhibitor">
+                    <div class="card">
+                        <div class="card-header" id="headingExhibitorOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseExhibitorOne" aria-expanded="true" aria-controls="collapseExhibitorOne">
+                                    How many exhibitors can you accommodate?
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseExhibitorOne" class="collapse show" aria-labelledby="headingExhibitorOne" data-parent="#accordionExhibitor">
+                            <div class="card-body">
+                                Well over 350 exhibitor with the space to expand if we need to as on 2019, we are moving to bigger hall @ 10,000m2.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingExhibitorTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseExhibitorTwo" aria-expanded="false" aria-controls="collapseExhibitorTwo">
+                                    What size spaces do you have available?
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseExhibitorTwo" class="collapse" aria-labelledby="headingExhibitorTwo" data-parent="#accordionExhibitor">
+                            <div class="card-body">
+                                We have a variety of different exhibition spaces available. Our smallest space starts at 2m x 2m all the way up to your request. We can also accommodate larger sizes on request. If you want more info on the spaces available, please request a copy of our exhibitor information pack and refer to the attached floor plan.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingExhibitorThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseExhibitorThree" aria-expanded="false" aria-controls="collapseExhibitorThree">
+                                    How much does it cost to exhibit?
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseExhibitorThree" class="collapse" aria-labelledby="headingExhibitorThree" data-parent="#accordionExhibitor">
+                            <div class="card-body">
+                                Please refer our Exhibitor Sales Kit for more information.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingExhibitorFour">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseExhibitorFour" aria-expanded="false" aria-controls="collapseExhibitorFour">
+                                    Do you offer a shell scheme?
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseExhibitorFour" class="collapse" aria-labelledby="headingExhibitorFour" data-parent="#accordionExhibitor">
+                            <div class="card-body">
+                                Yes. Some of our smaller spaces (from 3m x 3m) can be purchased as 'booth package' including shell scheme and carpet.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingExhibitorFive">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseExhibitorFive" aria-expanded="false" aria-controls="collapseExhibitorFive">
+                                    Do you have sponsorship packages available?
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseExhibitorFive" class="collapse" aria-labelledby="headingExhibitorFive" data-parent="#accordionExhibitor">
+                            <div class="card-body">
+                                Yes we do and we are seeking for a various type of sponsorship. Please contact us to know more about sponsorship matter.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingExhibitorSix">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseExhibitorSix" aria-expanded="false" aria-controls="collapseExhibitorSix">
+                                    Can we sponsor the event without exhibiting?
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseExhibitorSix" class="collapse" aria-labelledby="headingExhibitorSix" data-parent="#accordionExhibitor">
+                            <div class="card-body">
+                                Yes. We are aware that under certain circumstances it's not always ideal for you to exhibit but may well like to advertise your presence at the event. We have several advertising opportunities available please get in touch for more information.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingExhibitorSeven">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseExhibitorSeven" aria-expanded="false" aria-controls="collapseExhibitorSeven">
+                                    Is there accommodation near by?
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseExhibitorSeven" class="collapse" aria-labelledby="headingExhibitorSeven" data-parent="#accordionExhibitor">
+                            <div class="card-body">
+                                There are a few hotels on site with many a short car ride away.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <?php require "layouts/__js.php" ?>
+
+    <script>
+        Fancybox.bind('[data-fancybox]', {
+
+        });
+    </script>
+
+</body>
+</html>

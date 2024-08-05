@@ -2,6 +2,10 @@ body {
     color: #010101 !important;
 }
 
+.text-third, .context-dark .text-third {
+    color: #cf001f;
+}
+
 .section-background {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
 }
@@ -218,6 +222,42 @@ body {
 	fill: url("#svg-gradient-primary") #c70000 !important;
 }
 
+.video-link-bg {
+    position: absolute;
+    top: 15px;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    overflow: hidden;
+    background-image: -webkit-linear-gradient(left, #2D5CA8 0%, #2D5CA8 100%);
+    background-image: linear-gradient(to right, #2D5CA8 0%, #2D5CA8 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEF7630', endColorstr='#FFF09922', GradientType=1);
+    border-radius: 50%;
+}
+
+.excitement-image-container .image {
+    max-width:65%;
+    display: block;
+    margin: 0 auto;
+}
+
+.box-img.fl {
+    /*padding: 1rem 1rem;*/
+    border: 2px solid darkgray;
+    /*box-sizing: border-box;*/
+    /*margin: 5px;*/
+    /*border-radius: 10px;*/
+}
+
+.rd-navbar-static {
+    z-index: 1050;
+}
+
+.btn-link:hover {
+    color: #c70000;
+}
+
 @media only screen and (max-width : 991px) {
     .rd-navbar-fixed .rd-navbar-panel {
         background: #000000;
@@ -252,11 +292,11 @@ body {
     }
 
     .box-img.fl {
-        padding: 1rem 1rem;
+        /*padding: 1rem 1rem;*/
         border: 2px solid darkgray;
-        box-sizing: border-box;
-        margin: 15px;
-        border-radius: 10px;
+        /*box-sizing: border-box;*/
+        /*margin: 15px;*/
+        /*border-radius: 10px;*/
     }
     .box-location.flex {
         height: auto !important;

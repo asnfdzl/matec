@@ -1,5 +1,7 @@
 var matec = {
     init: function () {
+        matec.fancyApps()
+
         matec.setEqualHeight($(".justify-content-center .box-location"));
         matec.setEqualHeight($(".excitement-image-container .box-img"));
 
@@ -23,6 +25,10 @@ var matec = {
         // Set the maximum height to all div elements
         elements.height(maxHeight);
     },
+
+    fancyApps: function () {
+
+    }
 }
 
 

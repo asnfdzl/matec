@@ -58,6 +58,10 @@ $router->add('contact', function() {
     require 'views/contact.php';
 });
 
+$router->add('exhibitor', function () {
+    require 'views/exhibitor.php';
+});
+
 // Add POST route for form submission
 $router->addPost('send-message', function() {
     // Handle form submission and send email
