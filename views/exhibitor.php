@@ -73,7 +73,7 @@
                 </div>-->
 
                 <div class="col-12 px-0">
-                    <a class="button px-0 w-100 text-center button-primary-blue py-4" href="http://apps.matec.my/exhibitor/login" data-triangle=".button-overlay">
+                    <a class="w-150px button px-0 w-100 text-center button-primary-blue py-4" href="http://apps.matec.my/exhibitor/login" data-triangle=".button-overlay">
                         <span>Register Here</span><span class="button-overlay"></span>
                     </a>
                 </div>
@@ -93,73 +93,73 @@
                     </h4>
                     <div class="row row-30 justify-content-lg-center">
                         <div class="col-md-3">
+                            <a href="">
                             <div class="card">
                                 <div class="card-body p-1">
                                     <div class="row">
                                         <div class="col-md-12 col-5">
-                                            <img src="<?= asset('images/800x800.png') ?>" alt="" class="img-fluid">
+                                            <img src="<?= asset('images/matec-images/ex_001.png') ?>" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-md-12 col-7">
                                             <h5 class="mt-3 mb-3" style="color:#000;">MATEC2024 Event Brief</h5>
                                         </div>
                                     </div>
-
-
                                 </div>
                             </div>
+                           </a>
                         </div>
                         <div class="col-md-3">
+                            <a href="">
                             <div class="card">
                                 <div class="card-body p-1">
                                     <div class="row">
                                         <div class="col-md-12 col-5">
-                                            <img src="<?= asset('images/800x800.png') ?>" alt="" class="img-fluid">
+                                            <img src="<?= asset('images/matec-images/ex_002.png') ?>" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-md-12 col-7">
                                             <h5 class="mt-3 mb-3" style="color:#000;">MATEC2024 Partnership Packages</h5>
                                         </div>
                                     </div>
-
-
                                 </div>
                             </div>
+                           </a>
                         </div>
                         <div class="col-md-3">
+                            <a href="">
                             <div class="card">
                                 <div class="card-body p-1">
                                     <div class="row">
                                         <div class="col-md-12 col-5">
-                                            <img src="<?= asset('images/800x800.png') ?>" alt="" class="img-fluid">
+                                            <img src="<?= asset('images/matec-images/ex_003.png') ?>" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-md-12 col-7">
                                             <h5 class="mt-3 mb-3" style="color:#000;">MATEC2024 Full Layout</h5>
                                         </div>
                                     </div>
-
-
                                 </div>
                             </div>
+                           </a>
                         </div>
                         <div class="col-md-3">
+                            <a href="">
                             <div class="card">
                                 <div class="card-body p-1">
                                     <div class="row">
                                         <div class="col-md-12 col-5">
-                                            <img src="<?= asset('images/800x800.png') ?>" alt="" class="img-fluid">
+                                            <img src="<?= asset('images/matec-images/ex_004.png') ?>" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-md-12 col-7">
                                             <h5 class="mt-3 mb-3" style="color:#000;">EXHIBitor F.A.Q</h5>
                                         </div>
                                     </div>
-
-
                                 </div>
                             </div>
+                           </a>
                         </div>
                     </div>
-                    <h5 class="mt-5 font-weight-normal text-capitalize">
+                    <!--<h5 class="mt-5 font-weight-normal text-capitalize">
                         Please click to view
-                    </h5>
+                    </h5>-->
                 </div>
 
             </div>

@@ -10,8 +10,10 @@
             <div class="row row-30">
                 <div class="col-xs-10 col-lg-4">
                     <a class="brand" href="/">
-                        <img class="img-fluid mb-5" src="<?= asset('images/matec-logo.png') ?>" srcset="<?= asset('images/matec-logo@2x.png 2x') ?>" alt="Matec 2024">
+                        <img class="w-75 mb-5" src="<?= asset('images/matec-logo.png') ?>" srcset="<?= asset('images/matec-logo@2x.png 2x') ?>" alt="Matec 2024">
                     </a>
+
+
                 </div>
                 <div class="col-xs-12 col-lg-4">
                     <h5><span class="big font-weight-sbold">Event detail</span></h5>

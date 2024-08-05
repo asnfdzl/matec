@@ -45,10 +45,10 @@
                         </div>
                         <!-- RD Navbar Collapse-->
                         <div class="rd-navbar-collapse d-sm-block d-none">
-                            <a class="button button-primary" href="http://apps.matec.my/visitor/register" data-triangle=".button-overlay">
+                            <a class="w-150px button button-primary" href="http://apps.matec.my/visitor/register" data-triangle=".button-overlay">
                                 <span>Visitor</span><span class="button-overlay"></span>
                             </a>
-                            <a class="button button-primary-blue mt-0" href="exhibitor" data-triangle=".button-overlay">
+                            <a class="w-150px button button-primary-blue mt-0" href="exhibitor" data-triangle=".button-overlay">
                                 <span>Exhibitor</span><span class="button-overlay"></span>
                             </a>
                         </div>
