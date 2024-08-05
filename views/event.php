@@ -348,50 +348,27 @@
         <hr>
 
         <!-- Section With Counters-->
-        <section class="section section-md bg-default text-center">
-            <div class="container">
-                <div class="row row-30 row-bordered">
-                    <div class="col-6 col-md-3 row-bordered-item">
-                        <div class="wow fadeInUp" data-wow-delay=".3">
-                            <!--Counter-->
-                            <div class="box-counter">
-                                <div class="box-counter-main">
-                                    <div class="counter">250</div>
-                                </div>
-                                <p class="box-counter-title text-red">Speakers</p>
+        <section class="section" style="background-image: url(<?= asset('images/matec-images/matec-60.png') ?>); background-size:cover; background-position: top left;">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-12">
+                    <img src="<?= asset('images/matec-images/matec-59.png') ?>" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-6 col-12 pl-sm-0">
+                    <div class="row">
+                        <div class="col-md-11 col-11 mx-sm-0 mx-auto">
+                            <div class="text-sm-left text-center py-sm-0 py-5">
+                                <p>This is the inaugural MARA Automotive Eco System Exhibition, bringing a wave of excitement to all Malaysians. MATEC2024 offers more than just a traditional showcase; it presents numerous opportunities, not only for entrepreneurs but for all visitors.</h6>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-md-3 row-bordered-item">
-                        <div class="wow fadeInUp" data-wow-delay=".4">
-                            <!--Counter-->
-                            <div class="box-counter">
-                                <div class="box-counter-main">
-                                    <div class="counter">1473</div>
+                            <div class="row mt-sm-5 mt-0 justify-content-center">
+                                <div class="col-md-4 col-8 mx-sm-0 pb-sm-0 pb-5">
+                                    <img src="<?= asset('images/matec-images/matec-56.png') ?>" alt="" class="img-fluid">
                                 </div>
-                                <p class="box-counter-title text-red">Tickets</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-md-3 row-bordered-item">
-                        <div class="wow fadeInUp" data-wow-delay=".5">
-                            <!--Counter-->
-                            <div class="box-counter">
-                                <div class="box-counter-main">
-                                    <div class="counter">2347</div>
+                                <div class="col-md-4 col-8 mx-sm-0 pb-sm-0 pb-5">
+                                    <img src="<?= asset('images/matec-images/matec-57.png') ?>" alt="" class="img-fluid">
                                 </div>
-                                <p class="box-counter-title text-red">Sponsors</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-md-3 row-bordered-item">
-                        <div class="wow fadeInUp" data-wow-delay=".6">
-                            <!--Counter-->
-                            <div class="box-counter">
-                                <div class="box-counter-main">
-                                    <div class="counter">60</div>
+                                <div class="col-md-4 col-8 mx-sm-0 pb-sm-0 pb-5">
+                                    <img src="<?= asset('images/matec-images/matec-58.png') ?>" alt="" class="img-fluid">
                                 </div>
-                                <p class="box-counter-title text-red">Sessions</p>
                             </div>
                         </div>
                     </div>
