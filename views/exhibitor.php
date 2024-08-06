@@ -30,7 +30,7 @@
                             <!--RD Navbar Panel-->
                             <div class="rd-navbar-panel">
                                 <!--RD Navbar Toggle-->
-                                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                                <!--<button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>-->
                                 <!--RD Navbar Brand-->
                                 <div class="rd-navbar-brand">
                                     <!--Brand-->

@@ -301,6 +301,10 @@ body {
     .box-location.flex {
         height: auto !important;
     }
+
+    .ui-to-top {
+        bottom: 85px;
+    }
 }
 
 .w-0px {
