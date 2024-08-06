@@ -30,7 +30,7 @@
                             <!--RD Navbar Panel-->
                             <div class="rd-navbar-panel">
                                 <!--RD Navbar Toggle-->
-                                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                                <!--<button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>-->
                                 <!--RD Navbar Brand-->
                                 <div class="rd-navbar-brand">
                                     <!--Brand-->
@@ -54,7 +54,7 @@
                                 <!--<a class="button button-primary" href="http://apps.matec.my/visitor/register" data-triangle=".button-overlay">
                                     <span>Visitor</span><span class="button-overlay"></span>
                                 </a>-->
-                                <a class="button w-150px button-primary-blue mt-0" href="http://apps.matec.my/exhibitor/login" data-triangle=".button-overlay">
+                                <a class="button button-primary-blue mt-0" href="http://apps.matec.my/exhibitor/login" data-triangle=".button-overlay">
                                     <span>Register Here</span><span class="button-overlay"></span>
                                 </a>
                             </div>
