@@ -247,7 +247,7 @@ body {
     border: 2px solid darkgray;
     /*box-sizing: border-box;*/
     /*margin: 5px;*/
-    /*border-radius: 10px;*/
+    border-radius: 10px;
 }
 
 .rd-navbar-static {
@@ -296,7 +296,7 @@ body {
         border: 2px solid darkgray;
         /*box-sizing: border-box;*/
         /*margin: 15px;*/
-        /*border-radius: 10px;*/
+        border-radius: 10px;
     }
     .box-location.flex {
         height: auto !important;

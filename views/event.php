@@ -73,9 +73,9 @@
                         <div class="col-md-10 col-lg-9">
                             <h6 class="text-third">GET TOGETHER NOW WITH US, AND FEEL THE EXPERIENCE</h6>
                             <h2>JOIN US WITH AN EXCITEMENT <br> ACTIVITIES, INDOOR & OUTDOOR</h2>
-                            <a class="button button-primary box-with-triangle-right button-offset-xl" href="#" data-triangle=".button-overlay">
+                            <!--<a class="button button-primary box-with-triangle-right button-offset-xl" href="#" data-triangle=".button-overlay">
                                 <span>Reserve Youse Seatr</span><span class="button-overlay"></span>
-                            </a>
+                            </a>-->
                         </div>
                     </div>
                 </div>
