@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="wide" lang="en">
 <head>
-    <title>Welcome to MATEC 2024 :: Sponsorship</title>
+    <title>Welcome to MATEC 2024 :: Partnerships</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
@@ -28,9 +28,9 @@
             <div class="parallax-content section-lg context-dark text-center section-background">
                 <ul class="breadcrumbs-custom-path">
                     <li><a href="/">Home</a></li>
-                    <li class="active">Sponsorship</li>
+                    <li class="active">Partnerships</li>
                 </ul>
-                <h3 class="breadcrumbs-custom-title">Sponsorship</h3>
+                <h3 class="breadcrumbs-custom-title">Partnerships</h3>
             </div>
         </section>
 

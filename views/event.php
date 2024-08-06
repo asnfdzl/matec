@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="wide" lang="en">
 <head>
-    <title>Welcome to MATEC 2024 :: About MATEC</title>
+    <title>Welcome to MATEC 2024 :: The Ideas</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
@@ -28,9 +28,9 @@
             <div class="parallax-content section-lg context-dark text-center section-background">
                 <ul class="breadcrumbs-custom-path">
                     <li><a href="/">Home</a></li>
-                    <li class="active">About MATEC</li>
+                    <li class="active">THE IDEAS</li>
                 </ul>
-                <h3 class="breadcrumbs-custom-title">About MATEC</h3>
+                <h3 class="breadcrumbs-custom-title">The Ideas</h3>
             </div>
         </section>
 

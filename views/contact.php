@@ -94,10 +94,6 @@
                     <div class="col-xs-10 col-sm-9 col-md-6 col-lg-5 col-xl-4">
                         <div class="block-address">
                             <div class="block-address-item">
-                                <h5 class="block-address-title">Address</h5>
-                                <p class="block-address-text">Parking B, National Stadium Bukit Jalil, <br> Bukit Jalil, Kuala Lumpur<br class="d-none d-xs-block"></p>
-                            </div>
-                            <div class="block-address-item">
                                 <h5 class="block-address-title">Phone</h5>
                                 <p class="block-address-text"><span>En Razi:</span> <a href="tel:#">+6011 - 6648387</a><br><span>En Fizzi:</span> <a href="tel:#">+6010 - 5631270</a>
                                 </p>
@@ -105,18 +101,6 @@
                             <div class="block-address-item">
                                 <h5 class="block-address-title">Email</h5>
                                 <p class="block-address-text"><a href="mailto:fakharadzi@mara.gov.my">fakharadzi@mara.gov.my</a><br><a href="mailto:msyafizzi@mara.gov.my">msyafizzi@mara.gov.my</a></p>
-                            </div>
-                            <div class="block-address-item">
-                                <h5 class="block-address-title">Follow</h5>
-                                <ul class="list-inline list-inline-xs">
-                                    <?php foreach ($socialLinks as $social): ?>
-                                        <li data-wow-delay="<?= $social['wow-delay']; ?>">
-                                            <a class="icon icon-rect icon-xs icon-white <?= $social['icon']; ?>" href="<?= $social['url']; ?>" data-triangle=".icon-rect-overlay" target="<?= $social['target']; ?>">
-                                                <div class="icon-rect-overlay"></div>
-                                            </a>
-                                        </li>
-                                    <?php endforeach; ?>
-                                </ul>
                             </div>
                         </div>
                     </div>
