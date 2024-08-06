@@ -54,7 +54,7 @@
                                 <!--<a class="button button-primary" href="http://apps.matec.my/visitor/register" data-triangle=".button-overlay">
                                     <span>Visitor</span><span class="button-overlay"></span>
                                 </a>-->
-                                <a class="button w-150px button-primary-blue mt-0" href="http://apps.matec.my/exhibitor/login" data-triangle=".button-overlay">
+                                <a class="button button-primary-blue mt-0" href="http://apps.matec.my/exhibitor/login" data-triangle=".button-overlay">
                                     <span>Register Here</span><span class="button-overlay"></span>
                                 </a>
                             </div>
