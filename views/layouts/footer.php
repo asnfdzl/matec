@@ -14,7 +14,7 @@
                     </a>
                     <div class="row mt-0">
                         <div class="col-md-6 col-5">
-                            <h5><span class="big font-weight-sbold">Know More About</span></h5>
+                            <h5><span class="big font-weight-bold">Know More About</span></h5>
                         </div>
                         <div class="col-md-6 col-7 pl-sm-0 pl-2">
                             <a class="brand" href="https://www.mara.gov.my/en/index/" target="_blank">
@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-lg-4">
-                    <h5><span class="big font-weight-sbold">Event detail</span></h5>
+                    <h5><span class="big font-weight-bold">Event detail</span></h5>
                     <div class="event-detail">
                         <p class="event-detail-time big text-white">
                             <time data-splitting datetime="2019-01-05">20 TO 22 SEPTEMBER 2024</time>
@@ -35,7 +35,7 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-lg-4">
-                    <h5><span class="big font-weight-sbold">Social Updates</span></h5>
+                    <h5><span class="big font-weight-bold">Social Updates</span></h5>
                     <div class="event-detail">
                         <p class="big text-white">You may wonder why this event is so popular? If you do, find more info about it here.
                         </p>
