@@ -93,12 +93,12 @@
                     </h4>
                     <div class="row row-30 justify-content-lg-center">
                         <div class="col-md-3">
-                            <a href="" data-fancybox data-type="pdf" data-src="<?= asset('pdf/MATEC2024_Event_Brief_v6_05082024.pdf') ?>">
+                            <!--a href="<?//= asset('pdf/MATEC2024_Event_Brief_v6_05082024.pdf') ?>" target="_blank" class="newtab"-->
                             <div class="card">
                                 <div class="card-body p-1">
                                     <div class="row align-items-center">
                                         <div class="col-md-12 col-5">
-                                            <img src="<?= asset('images/matec-images/ex_001.png') ?>" alt="" class="img-fluid">
+                                            <img src="<?= asset('images/matec-images/ex_001.png') ?>" alt="" class="img-fluid newtab" data-pdf-url="<?= asset('pdf/MATEC2024_Event_Brief_v6_05082024.pdf') ?>" >
                                         </div>
                                         <div class="col-md-12 col-7 pl-sm-2 pl-0">
                                             <h5 class="mt-3 mb-3" style="color:#000;">MATEC2024 Event Brief</h5>
@@ -109,12 +109,12 @@
                            </a>
                         </div>
                         <div class="col-md-3">
-                            <a href="" data-fancybox data-type="pdf" data-src="<?= asset('pdf/MATEC2024_Partnership_Deck_v1_05082024.pdf') ?>">
+                            <!--a href="" data-fancybox data-type="pdf" data-src="<?//= asset('pdf/MATEC2024_Partnership_Deck_v1_05082024.pdf') ?>"-->
                             <div class="card">
                                 <div class="card-body p-1">
                                     <div class="row align-items-center">
                                         <div class="col-md-12 col-5">
-                                            <img src="<?= asset('images/matec-images/ex_002.png') ?>" alt="" class="img-fluid">
+                                            <img src="<?= asset('images/matec-images/ex_002.png') ?>" alt="" class="img-fluid newtab" data-pdf-url="<?= asset('pdf/MATEC2024_Partnership_Deck_v1_05082024.pdf') ?>" >
                                         </div>
                                         <div class="col-md-12 col-7 pl-sm-2 pl-0">
                                             <h5 class="mt-3 mb-3" style="color:#000;">MATEC2024 Partnership Packages</h5>
@@ -125,12 +125,12 @@
                            </a>
                         </div>
                         <div class="col-md-3">
-                            <a href="" data-fancybox data-type="pdf" data-src="<?= asset('pdf/MATEC2024_Final_Layout_29072024.pdf') ?>">
+                            <!--a href="" data-fancybox data-type="pdf" data-src="<?= asset('pdf/MATEC2024_Final_Layout_29072024.pdf') ?>"-->
                             <div class="card">
                                 <div class="card-body p-1">
                                     <div class="row align-items-center">
                                         <div class="col-md-12 col-5">
-                                            <img src="<?= asset('images/matec-images/ex_003.png') ?>" alt="" class="img-fluid">
+                                            <img src="<?= asset('images/matec-images/ex_003.png') ?>" alt="" class="img-fluid newtab" data-pdf-url="<?= asset('pdf/MATEC2024_Final_Layout_29072024.pdf') ?>">
                                         </div>
                                         <div class="col-md-12 col-7 pl-sm-2 pl-0">
                                             <h5 class="mt-3 mb-3" style="color:#000;">MATEC2024 Full Layout</h5>
@@ -294,7 +294,18 @@
         Fancybox.bind('[data-fancybox]', {
 
         });
+
+        $(document).ready(function() {
+            $('.newtab').on('click', function(event) {
+            event.preventDefault();
+            var url = $(this).data('pdf-url');
+            window.open(url, '_blank');
+        
+            });
+        });
     </script>
+
+
 
 </body>
 </html>
