@@ -18,7 +18,7 @@
                         </div>
                         <div class="col-md-6 col-7 pl-sm-0 pl-2">
                             <a class="brand" href="https://www.mara.gov.my/en/index/" target="_blank">
-                                <img class="w-150px img-fluid" src="<?= asset('images/matec-images/mara-logo-01.png') ?>" srcset="<?= asset('images/matec-images/mara-logo@2x.png 2x') ?>" alt="Matec 2024">
+                                <img class="w-150px img-fluid" src="<?= asset('images/matec-images/mara-logo.png') ?>" srcset="<?= asset('images/matec-images/mara-logo@2x.png 2x') ?>" alt="Matec 2024">
                             </a>
                         </div>
                     </div>
