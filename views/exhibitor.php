@@ -125,7 +125,7 @@
                            </a>
                         </div>
                         <div class="col-md-3">
-                            <a href="" data-fancybox data-src="#event-itinerary-popup">
+                            <a href="" data-fancybox data-type="pdf" data-src="<?= asset('pdf/MATEC2024_Final_Layout_29072024.pdf') ?>">
                             <div class="card">
                                 <div class="card-body p-1">
                                     <div class="row align-items-center">
