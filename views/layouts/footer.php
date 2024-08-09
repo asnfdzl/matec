@@ -10,15 +10,15 @@
             <div class="row row-30">
                 <div class="col-xs-10 col-lg-4">
                     <a class="brand" href="/">
-                        <img class="w-75 mb-4" src="<?= asset('images/matec-logo.png') ?>" srcset="<?= asset('images/matec-logo@2x.png 2x') ?>" alt="Matec 2024">
+                        <img src="/assets/images/matec-logo.png" srcset="/assets/images/matec-logo@2x.png 2x" alt="Matec 2024" class="w-75 mb-4 d-block mx-sm-0 mx-auto">   
                     </a>
-                    <div class="row mt-0">
-                        <div class="col-md-6 col-5">
+                    <div class="row mt-0 d-flex align-items-center flex-column">
+                        <div class="col-md-12 col-lg-8 mb-4 pr-lg-5 mr-lg-auto ml-lg-4 text-center ">
                             <h5><span class="big font-weight-bold">Know More About</span></h5>
                         </div>
-                        <div class="col-md-6 col-7 pl-sm-0 pl-2">
+                        <div class="col-md-6 col-lg-8 pr-lg-5 mr-lg-auto ml-lg-4 text-center">
                             <a class="brand" href="https://www.mara.gov.my/en/index/" target="_blank">
-                                <img class="w-150px img-fluid" src="<?= asset('images/matec-images/mara-logo.png') ?>" srcset="<?= asset('images/matec-images/mara-logo@2x.png 2x') ?>" alt="Matec 2024">
+                                <img class="w-145px h-150px img-fluid" src="<?= asset('images/matec-images/mara-logo.png') ?>" srcset="<?= asset('images/matec-images/mara-logo@2x.png 2x') ?>" alt="Matec 2024">
                             </a>
                         </div>
                     </div>

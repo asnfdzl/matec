@@ -270,6 +270,8 @@ body {
     height: 20%;
     z-index: 0;
 }
+ 
+
 
 @media only screen and (max-width : 991px) {
     .rd-navbar-fixed .rd-navbar-panel {
@@ -319,6 +321,11 @@ body {
     .ui-to-top {
         bottom: 85px;
     }
+    .section-lg {
+        padding: 80px 0;
+    }
+    
+    
 }
 
 .w-0px {
