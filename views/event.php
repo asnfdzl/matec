@@ -175,7 +175,7 @@
                                 </a>
                             </div>
                             <div class="col-md-2 col-6 px-2">
-                                <a href="/assets/pdf/MATEC2024_Event_Brief_v6_05082024.pdf" flipbook data-fancybox data-src="#comingsoon">
+                                <a href="" data-fancybox data-src="#comingsoon">
                                 <div class="card">
                                     <div class="card-body box-img fl">
                                         <img src="<?= asset('images/matec-images/matec-31.png') ?>" alt="" class="image img-fluid">

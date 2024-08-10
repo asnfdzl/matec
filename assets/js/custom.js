@@ -6,7 +6,7 @@ var matec = {
         matec.setEqualHeight($(".excitement-image-container .box-img"));
 
         $(window).resize(function() {
-            matec.setEqualHeight($(".justify-content-center .box-location"));
+            /*matec.setEqualHeight($(".justify-content-center .box-location"));*/
             matec.setEqualHeight($(".justify-content-center .box-img"));
         });
     },
