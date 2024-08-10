@@ -945,7 +945,6 @@
     <div id="comingsoon" class="p-0 mt-xs-0 mt-5 popup-width" style="display: none; max-width:500px;">
         <div class="card">
             <div class="card-body text-center">
-                <h1>Coming Soon!!!</h1>
             </div>
         </div>
     </div>

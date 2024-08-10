@@ -238,29 +238,41 @@
             </div>
         </section>
 
+        <section class="section bg-default wow fadeIn bg-image-section bg-cover-section" >
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-12 col-lg-12 text-md-center pb-1">
+                        <div class="bg-white mt-sm-auto d-sm-block ">
+                            <img src="<?= asset('images/matec-images/matec-bg-images-06.png') ?>" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="section section-lg bg-default wow fadeIn bg-image-section bg-image-section-efx-grey bg-cover-section" style="background-image: url(<?= asset('images/matec-images/matec-bg-images-03.png') ?>)">
             <div class="container">
-                <div class="row row-30 justify-content-center">
+                <div class="row row-30">
                     <div class="col-md-12 col-lg-12">
                         <img src="<?= asset('images/matec-images/matec-10.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px mb-2">
                         <img src="<?= asset('images/matec-images/matec-11.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px mb-2">
                         <img src="<?= asset('images/matec-images/matec-16.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px">
                     </div>
-                    <div class="col-md-12 col-lg-6 col-xl-6 text-md-right">
+                    <div class="col-md-12 col-lg-12 col-xl-12 text-md-center">
                         <div class="box-location">
                             <img src="<?= asset('images/matec-images/matec-bg-images-04.png') ?>" alt="" class="img-fluid">
-                            <div class="box-img bg-white mt-sm-auto mt-4 d-sm-none d-block">
-                                <img src="<?= asset('images/matec-images/matec-bg-images-06.png') ?>" alt="" class="img-fluid">
-                            </div>
+                            <!--div class="box-img bg-white mt-sm-auto mt-4 d-sm-none d-block">
+                                <img src="<?//= asset('images/matec-images/matec-bg-images-06.png') ?>" alt="" class="img-fluid">
+                            </div-->
                         </div>
                     </div>
-                    <div class="col-md-12 col-lg-6 col-xl-6 text-sm-left text-center">
+                    <div class="col-md-12 col-lg-12 col-xl-12  ">
                         <div class="box-location flex">
-                            <p>National Stadium is the central and most prominent sports center and building at the National Sports Complex in Bukit Jalil. The elliptical outdoor stadium has a total area of 76,000 square meters and its classical bowl shape is enhanced by the dramatic overlapping of three spectator tiers.</p>
-                            <p>Our outdoor car park spaces are a perfect canvas for your open-air events. You have a choice of 5 varied sizes in a gated venue, with a combined capacity of 160,000 pax standing. With access to both power and water supply, a 3 minute walk to the Bukit Jalil LRT station and a 20 minute drive from the city centre, we are also flexible to be part of your customised event.</p>
-                            <div class="box-img bg-white mt-sm-auto mt-4 d-sm-block d-none">
-                                <img src="<?= asset('images/matec-images/matec-bg-images-06.png') ?>" alt="" class="img-fluid">
-                            </div>
+                            <p><b>National Stadium is the central and most prominent sports center and building at the National Sports Complex in Bukit Jalil. The elliptical outdoor stadium has a total area of 76,000 square meters and its classical bowl shape is enhanced by the dramatic overlapping of three spectator tiers.</p>
+                            <p>Our outdoor car park spaces are a perfect canvas for your open-air events. You have a choice of 5 varied sizes in a gated venue, with a combined capacity of 160,000 pax standing. With access to both power and water supply, a 3 minute walk to the Bukit Jalil LRT station and a 20 minute drive from the city centre, we are also flexible to be part of your customised event.</b></p>
+                            <!--div class="box-img bg-white mt-sm-auto mt-4 d-sm-block d-none">
+                                <img src="<?//= asset('images/matec-images/matec-bg-images-06.png') ?>" alt="" class="img-fluid">
+                            </div-->
                         </div>
                     </div>
                 </div>

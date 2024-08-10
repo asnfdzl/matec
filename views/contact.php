@@ -94,6 +94,10 @@
                     <div class="col-xs-10 col-sm-9 col-md-6 col-lg-5 col-xl-4">
                         <div class="block-address">
                             <div class="block-address-item">
+                                <h5><span class="big font-weight-bold " style="color:white">MATEC 2024 SECRETRIATE</span></h5>
+                                
+                            </div>
+                            <div class="block-address-item">
                                 <h5 class="block-address-title">Phone</h5>
                                 <p class="block-address-text"><span>En Razi:</span> <a href="tel:#">+6011 - 6648387</a><br><span>En Fizzi:</span> <a href="tel:#">+6010 - 5631270</a>
                                 </p>
