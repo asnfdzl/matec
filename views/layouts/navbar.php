@@ -38,7 +38,7 @@
                                         <a class="rd-nav-link" href="faq">F.A.Q</a>
                                     </li>
                                     <li class="rd-nav-item">
-                                        <a class="rd-nav-link" href="contact">Call Us</a>
+                                        <a class="rd-nav-link" href="call-us">Call Us</a>
                                     </li>
                                 </ul>
                             </div>
@@ -60,7 +60,7 @@
 
     <div class="d-block d-sm-none navbar-fixed-mobile w-100">
         <div class="container">
-            <h5 class="text-white text-center mb-0 mt-1">Click here to register</h5>
+            <h5 class="text-white text-center mb-0 mt-1">Click below to register</h5>
         </div>
         <div class="row row-0 d-flex align-items-center">
             <div class="col-6 pr-0">
