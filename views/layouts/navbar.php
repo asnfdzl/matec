@@ -38,7 +38,7 @@
                                         <a class="rd-nav-link" href="faq">F.A.Q</a>
                                     </li>
                                     <li class="rd-nav-item">
-                                        <a class="rd-nav-link" href="contact">Contact</a>
+                                        <a class="rd-nav-link" href="contact">Call Us</a>
                                     </li>
                                 </ul>
                             </div>
@@ -59,16 +59,19 @@
     </header>
 
     <div class="d-block d-sm-none navbar-fixed-mobile w-100">
+        <div class="container">
+            <h5 class="text-white text-center mb-0">Click here to register</h5>
+        </div>
         <div class="row row-0 d-flex align-items-center">
             <div class="col-6 px-0">
                 <a class="button px-0 w-100 text-center button-primary py-4" href="http://apps.matec.my/visitor/register" data-triangle=".button-overlay">
-                    <span>Visitor</span><span class="button-overlay"></span>
+                    <span class="ml-3">Visitor</span><span class="button-overlay"></span>
                 </a>
             </div>
 
             <div class="col-6 px-0">
                 <a class="button px-0 w-100 text-center button-primary-blue py-4" href="exhibitor" data-triangle=".button-overlay">
-                    <span>Exhibitor</span><span class="button-overlay"></span>
+                    <span class="mr-3">Exhibitor</span><span class="button-overlay"></span>
                 </a>
             </div>
         </div>

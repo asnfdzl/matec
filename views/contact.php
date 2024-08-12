@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html class="wide" lang="en">
 <head>
-    <title>Welcome to MATEC 2024 :: Contact Us</title>
+    <title>Welcome to MATEC 2024 :: Call Us</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
@@ -34,9 +34,9 @@
             <div class="parallax-content section-lg context-dark text-center section-background">
                 <ul class="breadcrumbs-custom-path">
                     <li><a href="/">Home</a></li>
-                    <li class="active">Contact</li>
+                    <li class="active">Call Us</li>
                 </ul>
-                <h3 class="breadcrumbs-custom-title">Contact</h3>
+                <h3 class="breadcrumbs-custom-title">Call Us</h3>
             </div>
         </section>
 

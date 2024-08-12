@@ -95,9 +95,8 @@
                             <div class="col-md-2 col-6 px-2">
                                 <a href="" data-fancybox data-src="#comingsoon">
                                 <div class="card">
-                                    <div class="card-body box-img fl">
-                                        <img src="<?= asset('images/matec-images/matec-23.png') ?>" alt="" class="image img-fluid">
-                                        <p class="mt-3 text-center">Car Gathering</p>
+                                    <div class="card-body p-0">
+                                        <img src="<?= asset('images/matec-2/matec-23.png') ?>" alt="" class="img-fluid">
                                     </div>
                                 </div>
                                 </a>
@@ -105,9 +104,8 @@
                             <div class="col-md-2 col-6 px-2">
                                 <a href="" data-fancybox data-src="#comingsoon">
                                 <div class="card">
-                                    <div class="card-body box-img fl">
-                                        <img src="<?= asset('images/matec-images/matec-24.png') ?>" alt="" class="image img-fluid">
-                                        <p class="mt-3 text-center">Bike Gathering</p>
+                                    <div class="card-body p-0">
+                                        <img src="<?= asset('images/matec-2/matec-24.png') ?>" alt="" class="img-fluid">
                                     </div>
                                 </div>
                                 </a>
@@ -115,9 +113,8 @@
                             <div class="col-md-2 col-6 px-2">
                                 <a href="" data-fancybox data-src="#comingsoon">
                                 <div class="card">
-                                    <div class="card-body box-img fl">
-                                        <img src="<?= asset('images/matec-images/matec-25.png') ?>" alt="" class="image img-fluid">
-                                        <p class="mt-3 text-center">Concert</p>
+                                    <div class="card-body p-0">
+                                        <img src="<?= asset('images/matec-2/matec-25.png') ?>" alt="" class="img-fluid">
                                     </div>
                                 </div>
                                 </a>
@@ -125,9 +122,8 @@
                             <div class="col-md-2 col-6 px-2">
                                 <a href="" data-fancybox data-src="#comingsoon">
                                 <div class="card">
-                                    <div class="card-body box-img fl">
-                                        <img src="<?= asset('images/matec-images/matec-26.png') ?>" alt="" class="image img-fluid">
-                                        <p class="mt-3 text-center">Battle of the Band</p>
+                                    <div class="card-body p-0">
+                                        <img src="<?= asset('images/matec-2/matec-26.png') ?>" alt="" class="img-fluid">
                                     </div>
                                 </div>
                                 </a>
@@ -135,9 +131,8 @@
                             <div class="col-md-2 col-6 px-2">
                                 <a href="" data-fancybox data-src="#comingsoon">
                                 <div class="card">
-                                    <div class="card-body box-img fl">
-                                        <img src="<?= asset('images/matec-images/matec-27.png') ?>" alt="" class="image img-fluid">
-                                        <p class="mt-3 text-center">Breakdance Show</p>
+                                    <div class="card-body p-0">
+                                        <img src="<?= asset('images/matec-2/matec-27.png') ?>" alt="" class="img-fluid">
                                     </div>
                                 </div>
                                 </a>
@@ -145,9 +140,8 @@
                             <div class="col-md-2 col-6 px-2">
                                 <a href="" data-fancybox data-src="#comingsoon">
                                 <div class="card">
-                                    <div class="card-body box-img fl">
-                                        <img src="<?= asset('images/matec-images/matec-28.png') ?>" alt="" class="image img-fluid">
-                                        <p class="mt-3 text-center">Kids Playground</p>
+                                    <div class="card-body p-0">
+                                        <img src="<?= asset('images/matec-2/matec-28.png') ?>" alt="" class="img-fluid">
                                     </div>
                                 </div>
                                 </a>
@@ -157,9 +151,8 @@
                             <div class="col-md-2 col-6 px-2">
                                 <a href="" data-fancybox data-src="#comingsoon">
                                 <div class="card">
-                                    <div class="card-body box-img fl">
-                                        <img src="<?= asset('images/matec-images/matec-29.png') ?>" alt="" class="image img-fluid">
-                                        <p class="mt-3 text-center">Product Presentation</p>
+                                    <div class="card-body p-0">
+                                        <img src="<?= asset('images/matec-2/matec-29.png') ?>" alt="" class="img-fluid">
                                     </div>
                                 </div>
                                 </a>
@@ -167,9 +160,8 @@
                             <div class="col-md-2 col-6 px-2">
                                 <a href="" data-fancybox data-src="#comingsoon">
                                 <div class="card">
-                                    <div class="card-body box-img fl">
-                                        <img src="<?= asset('images/matec-images/matec-30.png') ?>" alt="" class="image img-fluid">
-                                        <p class="mt-3 text-center">Meet & Greet</p>
+                                    <div class="card-body p-0">
+                                        <img src="<?= asset('images/matec-2/matec-30.png') ?>" alt="" class="image img-fluid">
                                     </div>
                                 </div>
                                 </a>
@@ -177,9 +169,8 @@
                             <div class="col-md-2 col-6 px-2">
                                 <a href="" data-fancybox data-src="#comingsoon">
                                 <div class="card">
-                                    <div class="card-body box-img fl">
-                                        <img src="<?= asset('images/matec-images/matec-31.png') ?>" alt="" class="image img-fluid">
-                                        <p class="mt-3 text-center">Entrepreneur Session</p>
+                                    <div class="card-body p-0">
+                                        <img src="<?= asset('images/matec-2/matec-31.png') ?>" alt="" class="img-fluid">
                                     </div>
                                 </div>
                                 </a>
@@ -187,9 +178,8 @@
                             <div class="col-md-2 col-6 px-2">
                                 <a href="" data-fancybox data-src="#comingsoon">
                                 <div class="card">
-                                    <div class="card-body box-img fl">
-                                        <img src="<?= asset('images/matec-images/matec-32.png') ?>" alt="" class="image img-fluid">
-                                        <p class="mt-3 text-center">Talk Show</p>
+                                    <div class="card-body p-0">
+                                        <img src="<?= asset('images/matec-2/matec-32.png') ?>" alt="" class="img-fluid">
                                     </div>
                                 </div>
                                 </a>
@@ -197,9 +187,8 @@
                             <div class="col-md-2 col-6 px-2">
                                 <a href="" data-fancybox data-src="#comingsoon">
                                 <div class="card">
-                                    <div class="card-body box-img fl">
-                                        <img src="<?= asset('images/matec-images/matec-33.png') ?>" alt="" class="image img-fluid">
-                                        <p class="mt-3 text-center">Tournament & Contest</p>
+                                    <div class="card-body p-0">
+                                        <img src="<?= asset('images/matec-2/matec-33.png') ?>" alt="" class="img-fluid">
                                     </div>
                                 </div>
                                 </a>
@@ -207,9 +196,8 @@
                             <div class="col-md-2 col-6 px-2">
                                 <a href="" data-fancybox data-src="#comingsoon">
                                 <div class="card">
-                                    <div class="card-body box-img fl">
-                                        <img src="<?= asset('images/matec-images/matec-34.png') ?>" alt="" class="image img-fluid">
-                                        <p class="mt-3 text-center">Lucky Draw</p>
+                                    <div class="card-body p-0">
+                                        <img src="<?= asset('images/matec-2/matec-34.png') ?>" alt="" class="img-fluid">
                                     </div>
                                 </div>
                                 </a>
@@ -337,8 +325,8 @@
                 </div>
                 <div class="row">
                     <div class="col-md-4 mx-auto text-center">
-                        <a href="" data-fancybox data-src="#event-itinerary-popup" class="h4 text-white">
-                            READ MORE PROGRAM ITINERARY
+                        <a href="" data-fancybox data-src="#event-itinerary-popup" class="button text-white button-primary">
+                            <span>Read More</span>
                         </a>
                     </div>
                 </div>
