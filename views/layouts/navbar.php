@@ -63,13 +63,13 @@
             <h5 class="text-white text-center mb-0">Click here to register</h5>
         </div>
         <div class="row row-0 d-flex align-items-center">
-            <div class="col-6 px-0">
+            <div class="col-6 pr-0">
                 <a class="button px-0 w-100 text-center button-primary py-4" href="http://apps.matec.my/visitor/register" data-triangle=".button-overlay">
                     <span class="ml-3">Visitor</span><span class="button-overlay"></span>
                 </a>
             </div>
 
-            <div class="col-6 px-0">
+            <div class="col-6 pl-0">
                 <a class="button px-0 w-100 text-center button-primary-blue py-4" href="exhibitor" data-triangle=".button-overlay">
                     <span class="mr-3">Exhibitor</span><span class="button-overlay"></span>
                 </a>
